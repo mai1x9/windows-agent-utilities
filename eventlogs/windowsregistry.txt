@@ -1,0 +1,145 @@
+## Windows Registry :
+## Structure
+
+The Windows registry is an invaluable source of forensic artifacts for all examiners and analysts. The registry holds configurations for Windows and is a substitute 
+for the .INI files in Windows 3.1. 
+
+It is a binary, hierarchical database and some of its contents include configuration settings and data for the OS and for the different applications relying on it. 
+
+The registry not only keeps records of OS and application settings, but it also monitors and records user-specific data to structure and enhance the user’s experience 
+during interactions with the system. 
+
+Most of the time users do not interact with the registry in a straightforward manner, but they interact indirectly with it via installation routines, applications, 
+and programs, such as Microsoft Installer files. 
+
+Nonetheless, system admins have the capability of interacting directly with the registry via regedit.exe (the registry editor) that comes with all varieties of Windows.
+
+There are five main Hives:
+
+1.   HKEY_CLASSES_ROOT (HKCR):
+
+HKCR contains file extensions association information, as well as a programmatic identifier, class ID, and interface data. HKCR contains all the necessary data for windows to know file-based action, such as view the content of a drive or open certain file types.
+The list of keys inside HKCR is very long, but Here are some of the many file extension association keys we can find under the HKEY_CLASSES_ROOT hive – 
+
+    -> HKEY_CLASSES_ROOT\.avi
+
+    -> HKEY_CLASSES_ROOT\.exe
+
+    -> HKEY_CLASSES_ROOT\.html
+
+    -> HKEY_CLASSES_ROOT\.pdf
+
+2.   HKEY_USERS (HKU) : 
+
+HKU contains user-specific configuration information for all currently active users on the computer. 
+Each registry key located under the HKEY_USERS hive corresponds to a user on the system and is named with that user's security identifier or SID. 
+The information is loaded when the user first logs on, We will find installed printers, environment variables, desktop background, etc.
+
+3.   HKEY_CURRENT_USER (HKCU):
+
+HKCE contains configuration information for Windows and software specific to the currently logged-in user. User-level settings like the installed printers, desktop wallpaper, display settings, environment variables, keyboard layout, mapped network drives, etc.
+
+Here are some of the registry keys we may find in the HKEY_CURRENT_USER hive – (Ntuser.dat, Ntuser.dat.log)
+
+    -> HKEY_CURRENT_USER\Printers
+
+    -> HKEY_CURRENT_USER\Software
+
+    -> HKEY_CURRENT_USER\System
+
+    -> HKEY_CURRENT_USER\Console
+
+    -> HKEY_CURRENT_USER\Control Panel
+
+The keys and values contained in it will differ from user to user even on the same computer.
+
+4.   HKEY_LOCAL_MACHINE (HKLM) :
+
+HKLM contains all the configuration information for the software we have installed, as well as for the Windows operating system itself. In addition, HKLM also contains information about the hardware and device drivers.
+
+Here are some of the registry keys we may find in the HKEY_LOCAL_MACHINE hive – 
+
+    -> HKEY_LOCAL_MACHINE\DRIVERS
+
+    -> HKEY_LOCAL_MACHINE\HARDWARE 
+
+	The HARDWARE subkey holds data pertaining to the BIOS, processors, and other hardware devices. 
+
+    -> HKEY_LOCAL_MACHINE\SAM :   Sam, Sam.log, Sam.sav
+
+	The SAM subkey refers to information about Security Accounts Manager (SAM) databases for domains. Within each database are group aliases, users, guest accounts, and administrator 		accounts, plus the name used to log in to the domain, cryptographic hashes of each user's password, and more.
+
+    -> HKEY_LOCAL_MACHINE\SECURITY :  Security, Security.log, Security.sav
+	
+	The SECURITY subkey is used to store the security policy of the current user. It's linked to the security database of the domain where the user is logged in, or to the registry hive on the local 	computer if the user is logged in to the local system domain.
+
+    -> HKEY_LOCAL_MACHINE\SOFTWARE : Software, Software.log, Software.sav
+
+	The SOFTWARE subkey is the one most commonly accessed from the HKLM hive. It's organized alphabetically by the software vendor and is where each program writes data to the registry so 	that the next time the application gets opened, its specific settings can be applied automatically so that you don't have to reconfigure the program each time it's used. It's also useful when finding 	a user's SID.The SOFTWARE subkey also holds a Windows subkey that describes various UI details of the operating system, a Classes subkey detailing which programs are associated with 	which file extensions, and others.
+
+	SUBKEYS:
+		User login information :
+			1. Winlogon
+			2. LogonUI
+		Auto Start Locations :
+			3. Run
+			4. Run once
+		Installed Printers :
+			5. Installed printers subkey
+		Installed Programs and Applications :
+			6. Uninstall subkey
+			7. AppxAllUserStore
+		File and program/application association  :
+			8. Applets subkey
+			9. Classes subkey
+		Operating system Information :
+			10. Currentversion subkey
+		Wireless Network Connections :
+			11. Networklist
+			12. Profiles
+			13. Signatures
+				---> Managed subkey
+				---> Unmanaged subkey
+		Installed and default browsers :
+			14. MenuInternet
+		USB devices :
+			15. Devices subkey
+			16. EMD Mgmt subkey
+		
+    
+    -> HKEY_LOCAL_MACHINE\SYSTEM : 
+              
+	SUBKEYS:
+		Control set :
+			1. select subkey
+			2. Current subkey
+			3. Computer Name
+			4. Memory Management
+			5. Services subkey
+		Last shutdown time :
+			6. Windows
+		Crash dump settings :
+			7. Crash control
+			8. Prefetch parameters
+		Last access time stamp :
+			9. Filesystem
+		USB Devices:
+			10. USBSTORE
+			11. Mounted Devices
+		USB Devices installation,connection and disconnection times :
+			12. Properties
+		USB devices Disk ID and partition table cache :
+    			13. Partmgr
+			14. DiskID
+		Mapping devices to drive letters :
+			15. Mounted devices
+		Program Installation and execution :
+			16. AppCompactCache
+`			17. BAM
+		
+    
+5.   HKEY_CURRENT_CONFIG (HKCC) :
+
+HKCC doesn't store any information itself but instead acts as a pointer, or a shortcut, to a registry key that keeps the information about the hardware profile currently being used.
+
+HKEY_CURRENT_CONFIG – System, System.alt, System.log, System.sav

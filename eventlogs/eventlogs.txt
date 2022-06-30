@@ -1,0 +1,209 @@
+Event Logs – 
+
+All the critical components of Windows and its core applications use the Windows Event Log mechanism to store details of
+their events. Windows Event Logs are utilized for logging kernel and user mode events. Security and low-level hardware events
+are also logged in Windows Event Logs. Therefore, understanding these logs is necessary for system administrators, cybersecurity
+professionals, and digital forensics practitioners.
+
+Microsoft Windows provides a centralized logging mechanism that applications and the operating system can use to store
+their events. Windows provides an application called Event Viewer, which can be used to view these logs. Windows Event Viewer
+was introduced in Windows NT and has been part of all the versions of Windows since then.
+Windows Event Logs typically contains the following information – 
+
+• Level – indicates the severity of the logged event. Following are the log levels available in Windows Event Logs – 
+
+Log Level                                                          Description
+
+Verbose                                                          Detailed output of the event log entry
+
+Information                                                     Generally used by applications and operating system components to denote successful execution of an operation.
+
+Warning                                                          Not an error, but a possible source of issues in future
+
+Error                                                               Failure of an operation. It may indicate the source of a problem in an operating system service, component or application.
+
+Critical                                                            The major issue that should be addressed immediately.
+
+The levels of event log entries are decided by the developers of the applications or services. The levels “Verbose” and
+“Information” generally contain informational messages such as successful completion of background tasks and so on. The levels,
+Warning, Error, and Critical are degrees of the criticality of failure cases.
+
+• Date and Time –  timestamp of the occurrence of an event.
+• Source application or service that generated the event may include services or applications of the operating system.
+• Event ID –  a unique ID of the event being logged. The same ID is expected to be used in all the instances of the event being logged. For example, Event ID with a value of 4624 has a description “An account was successfully                   logged on.”
+• Task Category – applications that have generated the event, the “event source”, can further categorize the event by giving the event a number and a text label. For example, events with ID 4624 have a task category “Logon”.                             This field helps users of Windows Event Viewer to filter events.
+
+Event log parameters and description – 
+
+Keywords associated with the event  –   They are text strings associated with an event. The developer of the application provides these strings.
+
+User  –  The Windows user login associated with the event.
+
+Operational Code  –  The internal code assigned by the application to the operation being performed when the event was logged
+
+Log  –  Type of the log, typically Application, Security, etc.
+
+Computer  –  Name of the computer
+
+Thread ID  –  ID of the thread belonging to the process that generated the event
+
+Process ID  –  ID of the process that generated the event
+
+Session ID  –  Remote terminal session ID
+
+Kernel Time  –  CPU time units utilized by kernel-mode instructions
+
+User Time   –  CPU time units utilized by user-mode instructions
+
+Processor Time  –  CPU ticks utilized by user-mode instructions
+
+Correlation ID  –  It is the internal activity ID in the process that generated the event
+
+Relative Correlation ID  –  It is related activity ID in the process that generated the event
+
+
+
+EventID    –  description   –     Logtype
+
+
+1      –   The system time has changed  –   System
+19    –   Installation Successful – Windows update or Definition Update for Windows Defender completed successfully    –   System
+20    –   Installation Error              –  System
+42    –   The system is entering sleep (Sleep Reason –  Button or Lid)     –   System
+43    –   Installation Started – Windows Update or Definition Update for Windows Defender started           –    System
+44    –   Windows Update Service started downloading an update        –    System
+106  –   Task Scheduled     –       Windows Task Schedular (Operational)
+200  –   Task Executed        –        Windows Task Schedular (Operational)
+201  –   Task Completed     –   Windows Task Schedular (Operational)
+141  –   Task Removed       –       Windows Task Schedular (Operational)
+1100  –   Event logging service shutdown     –   Security
+1102  –   Audit logs cleared    –  Security
+1149  –   User successfully authenticated with remote desktop  –  Terminal Services
+4000  –  Attempted to connected wireless network  –  System
+4616   –  System time changed  –  Security
+4624  –  Successful login  –  Security
+4624  –  Login successful  –  Security
+4626  –  Login failed  –  Security
+4634  –  Successful logoff  –  Security
+4648  –  Login attempted with explicit credentials  –  Security
+4648  –  A logon attempted using credentials (could be remote access attempted)  –  Security
+4688  –  A new process created  –  Security
+4689  –  A process terminated  –  Security
+4720  –  New user account created   –  Security
+4722  –  User account enabled  –  Security
+4723  –  A member added to security-enabled local group  –  Security
+4724  –  User password reset  –  Security
+4728  –  A member added to security-enabled global group  –  Security
+4776  –  Attempted to validate credentials  –  Security
+5140  –  Network share object accessed  –  Security
+6005  –  Event log service started  –  System
+6006  –  Event log service stopped  –  System
+6008  –  Unexpected system shutdown  –  System
+6013  –  System uptime  –  System
+8194  –  Successfully created system restore  –  Application
+8216  –  System Restore creation skipped  –  Application
+8300  –  Scoping started for shadow copy  –  Application
+8301  –  Scoping completed for shadow copy  –  Application
+8302  –  Scoping successfully completed  –  Application
+
+
+
+Windows Defender suspicious event IDs
+
+1006   –   The antimalware engine found malware or other potentially unwanted software.
+1007   –   The antimalware platform performed an action to protect your system from malware or other potentially unwanted software.
+1008   –   The antimalware platform attempted to perform an action to protect your system from malware or other potentially unwanted software, but the action failed.
+1013   –   The antimalware platform deleted history of malware and other potentially unwanted software.
+1015   –   The antimalware platform detected suspicious behavior.
+1116   –   The antimalware platform detected malware or other potentially unwanted software.
+1117   –   The antimalware platform performed an action to protect your system from malware or other potentially unwanted software.
+1118   –   The antimalware platform attempted to perform an action to protect your system from malware or other potentially unwanted software, but the action failed.
+1119   –   The antimalware platform encountered a critical error when trying to take action on malware or other potentially unwanted software.
+5001   –   Real-time protection is disabled.
+5004   –   The real-time protection configuration changed.
+5007   –   The antimalware platform configuration changed.
+5010   –   Scanning for malware and other potentially unwanted software is disabled.
+5012   –   Scanning for viruses is disabled.
+
+
+Windows Filtering Platform (WFP) event IDs
+
+5031   –   The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+5152   –   The WFP blocked a packet.
+5154   –   The WFP has permitted an application or service to listen on a port for incoming connections.
+5156   –   The WFP has allowed a connection.
+5157   –   The WFP has blocked a connection.
+5158   –   The WFP has permitted a bind to a local port.
+5159   –   The WFP has blocked a bind to a local port.
+
+
+Scheduled task event IDs
+
+4698   –    A scheduled task was created.
+4699   –    A scheduled task was deleted.
+4700   –    A scheduled task was enabled.
+4701   –    A scheduled task was disabled.
+4702   –    A scheduled task was updated.
+
+
+Object handle event IDs
+
+4656   –     A handle to an object was requested.
+4657   –     A registry value was modified.
+4658   –     The handle to an object was closed.
+4660   –     An object was deleted.
+4663   –     An attempt was made to access an object.
+
+Audit Policy Changes
+
+4719   –    System audit policy was changed.
+1102   –    Regardless of the settings in the audit policy, if the Security event log is cleared, Event ID 1102 will be recorded as the first entry in the new, blank log. You can tell the name of the user account that cleared the log in the details of the entry. A similar event, with ID 104, is generated in the System log if it is cleared.
+
+
+Auditing Windows Services
+
+6005   –    The event log service was started.
+6006   –    The event log service was stopped.
+7034   –    A service terminated unexpectedly.
+7036   –    A service was stopped or started.
+7040   –    The start type for a service was changed.
+
+
+Scheduled Task Logging
+
+106   –    Scheduled Task Created.
+140   –    Scheduled Task Updated.
+141   –    Scheduled Task Deleted.
+200   –    Scheduled Task Executed.
+201   –    Scheduled Task Completed.
+
+
+Account Management Events
+
+4720   –    A user account was created.
+4722   –    A user account was enabled.
+4723   –    A user attempted to change an account’s password.
+4724   –    An attempt was made to reset an account’s password.
+4725   –    A user account was disabled.
+4726   –    A user account was deleted.
+4727   –    A security-enabled global group was created.
+4728   –    A member was added to a security-enabled global group.
+4729   –    A member was removed from a security-enabled global group.
+4730   –    A security-enabled global group was deleted.
+4731   –    A security-enabled local group was created.
+4732   –    A member was added to a security-enabled local group.
+4733   –    A member was removed from a security-enabled local group.
+4734   –    A security-enabled local group was deleted.
+4735   –    A security-enabled local group was changed.
+4737   –    A security-enabled global group was changed.
+4738   –    A user account was changed.
+4741   –    A computer account was created.
+4742   –    A computer account was changed.
+4743   –    A computer account was deleted.
+4754   –    A security-enabled universal group was created.
+4755   –   A security-enabled universal group was changed.
+4756   –    A member was added to a security-enabled universal group.
+4757   –    A member was removed from a security-enabled universal group.
+4758   –    A security-enabled universal group was deleted.
+4798   –    A user’s local group membership was enumerated. Large numbers of these events may be indicative of adversary account enumeration.
+4799   –   A security-enabled local group membership was enumerated. Large numbers of these events may be indicative of adversary group enumeration.
