@@ -1,5 +1,3 @@
-LINUX commands,
-
 adduser/addgroup	, Linux
 agetty		, Linux
 alias		, Linux
@@ -137,11 +135,6 @@ youtube-dl	, Linux
 zcmp/zdiff		, Linux
 zip		, Linux
 zz		, Linux
-
-
-
-COMMAND PROMPT commands,
-
 addusers		, Cmd
 admodcmd	, Cmd
 arp		, Cmd
@@ -404,12 +397,6 @@ wmic		, Cmd
 wuauclt		, Cmd
 xcalcs		, Cmd
 xcopy		, Cmd
-,,		, Cmd
-
-
-
-POWERSHELL comands,
-
 Add-PSSnapin		, powershell 
 Add-Content		, powershell 
 Add-Member		, powershell 
@@ -706,33 +693,3 @@ Write-Error		, powershell
 Write-EventLog		, powershell 
 Wait-Process		, powershell 
 Write-Information		, powershell 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
