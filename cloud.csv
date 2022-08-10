@@ -1,0 +1,1129 @@
+AZ commands
+
+az account			, cloud
+az acr			, cloud
+az acs			, cloud
+az ad			, cloud
+az advisor			, cloud
+az afd			, cloud
+az ai-examples		, cloud
+az aks			, cloud
+az alias			, cloud
+az ams			, cloud
+az apim			, cloud
+az appconfig		, cloud
+az appservice		, cloud
+az arcappliance		, cloud
+az arcdata			, cloud
+az aro			, cloud
+az artifacts			, cloud
+az attestation		, cloud
+az automation		, cloud
+az azurestackhci		, cloud
+az backup			, cloud
+az baremetalinstance		, cloud
+az batch			, cloud
+az batchai			, cloud
+az bicep			, cloud
+az billing			, cloud
+az blockchain		, cloud
+az blueprint		, cloud
+az boards			, cloud
+az bot			, cloud
+az cache			, cloud
+az capacity			, cloud
+az cdn			, cloud
+az change-analysis		, cloud
+az cli-translator		, cloud
+az cloud			, cloud
+az cloud-service		, cloud
+az cognitiveservices		, cloud
+az communication		, cloud
+az confidentialledger		, cloud
+az config			, cloud
+az confluent		, cloud
+az connectedk8s		, cloud
+az connectedmachine		, cloud
+az connectedvmware		, cloud
+az consumption		, cloud
+az container		, cloud
+az containerapp		, cloud
+az cosmosdb		, cloud
+az costmanagement		, cloud
+az csvmware		, cloud
+az customlocation		, cloud
+az custom-providers		, cloud
+az databox			, cloud
+az databoxedge		, cloud
+az databricks		, cloud
+az datadog			, cloud
+az datafactory		, cloud
+az datamigration		, cloud
+az dataprotection		, cloud
+az datashare		, cloud
+az dedicated-hsm		, cloud
+az demo			, cloud
+az deployment		, cloud
+az deploymentmanager	, cloud
+az deployment-scripts		, cloud
+az desktopvirtualization	, cloud
+az devops			, cloud
+az disk			, cloud
+az disk-access		, cloud
+az disk-encryption-set	, cloud
+az disk-pool		, cloud
+az dla			, cloud
+az dls			, cloud
+az dms			, cloud
+az dnc			, cloud
+az dns-resolver		, cloud
+az dt			, cloud
+az edgeorder		, cloud
+az elastic			, cloud
+az eventgrid		, cloud
+az eventhubs		, cloud
+az extension		, cloud
+az feature			, cloud
+az fluid-relay		, cloud
+az footprint		, cloud
+az functionapp		, cloud
+az fzf			, cloud
+az grafana			, cloud
+az graph			, cloud
+az group			, cloud
+az guestconfig		, cloud
+az hack			, cloud
+az hanainstance		, cloud
+az hdinsight		, cloud
+az healthbot		, cloud
+az healthcareapis		, cloud
+az hpc-cache		, cloud
+az identity			, cloud
+az image			, cloud
+az import-export		, cloud
+az internet-analyzer		, cloud
+az iot			, cloud
+az k8sconfiguration		, cloud
+az k8s-configuration		, cloud
+az k8s-extension		, cloud
+az keyvault		, cloud
+az kusto			, cloud
+az lab			, cloud
+az lock			, cloud
+az logic			, cloud
+az logicapp			, cloud
+az logz			, cloud
+az maintenance		, cloud
+az managedapp		, cloud
+az managed-cassandra	, cloud
+az managedservices		, cloud
+az managementpartner	, cloud
+az maps			, cloud
+az mariadb			, cloud
+az mesh			, cloud
+az ml			, cloud
+az ml			, cloud
+az monitor			, cloud
+az mysql			, cloud
+az netappfiles		, cloud
+az network			, cloud
+az notification-hub		, cloud
+az offazure			, cloud
+az peering			, cloud
+az pipelines		, cloud
+az policy			, cloud
+az portal			, cloud
+az postgres		, cloud
+az powerbi			, cloud
+az ppg			, cloud
+az private-link		, cloud
+az provider		, cloud
+az providerhub		, cloud
+az purview			, cloud
+az quantum		, cloud
+az quota			, cloud
+az redis			, cloud
+az redisenterprise		, cloud
+az relay			, cloud
+az remote-rendering-account	, cloud
+az repos			, cloud
+az reservations		, cloud
+az resource		, cloud
+az resourcemanagement	, cloud
+az resource-mover		, cloud
+az restore-point		, cloud
+az role			, cloud
+az sapmonitor		, cloud
+az scvmm			, cloud
+az search			, cloud
+az security			, cloud
+az sentinel			, cloud
+az serial-console		, cloud
+az servicebus		, cloud
+az sf			, cloud
+az sig			, cloud
+az signalr			, cloud
+az snapshot		, cloud
+az spatial-anchors-account	, cloud
+az spring			, cloud
+az spring-cloud		, cloud
+az sql			, cloud
+az ssh			, cloud
+az sshkey			, cloud
+az stack-hci		, cloud
+az staticwebapp		, cloud
+az storage			, cloud
+az storagesync		, cloud
+az stream-analytics		, cloud
+az support			, cloud
+az synapse			, cloud
+az tag			, cloud
+az term			, cloud
+az ts			, cloud
+az tsi			, cloud
+az vm			, cloud
+az vmss			, cloud
+az vmware			, cloud
+az webapp			, cloud
+az webpubsub		, cloud
+
+
+
+
+
+
+
+
+GCLOUD commands
+
+gcloud init			, cloud  
+gcloud version		, cloud  
+gcloud components install	, cloud 
+gcloud components update	, cloud  
+gcloud config set project	, cloud  
+gcloud info			, cloud
+gcloud help		, cloud
+gcloud feedback		, cloud
+gcloud topic		, cloud
+gcloud config set		, cloud 
+gcloud config get-value	, cloud 
+gcloud config list		, cloud 
+gcloud config configurations create	, cloud 
+gcloud config configurations list	, cloud 	
+gcloud config configurations activate	, cloud 
+gcloud auth login		, cloud 
+gcloud auth activate-service-account	, cloud 
+gcloud auth list		, cloud 
+gcloud auth print-access-token	, cloud 
+gcloud auth revoke		, cloud 
+gcloud projects describe	, cloud 
+gcloud projects add-iam-policy-binding	, cloud
+gcloud iam list-grantable-roles	, cloud 
+gcloud iam roles create	, cloud 
+gcloud iam service-accounts create	, cloud 
+gcloud iam service-accounts add-iam-policy-binding	, cloud 
+gcloud iam service-accounts set-iam-policy-binding	, cloud
+gcloud iam service-accounts keys list	, cloud 
+gcloud auth configure-docker	, cloud 
+gcloud container clusters create	, cloud 
+gcloud container clusters list	, cloud 
+gcloud container clusters get-credentials	, cloud
+gcloud container images list-tags	, cloud 	
+gcloud compute zones list	, cloud 
+gcloud compute instances create	, cloud 
+gcloud compute instances describe	, cloud
+gcloud compute instances list	, cloud 
+gcloud compute disks snapshot	, cloud 
+gcloud compute snapshots describe	, cloud 
+gcloud compute snapshots delete	, cloud 
+gcloud compute ssh		, cloud
+gcloud app deploy		, cloud 	
+gcloud app versions list	, cloud 
+gcloud app browse		, cloud 
+gcloud app create		, cloud 
+gcloud app logs read		, cloud
+gcloud kms decrypt		, cloud 
+gcloud sql backups describe	, cloud
+gcloud sql export sql		, cloud
+
+
+GIT commands
+
+git config –global user.email	, git
+git config –global alias.	, git
+git config –system core.editor	, git
+git config –global –edit	, git
+git config –global color.ui auto	, git
+git init			, git
+git clone (Repo URL)		, git
+git clone (Repo URL) (Folder)	, git
+git remote add origin		, git
+git remote			, git
+git remote -v		, git
+git remote rm (remote repo name), git
+git remote set-url origin (git URL), git
+git fetch			, git
+git pull			, git
+git add (file name)		, git
+git add .			, git
+git add -A			, git
+git rm (file_name)		, git
+git rm –cached (file_name)	, git
+git mv (file_name) (new_file_name), git
+git checkout <deleted file name>, git
+git status			, git
+git ls-files –other –ignored –exclude-standard	, git
+git diff			, git
+git diff –staged		, git
+git diff (file_name)		, git
+git commit -m “(message)”	, git
+git commit -am “(message)”	, git
+git checkout		, git
+git show			, git
+git reset –hard		, git
+git reset –hard Head		, git
+git log			, git
+git log -p			, git
+git log -oneline		, git
+git log –follow (file_name)	, git
+git blame (file_name)		, git
+git stash			, git
+git stash pop		, git
+git stash list		, git
+git stash apply		, git
+git stash drop		, git
+git stash apply (stash id)	, git
+git stash drop (stash_id)	, git
+git push			, git
+git push origin (branch_name)	, git
+Git push -f origin (branch_name)	, git
+git tag (tag_name)		, git
+git push			, git
+git branch			, git
+git branch <branch name>	, git
+git branch -m		, git
+git branch -a		, git
+git checkout -b		, git
+git checkout		, git
+git checkout -b origin/	, git
+git branch -d		, git
+git merge			, git
+git rebase			, git
+git rebase			, git
+git fetch remote		, git
+git diff ..			, git
+git pull –rebase		, git
+git push –all		, git
+git revert			, git
+
+
+
+AWS commands
+
+accessanalyzer	     	, cloud
+account		      	, cloud
+acm		      	, cloud
+acm-pca		      	, cloud
+alexaforbusiness	     	, cloud
+amp		      	, cloud
+amplify		      	, cloud
+amplifybackend	      	, cloud
+amplifyuibuilder	      	, cloud
+apigateway		      	, cloud
+apigatewaymanagementapi	, cloud
+apigatewayv2	      	, cloud
+appconfig		      	, cloud
+appconfigdata	      	, cloud
+appflow		      	, cloud
+appintegrations	      	, cloud
+application-autoscaling      	, cloud
+application-insights	      	, cloud
+applicationcostprofiler      	, cloud
+appmesh		      	, cloud
+apprunner		      	, cloud
+appstream		      	, cloud
+appsync		      	, cloud
+athena		      	, cloud
+auditmanager	      	, cloud
+autoscaling	      	, cloud
+autoscaling-plans	      	, cloud
+backup		      	, cloud
+backup-gateway	      	, cloud
+batch		      	, cloud
+billingconductor	      	, cloud
+braket		      	, cloud
+budgets		      	, cloud
+ce		      	, cloud
+chime		      	, cloud
+chime-sdk-identity	      	, cloud
+chime-sdk-media-pipelines      	, cloud
+chime-sdk-meetings	      	, cloud
+chime-sdk-messaging	      	, cloud
+cloud9		      	, cloud
+cloudcontrol	      	, cloud
+clouddirectory	      	, cloud
+cloudformation	      	, cloud
+cloudfront		      	, cloud
+cloudhsm		      	, cloud
+cloudhsmv2	      	, cloud
+cloudsearch	      	, cloud
+cloudsearchdomain	      	, cloud
+cloudtrail		      	, cloud
+cloudwatch	      	, cloud
+codeartifact	      	, cloud
+codebuild		      	, cloud
+codecommit	      	, cloud
+codeguru-reviewer	      	, cloud 
+codeguruprofiler	      	, cloud 
+codepipeline     		, cloud
+codestar     	 	, cloud
+codestar-connections      	, cloud
+codestar-notifications     	, cloud
+cognito-identity      		, cloud
+cognito-idp      		, cloud
+cognito-sync      		, cloud
+comprehend      		, cloud
+comprehendmedical      	, cloud
+compute-optimizer      	, cloud
+configservice      		, cloud
+configure      		, cloud
+connect      		, cloud
+connect-contact-lens      	, cloud
+connectcampaigns      		, cloud
+connectparticipant      	, cloud
+cur      			, cloud
+customer-profiles      		, cloud
+databrew      		, cloud
+dataexchange      		, cloud
+datapipeline      		, cloud
+datasync      		, cloud
+dax      			, cloud
+deploy      			, cloud
+detective     	 	, cloud
+devicefarm      		, cloud
+devops-guru      		, cloud
+directconnect      		, cloud
+discovery      		, cloud
+dlm      			, cloud
+dms     	 		, cloud
+docdb      			, cloud
+drs      			, cloud
+ds      			, cloud
+dynamodb      		, cloud
+dynamodbstreams      		, cloud
+ebs     	 		, cloud
+ec2      			, cloud
+ec2-instance-connect      	, cloud
+ecr      			, cloud
+ecr-public      		, cloud
+ecs      			, cloud
+efs      			, cloud
+eks      			, cloud
+elastic-inference      		, cloud
+elasticache      		, cloud
+elasticbeanstalk      		, cloud
+elastictranscoder      		, cloud
+elb      			, cloud
+elbv2      			, cloud
+emr     	 		, cloud
+emr-containers      		, cloud
+emr-serverless      		, cloud
+es      			, cloud
+events      			, cloud
+evidently      		, cloud
+finspace      		, cloud
+finspace-data      		, cloud
+firehose      		, cloud
+fis     	 		, cloud
+fms      			, cloud
+forecast      		, cloud
+forecastquery      		, cloud
+frauddetector      		, cloud
+fsx      			, cloud
+gamelift      		, cloud
+gamesparks      		, cloud
+glacier      			, cloud
+globalaccelerator      		, cloud
+glue      			, cloud
+grafana      			, cloud
+greengrass      		, cloud
+greengrassv2      		, cloud
+groundstation      		, cloud
+guardduty      		, cloud
+health      			, cloud
+healthlake      		, cloud
+history      			, cloud
+honeycode      		, cloud
+iam      			, cloud
+identitystore      		, cloud
+imagebuilder      		, cloud
+importexport      		, cloud
+inspector      		, cloud
+inspector2     		, cloud
+iot      			, cloud
+iot-data      		, cloud
+iot-jobs-data     	 	, cloud
+iot1click-devices      		, cloud
+iot1click-projects     	 	, cloud
+iotanalytics      		, cloud
+iotdeviceadvisor     	 	, cloud
+iotevents      		, cloud
+iotevents-data      		, cloud
+iotfleethub     		, cloud
+iotsecuretunneling      	, cloud
+iotsitewise      		, cloud
+iotthingsgraph      		, cloud
+iottwinmaker      		, cloud
+iotwireless      		, cloud
+ivs      			, cloud
+ivschat      			, cloud
+kafka      			, cloud
+kafkaconnect      		, cloud
+kendra      			, cloud
+keyspaces      		, cloud
+kinesis      			, cloud
+kinesis-video-archived-media      , cloud
+kinesis-video-media      	, cloud
+kinesis-video-signaling      	, cloud
+kinesisanalytics      		, cloud
+kinesisanalyticsv2      		, cloud
+kinesisvideo      		, cloud
+kms      			, cloud
+lakeformation      		, cloud
+lambda      			, cloud
+lex-models      		, cloud
+lex-runtime      		, cloud
+lexv2-models      		, cloud
+lexv2-runtime      		, cloud
+license-manager      		, cloud
+license-manager-user-subscriptions      , cloud
+lightsail      		, cloud
+location      		, cloud
+logs      			, cloud
+lookoutequipment      		, cloud
+lookoutmetrics      		, cloud
+lookoutvision      		, cloud
+m2      			, cloud
+machinelearning      		, cloud
+macie      			, cloud
+macie2      			, cloud
+managedblockchain      	, cloud
+marketplace-catalog      	, cloud
+marketplace-entitlement      	, cloud
+marketplacecommerceanalytics   , cloud
+mediaconnect      		, cloud
+mediaconvert      		, cloud
+medialive      		, cloud
+mediapackage      		, cloud
+mediapackage-vod      	, cloud
+mediastore      		, cloud
+mediastore-data      		, cloud
+mediatailor      		, cloud
+memorydb      		, cloud
+meteringmarketplace      	, cloud
+mgh      			, cloud
+mgn     	 		, cloud
+migration-hub-refactor-spaces     , cloud
+migrationhub-config      	, cloud
+migrationhubstrategy      	, cloud
+mobile      			, cloud
+mq      			, cloud
+mturk      			, cloud
+mwaa      			, cloud
+neptune      		, cloud
+network-firewall      		, cloud
+networkmanager      		, cloud
+nimble      			, cloud
+opensearch      		, cloud
+opsworks      		, cloud
+opsworks-cm      		, cloud
+organizations      		, cloud
+outposts      		, cloud
+panorama      		, cloud
+personalize      		, cloud
+personalize-events      	, cloud
+personalize-runtime      	, cloud
+pi      			, cloud
+pinpoint      		, cloud
+pinpoint-email      		, cloud
+pinpoint-sms-voice      	, cloud
+pinpoint-sms-voice-v2      	, cloud
+polly     			, cloud
+pricing      			, cloud
+proton      			, cloud
+qldb     			, cloud
+qldb-session      		, cloud
+quicksight      		, cloud
+ram      			, cloud
+rbin      			, cloud
+rds      			, cloud
+rds-data      		, cloud
+redshift      		, cloud
+redshift-data      		, cloud
+redshift-serverless      	, cloud
+rekognition      		, cloud
+resiliencehub      		, cloud
+resource-groups      		, cloud
+resourcegroupstaggingapi     	, cloud
+robomaker      		, cloud
+rolesanywhere      		, cloud
+route53      		, cloud
+route53-recovery-cluster      	, cloud
+route53-recovery-control-config  , cloud
+route53-recovery-readiness      	, cloud
+route53domains      		, cloud
+route53resolver      		, cloud
+rum      			, cloud
+s3      			, cloud
+s3api      			, cloud
+s3control      		, cloud
+s3outposts      		, cloud
+sagemaker      		, cloud
+sagemaker-a2i-runtime      	, cloud
+sagemaker-edge      		, cloud
+sagemaker-featurestore-runtime , cloud
+sagemaker-runtime      	, cloud
+savingsplans      		, cloud
+schemas      		, cloud
+sdb      			, cloud
+secretsmanager      		, cloud
+securityhub      		, cloud
+serverlessrepo      		, cloud
+service-quotas      		, cloud
+servicecatalog      		, cloud
+servicecatalog-appregistry      	, cloud
+servicediscovery      		, cloud
+ses      			, cloud
+sesv2      			, cloud
+shield      			, cloud
+signer      			, cloud
+sms      			, cloud
+snow-device-management      	, cloud
+snowball      		, cloud
+sns      			, cloud
+sqs      			, cloud
+ssm      			, cloud
+ssm-contacts      		, cloud
+ssm-incidents      		, cloud
+sso      			, cloud
+sso-admin      		, cloud
+sso-oidc      		, cloud
+stepfunctions      		, cloud
+storagegateway      		, cloud
+sts      			, cloud
+support      		, cloud
+swf      			, cloud
+synthetics      		, cloud
+textract      		, cloud
+timestream-query      		, cloud
+timestream-write      		, cloud
+transcribe      		, cloud
+transfer      		, cloud
+translate      		, cloud
+voice-id      		, cloud
+waf      			, cloud
+waf-regional      		, cloud
+wafv2      			, cloud
+wellarchitected      		, cloud
+wisdom      		, cloud
+workdocs      		, cloud
+worklink      		, cloud
+workmail      		, cloud
+workmailmessageflow      	, cloud
+workspaces      		, cloud
+workspaces-web      		, cloud
+xray      			, cloud
+
+
+
+
+
+
+
+TERRAFORM commands
+
+terraform -install-autocomplete		, terraform
+terraform fmt			, terraform
+terraform validate 			, terraform
+terraform validate -backend=false	, terraform
+terraform init			, terraform
+terraform init -get-plugins=false		, terraform
+terraform init -verify-plugins=false	, terraform
+terraform apply --auto-approve		, terraform
+terraform destroy --auto-approve 	, terraform
+terraform plan -out plan.out		, terraform
+terraform apply plan.out		, terraform
+terraform plan -destroy		, terraform
+terraform apply -target=aws_instance.my_ec2	, terraform
+terraform apply -var my_region_variable=us-east-1	, terraform
+terraform apply -lock=true		, terraform
+terraform apply refresh=false		, terraform
+terraform apply --parallelism=5 		, terraform
+terraform refresh			, terraform
+terraform providers 			, terraform
+terraform workspace new mynewworkspace , terraform
+terraform workspace select default 	, terraform
+terraform workspace list		, terraform
+terraform state show aws_instance.my_ec2	, terraform
+terraform state pull > terraform.tfstate 	, terraform
+terraform state mv aws_iam_role.my_ssm_role module.custom_module	, terraform
+terraform state replace-provider hashicorp/aws registry.custom.com/aws	, terraform
+terraform state list			 terraform
+terraform state rm  aws_instance.myinstace	, terraform
+terraform import aws_instance.new_ec2_instance i-abcd1234		, terraform
+terraform import 'aws_instance.new_ec2_instance[0]' i-abcd1234 		, terraform
+terraform output			, terraform
+terraform output instance_public_ip 	, terraform
+terraform output -json 		, terraform
+terraform version			, terraform
+terraform get -update=true		, terraform
+echo 'join(",",["foo","bar"])' | terraform console	, terraform
+echo '1 + 5' | terraform console		, terraform
+echo "aws_instance.my_ec2.public_ip" | terraform console		, terraform
+terraform graph | dot -Tpng > graph.png	, terraform
+terraform taint aws_instance.my_ec2	, terraform
+terraform untaint aws_instance.my_ec2	, terraform
+terraform force-unlock LOCK_ID 	, terraform
+terraform login 			, terraform
+terraform logout 			, terraform
+terraform -h or --help			, terraform
+
+
+
+POSTGRESQL commands
+
+\?				, postgresql
+\h COMMAND			, postgresql
+\l				, postgresql
+\c databaseName			, postgresql
+\dt				, postgresql
+\d tableName			, postgresql
+\d+ tableName			, postgresql
+\dn				, postgresql
+\df				, postgresql
+\df+ 				, postgresql
+\dv				, postgresql
+\du				, postgresql
+\dy				, postgresql
+\di				, postgresql
+\q				, postgresql
+sudo -u postgres psql postgres 		, postgresql
+psql -d my_database -U my_username -W 	, postgresql
+pg_dump <database name> > <outfile> 	, postgresql
+CREATE DATABASE demodb1; 	, postgresql
+DROP DATABASE demodb1; 		, postgresql
+CREATE ROLE demorole1 WITH LOGIN ENCRYPTED PASSWORD 'password1' CREATEDB; 	, postgresql
+ALTER ROLE demorole1 CREATEROLE CREATEDB REPLICATION SUPERUSER; 	, postgresql
+DROP ROLE demorole1; 		, postgresql
+GRANT ALL PRIVILEGES ON DATABASE demodb1 TO demorole1; 			, postgresql
+
+
+CRON commands
+
+{second} {minute} {hour} {day} {month} {day of the week}	, cron
+
+
+RSYNC commands
+
+rsync -avz  src dest          	, rsync
+rsync -avz  src dest/ 		, rsync
+rsync -avz -e "ssh -l <user>" <src> <user>@<server>:<target>	, rsync
+rsync --dry-run <...>		, rsync  
+rsync <...> --filter="- *.bak" <src> <target>		, rsync 
+rsync <...> --exclude-from=<exclude list file> <...>	, rsync
+rsync <...> --include-from=<include list file> <...>	, rsync
+rsync <...> --files-from=<explicit list file>   <...>	, rsync
+rsync -a --delete dir_to_empty/ <any_empty_dir>	, rsync
+
+
+cURL commands
+
+-o <file>    		, curl
+-u user:pass	, curl
+-v           		, curl
+-vv         		, curl
+-s         		, curl
+-S          		, curl
+-i           		, curl
+-I		, curl
+-X POST      	, curl
+-L              		, curl
+-F 	           	, curl 
+-d 'data'   		, curl
+-d @file     		, curl
+-G   		, curl
+-A <str>        	, curl
+-b name=val      	, curl
+-b FILE        	, curl
+-H "X-Foo: y"    	, curl
+--compressed     	, curl
+--cacert <file>	, curl
+--capath <dir>	, curl
+-E, --cert <cert>     	, curl
+--cert-type      	, curl
+-k, --insecure        	, curl
+
+
+
+SSH commands
+
+ssh-copy-id [-i keyfile] [email protected]	, ssh
+eval $(ssh-agent)			, ssh
+ssh-add -l   			, ssh
+ssh-add 				, ssh
+ssh-add ~/.ssh/id_rsa 			, ssh
+ssh-add -t 3600 ~/.ssh/id_rsa		, ssh
+ssh-add -D  	 		, ssh
+ssh -A ...				, ssh
+ssh -D 44444 <remote host>		, ssh
+ssh myserver -R44445:localhost		, ssh
+ssh -f -N -D 44444 localhost         	, ssh
+ssh myserver -R44445:localhost:44444	, ssh
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub	, ssh
+ssh-keygen -t rsa -N ""		, ssh
+sshfs [email protected]: /mnt/home/user/	, ssh
+fuserumount -u /mnt/home/user		, ssh
+
+
+NC commands
+
+nc [options] [host] [port]		, nc
+nc -4 [options] [host] [port]		, nc
+nc -6 [options] [host] [port]		, nc
+nc -u [options] [host] [port]		, nc
+nc -l [host] [port]			, nc
+nc -k -l [host] [port]			, nc
+nc -n [host] [port]			, nc
+nc -p [source port] [host] [port]		, nc
+nc -s [source ip] [host] [port]		, nc
+nc -w [timeout] [host] [port]		, nc
+nc -v [host] [port]			, nc
+nc 192.168.0.1 5051 < filename.in	, nc
+nc 192.168.0.1 5051 > filename.out	, nc
+netcat -l 5050			, nc
+netcat -l 5051 > filename.out		, nc
+mknod backpipe p ; nc -l [proxy port] < backpipe | nc [destination host] [destination port] > pipe	, nc
+nc -zv hostname.com 80		, nc
+nc -zv hostname.com 80-84		, nc
+nc -zv hostname.com 80 84		, nc
+
+NMAP commands
+
+nmap [target]			, nmap
+nmap [target1, target2, etc		, nmap
+nmap [range of ip addresses]		, nmap
+nmap [ip address/cdir]		, nmap
+nmap -iR [number]			, nmap
+nmap [targets] – exclude [targets]	, nmap
+nmap [targets] – excludefile [list.txt]	, nmap
+nmap -A [target]			, nmap
+nmap -6 [target]			, nmap
+nmap -sP [target]			, nmap
+nmap -PN [target]			, nmap
+nmap -PS [target]			, nmap
+nmap -PA [target]			, nmap
+nmap -PU [target]			, nmap
+nmap -PY [target]			, nmap
+nmap -PE [target]			, nmap
+nmap -PP [target]			, nmap
+nmap -PM [target]			, nmap
+nmap -PO [target]			, nmap
+nmap -PR [target]			, nmap
+nmap –traceroute [target]		, nmap
+nmap -R [target]			, nmap
+nmap -n [target]			, nmap
+nmap –system-dns [target]		, nmap
+nmap –dns-servers [servers] [target]	, nmap
+nmap -sL [targets]			, nmap	
+nmap -sS [target]			, nmap
+nmap -sT [target]			, nmap
+nmap -sU [target]			, nmap
+nmap -sN [target]			, nmap
+nmap -sF [target]			, nmap
+nmap -sX [target]			, nmap
+nmap -sA [target]			, nmap
+nmap –scanflags [flags] [target]		, nmap
+nmap -sO [target]			, nmap
+nmap –send-eth [target]		, nmap
+nmap –send-ip [target]		, nmap
+nmap -F [target]			, nmap
+nmap -p [port(s)] [target]		, nmap
+nmap -p [port name(s)] [target]		, nmap
+nmap -sU -sT -p U: [ports],T:[ports] [target], nmap
+nmap -p ‘*’ [target]			, nmap
+nmap –top-ports [number] [target]	, nmap
+nmap -r [target]			, nmap
+nmap -O [target]			, nmap
+nmap -f [target]			, nmap
+nmap –mtu [MTU] [target]		, nmap
+nmap -D RND:[number] [target]		, nmap
+nmap -sI [zombie] [target]		, nmap
+nmap –source-port [port] [target]	, nmap
+nmap –data-length [size] [target]		, nmap
+nmap –randomize-hosts [target]		, nmap
+nmap –spoof-mac [MAC|0|vendor] [target]	, nmap
+nmap –badsum [target]		, nmap
+nmap -O –osscan guess [target]		, nmap
+nmap -sV [target]			, nmap
+nmap -sV –version trace [target]		, nmap
+nmap -sR [target]			, nmap
+nmap -h				, nmap
+nmap -V				, nmap
+nmap -v [target]			, nmap
+nmap -d [target]			, nmap
+nmap –reason [target]		, nmap
+nmap –open [target]			, nmap
+nmap –packet-trace [target]		, nmap
+nmap –iflist			, nmap
+nmap -e [interface] [target]		, nmap
+nmap –script [script.nse] [target]		, nmap
+nmap –script [expression] [target]	, nmap
+nmap –script [category] [target]		, nmap
+nmap –script [category1,category2,etc]	, nmap
+nmap –script [script] –script trace [target]	, nmap
+nmap –script-updatedb		, nmap
+
+
+OPENSSL commands
+
+openssl req -in [file.csr] -noout -text	, openssl
+openssl x509 -in [certificate.crt] -text -noout	, openssl 
+openssl pkcs12 -info -in [cert.pfx], openssl
+openssl pkcs12 -info -in [STAR_example_org.pfx] -passin file:[password.txt], openssl
+openssl pkcs12 -in [yourfile.pfx] -nocerts -out [keyfile-encrypted.key], openssl
+openssl rsa -in [keyfile-encrypted.key] -out [keyfile-decrypted.key], openssl
+openssl pkcs12 -in [yourfile.pfx] -clcerts -nokeys -out [certificate.crt], openssl
+openssl x509 -req -days 730 -in [www_example_org.csr] -signkey [www_example_org.key] -out [www_example_org.crt], openssl
+openssl pkcs12 -export -out [domain.name.pfx] -inkey [domain.name.key] -in [domain.name.crt], openssl
+openssl rsa -in [file1.key] -out [file2.key], openssl
+
+
+
+ETHTOOL commands
+
+ethtool -s ethX speed 25000 autoneg off	, ethtool
+ethtool -i ethX			, ethtool
+ethtool -k ethX			, ethtool
+ethtool -K ethX tso off		, ethtool
+ethtool -K ethX gro off lro off		, ethtool
+ethtool -g ethX			, ethtool
+ethtool -G ethX rx N			, ethtool
+ethtool -S ethX			, ethtool
+ethtool -l ethX			, ethtool
+ethtool -L ethX rx 0 tx 0 combined M	, ethtool
+ethtool -C ethX rx-frames N		, ethtool
+ethtool -x ethX			, ethtool
+ethtool -s ethX autoneg on speed 10000 duplex full	, ethtool
+ethtool --show-eee ethX		, ethtool
+ethtool --set-eee ethX eee off		, ethtool
+ethtool --set-eee ethX eee on tx-lpi off	, ethtool
+ethtool -L ethX combined 1 rx 0 tx 0	, ethtool
+ethtool -K ethX ntuple off		, ethtool
+ethtool -K ethX ntuple on		, ethtool
+ethtool -t ethX			, ethtool
+sysctl -w net.core.busy_read=50		, ethtool
+echo 4 > /sys/class/net/<NAME>/device/sriov_numvfs	, ethtool
+ip link set ethX vf 0 mac 00:12:34:56:78:9a	, ethtool
+ip link set ethX vf 0 state enable		, ethtool
+ip link set ethX vf 0 vlan 100		, ethtool
+
+
+
+NGREP commands
+
+sudo ngrep GET 	, ngrep
+ngrep [options][regular expression][BPF filter]	, ngrep
+-d		, ngrep
+-w		, ngrep
+-I		, ngrep
+-O		, ngrep
+
+
+GREP commands
+
+grep -i 	, grep
+grep -A	, grep
+grep -B	, grep
+grep -C	, grep
+grep -v	, grep
+grep -l	, grep
+grep -r	, grep
+grep -o	, grep
+grep -E	, grep
+grep -a	, grep
+
+XARGS commands
+
+xargs -t ...		, xargs
+xargs -p ...		, xargs
+xargs --interactive ...	, xargs
+xargs echo		, xargs
+xargs -n [n] echo	, xargs
+xargs -n 1 -P [p] sleep	, xargs
+xargs -I @  echo "'@'", xargs
+xargs -I {} echo "'{}'"	, xargs
+
+
+FIND commands
+
+find <path> <conditions> <actions>	, find
+find  -name "*.c"			, find
+find  -user 				, find
+find  -nouser			, find
+find  -type f            			, find
+find  -type d         			, find
+find  -type l            			, find
+find  -depth 2           			, find
+find  -regex PATTERN		, find
+find  -exec rm {} \;			, find
+find  -print				, find
+find  -delete			, find
+find  -newer   			, find
+find  -newerm    			, find
+find  -newerX  			, find
+find  -newerXt 			, find
+
+SED commands
+
+sed [range from](,[range to])?[command]	, sed
+(a1(,a2)?)?!?d			, sed
+sed 's/[pattern]/[replacement]/g' [file]	, sed
+sed 's/[regex]/[replacement]/g' [inputFileName] > [outputFileName], sed
+sed -i 's/[regex]/[replacement]/' [file]	, sed
+sed -i 's/[regex]/[replacement]/' *.[extension]	, sed
+sed -r 's/[regex]/[replacement]/' [file]	, sed
+sed '[n]s/[search]/[replace]/g'		, sed
+sed '[n],[m]s/[search]/[replace]/g'	, sed
+i 				, sed
+g 				, sed
+n 				, sed
+p 				, sed
+w				, sed
+e 				, sed
+m				, sed
+sed -n '/[pattern]/[replacement]/w [file out]' [file in]	, sed
+sed -n '/[pattern]/[replacement]/' [file in] > [file out]	, sed
+[command] | sed [sed expression]	, sed
+sed [range from](,[range to])?[command]	, sed
+]sed [n][command]			, sed
+sed [n]![command]			, sed
+sed [n],[m][command]			, sed
+sed [n],[m]![command]		, sed
+sed [n]~[r][command]			, sed
+sed '[n]{[statement];[statement]}'	, sed
+sed '[n],[m]{[statement];[statement]}'	, sed
+sed 's/\t/    /'			, sed
+sed -e 's:/*$:/:'			, sed
+sed    's/[0-9]\+/expr 1 + &/e'		, sed
+sed -r 's/[0-9]+/expr 1 + &/e'		, sed
+sed    's:\(.\).\+:\1:'			, sed
+sed -r 's:(.).+:\1:'			, sed
+sed    's:\(.\)\(.\):\2\1:'			, sed
+sed -r 's:(.)(.):\2\1:'			, sed
+sed -n '/[pattern]/,$p'   		, sed
+sed '0,/[pattern]/d'       		, sed
+sed '/[pattern]/q' [file]			, sed
+sed '/[pattern]/,$ d' [file]		, sed
+sed -n '/[pattern]/,/[pattern]/p' [file]	, sed
+sed -n "$=" [file]			, sed
+sed 's/[a-z]/\u&/'			, sed
+sed 's/\w\+/\U&/'			, sed
+sed 's/.*/\U& \E& \L&/'		, sed
+
+
+AWK commands
+
+awk [awk-cmd]			, awk
+[cmd] | awk [awk-cmd]		, awk
+awk [awk-cmd] [file]...		, awk
+awk -f [awk-script-file] [file]...		, awk
+awk -F [separator] '{print $[n]}'		, awk
+awk -v myvar=foo 'BEGIN{print myvar}'	, awk
+awk --dump-variables ...		, awk
+awk --lint ...			, awk
+awk --lint=fatal ...			, awk
+#!/usr/bin/awk -f			, awk
+awk '{print $[col]}'			, awk
+awk '{print $NF}'			, awk
+awk '{print $[n] + $[m]}'		, awk
+awk '{print $[n] - $[m]}'		, awk
+awk '{print $[n] * $[m]}'		, awk
+awk '{print $[n] / $[m]}'		, awk
+awk '{print substr($[col], [start-index])}'	, awk
+awk 'NR==[n]'			, awk
+awk 'NR==[n],NR==[m]'		, awk
+awk 'END {print $0}'			, awk
+awk '/[regex]/'			, awk
+awk '/[regex]/ {print $0}'		, awk
+awk '$[col] ~ /[regex]/'		, awk
+awk 'BEGIN { IGNORECASE = 1 } /[regex]/'	, awk
+awk 'END {print NR}'			, awk
+awk '/[regex]/{ sum++ } END { print sum }'	, awk
+awk 'BEGIN { print strftime("%d-%m-%Y %H:%M:%S", systime()) }'	, awk
+awk -v i=1 'BEGIN{while (i<ARGC) print ARGV[i++]}' [arg]...		, awk
+awk 'BEGIN { print ENVIRON["PATH"] }'	, awk
+awk 'BEGIN { print PROCINFO["pid"] }'	, awk
+awk 'BEGIN{FS=":"; OFS="|"}'		, awk
+
+TAR commands
+
+tar [options] [archive_file [file or directory to be archived], tar
+tar -tf archive_filename		, tar
+tar --list -f archive_filename		 tar
+tar -v [options] archive_filename		, tar
+tar -cf archive_filename *		, tar
+tar -xf archive_filename 		, tar
+tar --extract -f archive_filename 		, tar
+tar --get -f archive_filename 		, tar
+tar -rf archive_filename file_to_be_added	, tar
+tar -Af archive_file archive_files_to_be_added	, tar
+tar --delete -f archive_file files_to_be_deleted	, tar
+tar -df archive_file file_name		ar
+tar --diff -f archive_file file_name		, tar
+tar --compare -f archive_file file_name	, tar
+tar -uf archive_file files_to_be_added_added, tar
+tar -xf archive_file -C directory_path	, tar
+tar -xf archive_file --directory=DIR	, tar
+tar -czf file.tar.gz files_to_be_archived 	, tar
+tar -cjf file.tar.bz2 files_to_be_archived=FILE 	, tar
+tar -Rtf archive_file			, tar
+
+
+PS commands
+
+ps -A		, ps
+ps -a		, ps
+ps -e		, ps
+ps -ef		, ps
+ps -x		, ps
+ps -ax		, ps
+ps f		, ps
+ps -F		, ps
+ps u		, ps
+ps v		, ps
+ps h		, ps
+ps --header	, ps
+ps --forest		, ps
+ps -L		, ps
+ps s		, ps
+ps -M		, ps
+ps -u user[name or id], ps
+ps -G group[name or id]	, ps
+ps -g group_id,group_name	, ps
+ps p process_ID		, ps
+ps t tty_name		, ps
+
+
+
+TOP commands
+
+top -b 		, top
+top -d num		, top
+top -n num		, top
+top -p num		, top
+top -u username	, top
+top -u userID	, top
+top -w num	, top
+
+
+
