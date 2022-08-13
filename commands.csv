@@ -1,695 +1,738 @@
-adduser/addgroup	, Linux
-agetty		, Linux
-alias		, Linux
-anacron		, Linux
-apropos		, Linux
-apt		, Linux
-apt-get		, Linux
-aptitude		, Linux
-arch		, Linux
-arp		, Linux
-at		, Linux
-atq		, Linux
-atrm		, Linux
-awk		, Linux
-batch		, Linux
-basename		, Linux
-bc		, Linux
-bg		, Linux
-bzip		, Linux
-cal		, Linux
-cat		, Linux
-chgrp		, Linux
-chmod		, Linux
-chown		, Linux
-cksum		, Linux
-clear		, Linux
-cmp		, Linux
-comm		, Linux
-cp		, Linux
-date		, Linux
-dd		, Linux
-df		, Linux
-diff		, Linux
-dir		, Linux
-dmidecode	, Linux
-du		, Linux
-echo		, Linux
-eject		, Linux
-env		, Linux
-exit		, Linux
-expr		, Linux
-factor		, Linux
-find		, Linux
-free		, Linux
-grep		, Linux
-groups		, Linux
-gzip		, Linux
-gunzip		, Linux
-head		, Linux
-history		, Linux
-hostname		, Linux
-hostnamectl	, Linux
-hwclock		, Linux
-hwinfo		, Linux
-id		, Linux
-ifconfig		, Linux
-ionice		, Linux
-iosta		t, Linux
-ip		, Linux
-iptables		, Linux
-iw		, Linux
-iwlist		, Linux
-kill		, Linux
-killall		, Linux
-kmod		, Linux
-last		, Linux
-ln		, Linux
-locate		, Linux
-login		, Linux
-ls		, Linux
-lshw		, Linux
-lscpu		, Linux
-lsof		, Linux
-lsusb		, Linux
-man		, Linux
-mdsum		, Linux
-mkdir		, Linux
-more		, Linux
-mv		, Linux
-nano		, Linux
-nc/netcat		, Linux
-netstat		, Linux
-nice		, Linux
-nmap		, Linux
-nproc		, Linux
-openssl		, Linux
-passwd		, Linux
-pidof		, Linux
-ping		, Linux
-ps		, Linux
-pstree		, Linux
-pwd		, Linux
-rdiff-backup	, Linux
-reboot		, Linux
-rename		, Linux
-rm		, Linux
-rmdir		, Linux
-scp		, Linux
-shutdown		, Linux
-sleep		, Linux
-sort		, Linux
-split		, Linux
-ssh		, Linux
-stat		, Linux
-su		, Linux
-sudo		, Linux
-sum		, Linux
-tac		, Linux
-tail		, Linux
-talk		, Linux
-tar		, Linux
-tee		, Linux
-tree		, Linux
-time		, Linux
-top		, Linux
-touch		, Linux
-tr		, Linux
-uname		, Linux
-uniq		, Linux
-uptime		, Linux
-users		, Linux
-vim/vi		, Linux
-w		, Linux
-wall		, Linux
-watch		, Linux
-wc		, Linux
-wget		, Linux
-whatis		, Linux
-which		, Linux
-who		, Linux
-whereis		, Linux
-xargs		, Linux
-yes		, Linux
-youtube-dl	, Linux
-zcmp/zdiff		, Linux
-zip		, Linux
-zz		, Linux
-addusers		, Cmd
-admodcmd	, Cmd
-arp		, Cmd
-assoc		, Cmd
-associat		, Cmd
-at		, Cmd
-atmadm		, Cmd
-attrib		, Cmd
-bcdboot		, Cmd
-bcdedit		, Cmd
-bitsadmin		, Cmd
-bootcfg		, Cmd
-break		, Cmd
-cacls		, Cmd
-call		, Cmd
-certreq		, Cmd
-certutil		, Cmd
-cd		, Cmd
-change		, Cmd
-chcp		, Cmd
-chdir		, Cmd
-chkdsk		, Cmd
-chkntfs		, Cmd
-choice		, Cmd
-cipher		, Cmd	
-cleanmgr		, Cmd
-clip		, Cmd
-cls		, Cmd
-cmd		, Cmd
-cmdkey		, Cmd
-cmstp		, Cmd
-color		, Cmd
-comp		, Cmd
-compact		, Cmd
-compress		, Cmd
-convert		, Cmd
-copy		, Cmd	
-coreinfo		, Cmd
-cprofile		, Cmd
-cscmd		, Cmd
-csvde		, Cmd
-date		, Cmd
-defrag		, Cmd
-del		, Cmd
-delprof		, Cmd
-deltree		, Cmd
-devcon		, Cmd
-dir		, Cmd
-dirquota		, Cmd
-diruse		, Cmd
-diskcomp		, Cmd
-diskcopy		, Cmd
-diskpart		, Cmd
-diskshadow	, Cmd
-diskuse		, Cmd
-doskey		, Cmd
-driverquery	, Cmd
-dsacls		, Cmd
-dsadd		, Cmd
-dsget		, Cmd	
-dsquery		, Cmd
-dsmod		, Cmd
-dsmove		, Cmd
-dsrm		, Cmd
-dsmgmt		, Cmd
-echo		, Cmd
-endlocal		, Cmd
-erase		, Cmd
-eventcreate	, Cmd
-eventquerry	, Cmd
-eventtriggers	, Cmd
-exit		, Cmd
-expand		, Cmd
-explorer		, Cmd
-extract		, Cmd
-fc		, Cmd
-find		, Cmd
-findstr		, Cmd
-finger		, Cmd
-flattemp		, Cmd
-for		, Cmd
-fortfiles		, Cmd
-format		, Cmd
-freedisk		, Cmd
-fsutil		, Cmd
-ftp		, Cmd
-ftype		, Cmd
-getmac		, Cmd
-goto		, Cmd
-gpresult		, Cmd
-gpupdate		, Cmd
-graftabl		, Cmd
-help		, Cmd
-hostname		, Cmd
-icacls		, Cmd
-iexpress		, Cmd
-if		, Cmd
-ifmember		, Cmd
-inuse		, Cmd
-ipconfig		, Cmd
-ipseccmd		, Cmd
-ipxroute		, Cmd
-irftp		, Cmd
-label		, Cmd
-lodctr		, Cmd
-logman		, Cmd
-logoff		, Cmd
-logtime		, Cmd
-lpq		, Cmd
-lpr		, Cmd
-macfile		, Cmd
-makecab		, Cmd
-mapisend		, Cmd
-mbsacli		, Cmd
-mem		, Cmd
-md		, Cmd
-mkdir		, Cmd
-mklink		, Cmd
-mmc		, Cmd
-mode		, Cmd
-more		, Cmd
-mountvol		, Cmd
-move		, Cmd
-moveuser		, Cmd
-msg		, Cmd
-msiexec		, Cmd
-msinfo32		, Cmd
-mstsc		, Cmd
-nbstat		, Cmd
-net		, Cmd
-netdom		, Cmd
-netsh		, Cmd
-netstat		, Cmd
-nlsinfo		, Cmd
-nltest		, Cmd
-now		, Cmd
-nslookup		, Cmd
-ntbackup		, Cmd
-ntcmdprompt	, Cmd
-ntdsutil		, Cmd
-ntrights		, Cmd
-ntsd		, Cmd
-nvspbind		, Cmd
-openfiles		, Cmd
-pagefileconfig	, Cmd
-path		, Cmd
-pathping		, Cmd
-pause		, Cmd
-pbadmin		, Cmd
-pentnt		, Cmd
-perfmon		, Cmd
-perms		, Cmd
-ping		, Cmd
-popd		, Cmd
-portqry		, Cmd
-powercfg		, Cmd
-print		, Cmd
-printbrm		, Cmd
-prncnfg		, Cmd
-prndrvr		, Cmd
-prnjobs		, Cmd
-prnmngr		, Cmd
-prnport		, Cmd
-prnqctl		, Cmd
-procdump		, Cmd
-prompt		, Cmd
-psexec		, Cmd	
-psfile		, Cmd
-psinfo		, Cmd
-pskill		, Cmd
-pslist		, Cmd
-psloggedon	, Cmd
-psloglist		, Cmd
-pspasswd		, Cmd
-psping		, Cmd
-psservice		, Cmd
-psshutdown	, Cmd
-pssuspend		, Cmd
-pushd		, Cmd
-qgrep		, Cmd
-query process or qprocess	, Cmd
-rasdial		, Cmd
-rasphone		, Cmd
-rcp		, Cmd
-recover		, Cmd
-reg		, Cmd
-regedit		, Cmd
-regsvr32		, Cmd
-regini		, Cmd
-relog		, Cmd
-rem		, Cmd
-ren		, Cmd
-replace		, Cmd
-reset session	, Cmd
-rexec		, Cmd
-rd		, Cmd
-rmdir		, Cmd
-rmtshare		, Cmd
-robocopy		, Cmd
-route		, Cmd
-rsh		, Cmd
-rsm		, Cmd
-runas		, Cmd
-rundll32		, Cmd
-sc		, Cmd
-schtasks		, Cmd
-secedit		, Cmd
-set		, Cmd
-setlocal		, Cmd
-setspn		, Cmd
-setx		, Cmd
-sfc		, Cmd 
-share		, Cmd
-shellrunas	, Cmd
-shift		, Cmd
-shortcut		, Cmd
-shutdown		, Cmd
-sleep		, Cmd
-slmgr		, Cmd
-sort		, Cmd
-start		, Cmd
-strings		, Cmd
-subinacl		, Cmd
-subst		, Cmd
-sysmon		, Cmd
-systeminfo	, Cmd
-takeown		, Cmd
-taskkill		, Cmd
-tasklist		, Cmd
-tcmsetup		, Cmd
-telnet		, Cmd
-tftp		, Cmd
-time		, Cmd
-timeout		, Cmd
-title		, Cmd
-touch		, Cmd
-tracerpt		, Cmd
-tracert		, Cmd
-tree		, Cmd
-tsdiscon		, Cmd
-tskill		, Cmd
-tssutdn		, Cmd
-type		, Cmd
-typeperf		, Cmd
-tzutil		, Cmd
-unlodctr		, Cmd
-ver		, Cmd
-verify		, Cmd		
-vol		, Cmd
-vssadmin		, Cmd
-w32tm		, Cmd	
-waitfor		, Cmd
-wevtutil		, Cmd	
-where		, Cmd
-whoami		, Cmd
-windiff		, Cmd
-winrm		, Cmd
-winrs		, Cmd
-wmic		, Cmd
-wuauclt		, Cmd
-xcalcs		, Cmd
-xcopy		, Cmd
-Add-PSSnapin		, powershell 
-Add-Content		, powershell 
-Add-Member		, powershell 
-Add-Type			, powershell 
-Add-Computer		, powershell 
-Add-AppxPackage		, powershell 
-Add-Printer		, powershell 
-Add-LocalGroupMember	, powershell 
-Add-KdsRootKey		, powershell 
-Add-WindowsCapability	, powershell 
-Add-WindowsPackage	, powershell 
-Add-OdbcDsn		, powershell 
-Add-PrinterDriver		, powershell 
-Add-PrinterPort		, powershell 	
-Add-MpPreference		, powershell 
-Add-VpnConnectionRoute	, powershell 
-ConvertTo-HTML		, powershell 
-Clear-History		, powershell 	
-Copy-Item			, powershell 
-Clear-Content		, powershell 
-Checkpoint-Computer	, powershell 
-Compare-Object		, powershell 
-ConvertFrom-StringData	, powershell 
-ConvertTo-SecureString	, powershell 
-ConvertTo-XML		, powershell 
-ConvertTo-Json		, powershell 
-Compress-Archive		, powershell 
-ConvertFrom-Json		, powershell 
-ConvertFrom-SecureString	, powershell 
-ConvertTo-Csv		, powershell 
-Clear-Disk		, powershell 
-Confirm-SecureBootUEFI	, powershell 
-Clear-Variable		, powershell 
-ConvertFrom-Csv		, powershell 
-Convert-Path		, powershell 
-ConvertFrom-String		, powershell 
-Debug-Process		, powershell 
-Disable-PSBreakpoint	, powershell 
-Disable-NetAdapterBinding	, powershell 
-Exit-PSSession		, powershell 
-Export-Counter		, powershell 
-Export-Csv		, powershell 
-Enter-PSSession		, powershell 
-Export-StartLayout		, powershell 
-Enable-PSRemoting		, powershell 
-Export-Clixml		, powershell 
-Expand-Archive		, powershell 
-Enable-WindowsOptionalFeature	, powershell 
-Export-Certificate		, powershell 
-Export-PfxCertificate	, powershell 
-Export-WindowsDriver	, powershell 
-Enable-NetFirewallRule	, powershell 
-ForEach-Object		, powershell 
-Format-Table		, powershell 
-Format-List		, powershell 
-Format-Wide		, powershell 
-Find-Module		, powershell 
-Get-Counter		, powershell 
-Get-Command		, powershell 
-Get-Help			, powershell 
-Get-WinEvent		, powershell 
-Get-ChildItem		, powershell 
-Get-WmiObject		, powershell 
-Get-Content		, powershell 
-Get-Date			, powershell 
-Get-EventLog		, powershell 
-Get-Process		, powershell 	
-Get-Service		, powershell 
-Get-Credential		, powershell 
-Get-AppxPackage		, powershell 
-Get-Acl			, powershell 
-Get-Item			, powershell 
-Get-HotFix		, powershell 
-Get-ItemProperty		, powershell 
-Get-Member		, powershell 	
-Get-CimInstance		, powershell 
-Get-NetAdapter		, powershell 
-Get-ExecutionPolicy		, powershell 
-Get-FileHash		, powershell 
-Get-Disk			, powershell 
-Get-Module		, powershell 
-Get-ScheduledTask		, powershell 
-Get-Printer		, powershell 
-Get-WindowsUpdateLog	, powershell 
-Get-Certificate		, powershell 
-Get-Job			, powershell 
-Get-PhysicalDisk		, powershell 
-Get-Package		, powershell 
-Get-SmbShare		, powershell 
-Get-Variable		, powershell 
-Get-Random		, powershell 
-Get-PSDrive		, powershell 
-Get-NetIPAddress		, powershell 
-Get-SmbConnection		, powershell 
-Get-Event			, powershell 
-Get-AppxProvisionedPackage	, powershell 
-Get-TlsCipherSuite		, powershell 
-Get-InstalledModule		, powershell 
-Get-StorageJob		, powershell 
-Get-AppvClientPackage	, powershell 
-Get-AuthenticodeSignature	, powershell 
-Get-BitsTransfer		, powershell 
-Get-InitiatorPort		, powershell 
-Get-ComputerInfo		, powershell 
-Get-Clipboard		, powershell 
-Get-BitLockerVolume	, powershell 
-Get-WindowsCapability	, powershell 
-Get-DnsClientServerAddress	, powershell 
-Get-Alias			, powershell 
-Get-Culture		, powershell 
-Get-Host			, powershell 
-Get-LocalGroupMember	, powershell 
-Get-LocalUser		, powershell 
-Get-VpnConnection		, powershell 
-Get-NetIPConfiguration	, powershell 
-Get-NetIPInterface		, powershell 
-Get-PfxCertificate		, powershell 
-Get-Partition		, powershell 
-Get-ScheduledJob		, powershell 
-Get-PnpDevice		, powershell 
-Get-Tpm			, powershell 
-Get-PSRepository		, powershell 	
-Get-ScheduledTaskInfo	, powershell 
-Get-NetAdapterVmq		, powershell 
-Get-SmbSession		, powershell 
-Get-SmbShareAccess		, powershell 
-Get-StartApps		, powershell 
-Get-VirtualDisk		, powershell 
-Grant-SmbShareAccess	, powershell 
-Group-Object		, powershell 
-Invoke-TroubleshootingPack	, powershell 
-Invoke-WebRequest		, powershell 
-Invoke-Command		, powershell 
-Import-Module		, powershell 
-Import-Csv		, powershell 	
-Invoke-RestMethod		, powershell 
-Install-Module		, powershell 
-Install-Package		, powershell 
-Invoke-Expression		, powershell 
-Import-StartLayout		, powershell 
-Import-PSSession		, powershell 
-Import-Certificate		, powershell 
-Invoke-WmiMethod		, powershell 
-Invoke-CimMethod		, powershell 
-Install-PackageProvider	, powershell 
-Invoke-Pester		, powershell 
-Initialize-Disk		, powershell 
-Join-Path			, powershell 
-Measure-Command		, powershell 
-Measure-Object		, powershell 
-Move-Item		, powershell 
-Measure-Object		, powershell 
-New-Event		, powershell 
-New-AppLockerPolicy	, powershell 
-New-ItemProperty		, powershell 
-New-Object		, powershell 
-New-WebServiceProxy	, powershell 
-New-WSManInstance		, powershell 
-New-WSManSessionOption	, powershell 
-New-Item			, powershell 
-New-PSSession		, powershell 	
-New-PSDrive		, powershell 
-New-SelfSignedCertificate	, powershell 
-New-SmbShare		, powershell 
-New-NetFirewallRule	, powershell 
-New-NetIPAddress		, powershell 
-New-TimeSpan		, powershell 
-New-ScheduledTaskTrigger	, powershell 
-New-EventLog		, powershell 
-New-Guid			, powershell 
-New-ScheduledTaskPrincipal	, powershell 
-New-StoragePool		, powershell 
-New-SmbMapping		, powershell 
-New-Volume		, powershell 
-New-NetRoute		, powershell 
-New-NetNat		, powershell 
-New-ScheduledTaskAction	, powershell 
-New-ScheduledTaskSettingsSet	, powershell 
-New-ScheduledTask		, powershell 
-New-Service		, powershell 
-New-PSSessionOption	, powershell 
-New-Variable		, powershell 
-Out-String		, powershell 
-Out-GridView		, powershell 
-Out-File			, powershell 
-Out-Null			, powershell 
-Optimize-Volume		, powershell 
-Out-Printer		, powershell 
-Out-Default		, powershell 
-Receive-Job		, powershell 
-Read-Host			, powershell 
-Remove-Event		, powershell 
-Remove-Item		, powershell 
-Remove-PhysicalDisk	, powershell 
-Remove-AppxPackage	, powershell 
-Remove-NetIPAddress	, powershell 
-Remove-Printer		, powershell 
-Remove-AppxProvisionedPackage	, powershell 
-Remove-WmiObject		, powershell 
-Remove-ItemProperty	, powershell 
-Remove-Computer		, powershell 
-Remove-Module		, powershell 
-Rename-Item		, powershell 
-Rename-Computer		, powershell 
-Restart-Computer		, powershell 
-Restart-Service		, powershell 
-Reset-ComputerMachinePassword	, powershell 
-Repair-Volume		, powershell 
-Repair-WindowsImage	, powershell 
-Resolve-DnsName		, powershell 
-Resize-Partition		, powershell 
-Resolve-Path		, powershell 
-Receive-Job		, powershell 
-Register-PSRepository	, powershell 
-Register-EngineEvent	, powershell 
-Register-ObjectEvent	, powershell 
-Register-ScheduledTask	, powershell 
-Select-Object		, powershell 
-Select-String		, powershell 
-Set-Alias			, powershell 
-Set-StrictMode		, powershell 
-Set-AuthenticodeSignature	, powershell 
-Set-ExecutionPolicy		, powershell 
-Set-PSDebug		, powershell 
-Set-Service		, powershell 
-Set-Acl			, powershell 
-Set-Variable		, powershell 
-Set-Content		, powershell 
-Set-Item			, powershell 
-Set-ItemProperty		, powershell 
-Set-NetConnectionProfile	, powershell 
-Set-Location		, powershell 
-Set-TimeZone		, powershell 
-Set-Clipboard		, powershell 
-Set-WSManQuickConfig	, powershell 
-Set-MpPreference		, powershell 
-Set-NetFirewallProfile	, powershell 
-Set-PSRepository		, powershell 
-Set-DscLocalConfigurationManager	, powershell 
-Set-NetAdapterVmq		, powershell 
-Set-Date			, powershell 
-Set-PhysicalDisk		, powershell 
-Set-Printer		, powershell 
-Set-ScheduledTask		, powershell 
-Set-SmbClientConfiguration	, powershell 
-Set-LocalUser		, powershell 
-Set-Partition		, powershell 
-Set-Culture		, powershell 
-Set-Disk			, powershell 
-Set-WinUserLanguageList	, powershell 
-Set-WinSystemLocale	, powershell 
-Set-PSSessionConfiguration	, powershell 
-Set-SmbShare		, powershell 
-Set-VpnConnection		, powershell 
-Set-PSDebug		, powershell 
-Start-Sleep		, powershell 
-Start-Process		, powershell 
-Start-Transcript		, powershell 
-Start-Service		, powershell 
-Start-BitsTransfer		, powershell 
-Start-ScheduledTask		, powershell 
-Send-MailMessage		, powershell 
-Start-Job			, powershell 
-Sort-Object		, powershell 
-Split-Path			, powershell 
-Save-Module		, powershell 
-Stop-Service		, powershell 
-Stop-Process		, powershell 
-Stop-Transcript		, powershell 
-Select-Xml		, powershell 
-Suspend-BitLocker		, powershell 
-Test-Path			, powershell 
-Tee-Object			, powershell 
-Test-AppLockerPolicy	, powershell 
-Test-ComputerSecureChannel	, powershell 
-Test-Path			, powershell 
-Trace-Command		, powershell 
-Test-Connection		, powershell 
-Test-NetConnection		, powershell 
-Test-WSMan		, powershell 
-Unblock-File		, powershell 
-Update-Help		, powershell 
-Uninstall-Module		, powershell 
-Update-Script		, powershell 
-Unregister-ScheduledTask	, powershell 
-Write-Debug		, powershell 
-Write-Host		, powershell 
-Write-Output		, powershell 
-Where-Object		, powershell 
-Wait-Job			, powershell 
-Write-Progress		, powershell 
-Where-Object		, powershell 
-Write-Error		, powershell 
-Write-EventLog		, powershell 
-Wait-Process		, powershell 
-Write-Information		, powershell 
+LINUX commands,
+
+adduser/addgroup,Linux
+agetty,Linux
+alias,Linux
+anacron,Linux
+apropos,Linux
+apt,Linux
+apt-get,Linux
+aptitude,Linux
+arch,Linux
+arp,Linux
+at,Linux
+atq,Linux
+atrm,Linux
+awk,Linux
+batch,Linux
+basename,Linux
+bc,Linux
+bg,Linux
+bzip,Linux
+cal,Linux
+cat,Linux
+chgrp,Linux
+chmod,Linux
+chown,Linux
+cksum,Linux
+clear,Linux
+cmp,Linux
+comm,Linux
+cp,Linux
+date,Linux
+dd,Linux
+df,Linux
+diff,Linux
+dir,Linux
+dmidecode,Linux
+du,Linux
+echo,Linux
+eject,Linux
+env,Linux
+exit,Linux
+expr,Linux
+factor,Linux
+find,Linux
+free,Linux
+grep,Linux
+groups,Linux
+gzip,Linux
+gunzip,Linux
+head,Linux
+history,Linux
+hostname,Linux
+hostnamectl,Linux
+hwclock,Linux
+hwinfo,Linux
+id,Linux
+ifconfig,Linux
+ionice,Linux
+iosta  t, Linux
+ip,Linux
+iptables,Linux
+iw,Linux
+iwlist,Linux
+kill,Linux
+killall,Linux
+kmod,Linux
+last,Linux
+ln,Linux
+locate,Linux
+login,Linux
+ls,Linux
+lshw,Linux
+lscpu,Linux
+lsof,Linux
+lsusb,Linux
+man,Linux
+mdsum,Linux
+mkdir,Linux
+more,Linux
+mv,Linux
+nano,Linux
+nc/netcat,Linux
+netstat,Linux
+nice,Linux
+nmap,Linux
+nproc,Linux
+openssl,Linux
+passwd,Linux
+pidof,Linux
+ping,Linux
+ps,Linux
+pstree,Linux
+pwd,Linux
+rdiff-backup,Linux
+reboot,Linux
+rename,Linux
+rm,Linux
+rmdir,Linux
+scp,Linux
+shutdown,Linux
+sleep,Linux
+sort,Linux
+split,Linux
+ssh,Linux
+stat,Linux
+su,Linux
+sudo,Linux
+sum,Linux
+tac,Linux
+tail,Linux
+talk,Linux
+tar,Linux
+tee,Linux
+tree,Linux
+time,Linux
+top,Linux
+touch,Linux
+tr,Linux
+uname,Linux
+uniq,Linux
+uptime,Linux
+users,Linux
+vim/vi,Linux
+w,Linux
+wall,Linux
+watch,Linux
+wc,Linux
+wget,Linux
+whatis,Linux
+which,Linux
+who,Linux
+whereis,Linux
+xargs,Linux
+yes,Linux
+youtube-dl,Linux
+zcmp/zdiff,Linux
+zip,Linux
+zz,Linux
+
+
+
+COMMAND PROMPT commands,
+
+addusers,Cmd
+admodcmd,Cmd
+arp,Cmd
+assoc,Cmd
+associat,Cmd
+at,Cmd
+atmadm,Cmd
+attrib,Cmd
+bcdboot,Cmd
+bcdedit,Cmd
+bitsadmin,Cmd
+bootcfg,Cmd
+break,Cmd
+cacls,Cmd
+call,Cmd
+certreq,Cmd
+certutil,Cmd
+cd,Cmd
+change,Cmd
+chcp,Cmd
+chdir,Cmd
+chkdsk,Cmd
+chkntfs,Cmd
+choice,Cmd
+cipher,Cmd 
+cleanmgr,Cmd
+clip,Cmd
+cls,Cmd
+cmd,Cmd
+cmdkey,Cmd
+cmstp,Cmd
+color,Cmd
+comp,Cmd
+compact,Cmd
+compress,Cmd
+convert,Cmd
+copy,Cmd 
+coreinfo,Cmd
+cprofile,Cmd
+cscmd,Cmd
+csvde,Cmd
+date,Cmd
+defrag,Cmd
+del,Cmd
+delprof,Cmd
+deltree,Cmd
+devcon,Cmd
+dir,Cmd
+dirquota,Cmd
+diruse,Cmd
+diskcomp,Cmd
+diskcopy,Cmd
+diskpart,Cmd
+diskshadow,Cmd
+diskuse,Cmd
+doskey,Cmd
+driverquery,Cmd
+dsacls,Cmd
+dsadd,Cmd
+dsget,Cmd 
+dsquery,Cmd
+dsmod,Cmd
+dsmove,Cmd
+dsrm,Cmd
+dsmgmt,Cmd
+echo,Cmd
+endlocal,Cmd
+erase,Cmd
+eventcreate,Cmd
+eventquerry,Cmd
+eventtriggers,Cmd
+exit,Cmd
+expand,Cmd
+explorer,Cmd
+extract,Cmd
+fc,Cmd
+find,Cmd
+findstr,Cmd
+finger,Cmd
+flattemp,Cmd
+for,Cmd
+fortfiles,Cmd
+format,Cmd
+freedisk,Cmd
+fsutil,Cmd
+ftp,Cmd
+ftype,Cmd
+getmac,Cmd
+goto,Cmd
+gpresult,Cmd
+gpupdate,Cmd
+graftabl,Cmd
+help,Cmd
+hostname,Cmd
+icacls,Cmd
+iexpress,Cmd
+if,Cmd
+ifmember,Cmd
+inuse,Cmd
+ipconfig,Cmd
+ipseccmd,Cmd
+ipxroute,Cmd
+irftp,Cmd
+label,Cmd
+lodctr,Cmd
+logman,Cmd
+logoff,Cmd
+logtime,Cmd
+lpq,Cmd
+lpr,Cmd
+macfile,Cmd
+makecab,Cmd
+mapisend,Cmd
+mbsacli,Cmd
+mem,Cmd
+md,Cmd
+mkdir,Cmd
+mklink,Cmd
+mmc,Cmd
+mode,Cmd
+more,Cmd
+mountvol,Cmd
+move,Cmd
+moveuser,Cmd
+msg,Cmd
+msiexec,Cmd
+msinfo32,Cmd
+mstsc,Cmd
+nbstat,Cmd
+net,Cmd
+netdom,Cmd
+netsh,Cmd
+netstat,Cmd
+nlsinfo,Cmd
+nltest,Cmd
+now,Cmd
+nslookup,Cmd
+ntbackup,Cmd
+ntcmdprompt,Cmd
+ntdsutil,Cmd
+ntrights,Cmd
+ntsd,Cmd
+nvspbind,Cmd
+openfiles,Cmd
+pagefileconfig,Cmd
+path,Cmd
+pathping,Cmd
+pause,Cmd
+pbadmin,Cmd
+pentnt,Cmd
+perfmon,Cmd
+perms,Cmd
+ping,Cmd
+popd,Cmd
+portqry,Cmd
+powercfg,Cmd
+print,Cmd
+printbrm,Cmd
+prncnfg,Cmd
+prndrvr,Cmd
+prnjobs,Cmd
+prnmngr,Cmd
+prnport,Cmd
+prnqctl,Cmd
+procdump,Cmd
+prompt,Cmd
+psexec,Cmd 
+psfile,Cmd
+psinfo,Cmd
+pskill,Cmd
+pslist,Cmd
+psloggedon,Cmd
+psloglist,Cmd
+pspasswd,Cmd
+psping,Cmd
+psservice,Cmd
+psshutdown,Cmd
+pssuspend,Cmd
+pushd,Cmd
+qgrep,Cmd
+query process or qprocess,Cmd
+rasdial,Cmd
+rasphone,Cmd
+rcp,Cmd
+recover,Cmd
+reg,Cmd
+regedit,Cmd
+regsvr32,Cmd
+regini,Cmd
+relog,Cmd
+rem,Cmd
+ren,Cmd
+replace,Cmd
+reset session,Cmd
+rexec,Cmd
+rd,Cmd
+rmdir,Cmd
+rmtshare,Cmd
+robocopy,Cmd
+route,Cmd
+rsh,Cmd
+rsm,Cmd
+runas,Cmd
+rundll32,Cmd
+sc,Cmd
+schtasks,Cmd
+secedit,Cmd
+set,Cmd
+setlocal,Cmd
+setspn,Cmd
+setx,Cmd
+sfc,Cmd 
+share,Cmd
+shellrunas,Cmd
+shift,Cmd
+shortcut,Cmd
+shutdown,Cmd
+sleep,Cmd
+slmgr,Cmd
+sort,Cmd
+start,Cmd
+strings,Cmd
+subinacl,Cmd
+subst,Cmd
+sysmon,Cmd
+systeminfo,Cmd
+takeown,Cmd
+taskkill,Cmd
+tasklist,Cmd
+tcmsetup,Cmd
+telnet,Cmd
+tftp,Cmd
+time,Cmd
+timeout,Cmd
+title,Cmd
+touch,Cmd
+tracerpt,Cmd
+tracert,Cmd
+tree,Cmd
+tsdiscon,Cmd
+tskill,Cmd
+tssutdn,Cmd
+type,Cmd
+typeperf,Cmd
+tzutil,Cmd
+unlodctr,Cmd
+ver,Cmd
+verify,Cmd  
+vol,Cmd
+vssadmin,Cmd
+w32tm,Cmd 
+waitfor,Cmd
+wevtutil,Cmd 
+where,Cmd
+whoami,Cmd
+windiff,Cmd
+winrm,Cmd
+winrs,Cmd
+wmic,Cmd
+wuauclt,Cmd
+xcalcs,Cmd
+xcopy,Cmd
+,,,Cmd
+
+
+
+POWERSHELL comands,
+
+Add-PSSnapin,powershell 
+Add-Content,powershell 
+Add-Member,powershell 
+Add-Type ,powershell 
+Add-Computer,powershell 
+Add-AppxPackage,powershell 
+Add-Printer,powershell 
+Add-LocalGroupMember,powershell 
+Add-KdsRootKey,powershell 
+Add-WindowsCapability,powershell 
+Add-WindowsPackage,powershell 
+Add-OdbcDsn,powershell 
+Add-PrinterDriver,powershell 
+Add-PrinterPort,powershell  
+Add-MpPreference,powershell 
+Add-VpnConnectionRoute,powershell 
+ConvertTo-HTML,powershell 
+Clear-History,powershell  
+Copy-Item ,powershell 
+Clear-Content,powershell 
+Checkpoint-Computer,powershell 
+Compare-Object,powershell 
+ConvertFrom-StringData,powershell 
+ConvertTo-SecureString,powershell 
+ConvertTo-XML,powershell 
+ConvertTo-Json,powershell 
+Compress-Archive,powershell 
+ConvertFrom-Json,powershell 
+ConvertFrom-SecureString,powershell 
+ConvertTo-Csv,powershell 
+Clear-Disk,powershell 
+Confirm-SecureBootUEFI,powershell 
+Clear-Variable,powershell 
+ConvertFrom-Csv,powershell 
+Convert-Path,powershell 
+ConvertFrom-String,powershell 
+Debug-Process,powershell 
+Disable-PSBreakpoint,powershell 
+Disable-NetAdapterBinding,powershell 
+Exit-PSSession,powershell 
+Export-Counter,powershell 
+Export-Csv,powershell 
+Enter-PSSession,powershell 
+Export-StartLayout,powershell 
+Enable-PSRemoting,powershell 
+Export-Clixml,powershell 
+Expand-Archive,powershell 
+Enable-WindowsOptionalFeature,powershell 
+Export-Certificate,powershell 
+Export-PfxCertificate,powershell 
+Export-WindowsDriver,powershell 
+Enable-NetFirewallRule,powershell 
+ForEach-Object,powershell 
+Format-Table,powershell 
+Format-List,powershell 
+Format-Wide,powershell 
+Find-Module,powershell 
+Get-Counter,powershell 
+Get-Command,powershell 
+Get-Help ,powershell 
+Get-WinEvent,powershell 
+Get-ChildItem,powershell 
+Get-WmiObject,powershell 
+Get-Content,powershell 
+Get-Date ,powershell 
+Get-EventLog,powershell 
+Get-Process,powershell  
+Get-Service,powershell 
+Get-Credential,powershell 
+Get-AppxPackage,powershell 
+Get-Acl ,powershell 
+Get-Item ,powershell 
+Get-HotFix,powershell 
+Get-ItemProperty,powershell 
+Get-Member,powershell  
+Get-CimInstance,powershell 
+Get-NetAdapter,powershell 
+Get-ExecutionPolicy,powershell 
+Get-FileHash,powershell 
+Get-Disk ,powershell 
+Get-Module,powershell 
+Get-ScheduledTask,powershell 
+Get-Printer,powershell 
+Get-WindowsUpdateLog,powershell 
+Get-Certificate,powershell 
+Get-Job ,powershell 
+Get-PhysicalDisk,powershell 
+Get-Package,powershell 
+Get-SmbShare,powershell 
+Get-Variable,powershell 
+Get-Random,powershell 
+Get-PSDrive,powershell 
+Get-NetIPAddress,powershell 
+Get-SmbConnection,powershell 
+Get-Event ,powershell 
+Get-AppxProvisionedPackage,powershell 
+Get-TlsCipherSuite,powershell 
+Get-InstalledModule,powershell 
+Get-StorageJob,powershell 
+Get-AppvClientPackage,powershell 
+Get-AuthenticodeSignature,powershell 
+Get-BitsTransfer,powershell 
+Get-InitiatorPort,powershell 
+Get-ComputerInfo,powershell 
+Get-Clipboard,powershell 
+Get-BitLockerVolume,powershell 
+Get-WindowsCapability,powershell 
+Get-DnsClientServerAddress,powershell 
+Get-Alias ,powershell 
+Get-Culture,powershell 
+Get-Host ,powershell 
+Get-LocalGroupMember,powershell 
+Get-LocalUser,powershell 
+Get-VpnConnection,powershell 
+Get-NetIPConfiguration,powershell 
+Get-NetIPInterface,powershell 
+Get-PfxCertificate,powershell 
+Get-Partition,powershell 
+Get-ScheduledJob,powershell 
+Get-PnpDevice,powershell 
+Get-Tpm ,powershell 
+Get-PSRepository,powershell  
+Get-ScheduledTaskInfo,powershell 
+Get-NetAdapterVmq,powershell 
+Get-SmbSession,powershell 
+Get-SmbShareAccess,powershell 
+Get-StartApps,powershell 
+Get-VirtualDisk,powershell 
+Grant-SmbShareAccess,powershell 
+Group-Object,powershell 
+Invoke-TroubleshootingPack,powershell 
+Invoke-WebRequest,powershell 
+Invoke-Command,powershell 
+Import-Module,powershell 
+Import-Csv,powershell  
+Invoke-RestMethod,powershell 
+Install-Module,powershell 
+Install-Package,powershell 
+Invoke-Expression,powershell 
+Import-StartLayout,powershell 
+Import-PSSession,powershell 
+Import-Certificate,powershell 
+Invoke-WmiMethod,powershell 
+Invoke-CimMethod,powershell 
+Install-PackageProvider,powershell 
+Invoke-Pester,powershell 
+Initialize-Disk,powershell 
+Join-Path ,powershell 
+Measure-Command,powershell 
+Measure-Object,powershell 
+Move-Item,powershell 
+Measure-Object,powershell 
+New-Event,powershell 
+New-AppLockerPolicy,powershell 
+New-ItemProperty,powershell 
+New-Object,powershell 
+New-WebServiceProxy,powershell 
+New-WSManInstance,powershell 
+New-WSManSessionOption,powershell 
+New-Item ,powershell 
+New-PSSession,powershell  
+New-PSDrive,powershell 
+New-SelfSignedCertificate,powershell 
+New-SmbShare,powershell 
+New-NetFirewallRule,powershell 
+New-NetIPAddress,powershell 
+New-TimeSpan,powershell 
+New-ScheduledTaskTrigger,powershell 
+New-EventLog,powershell 
+New-Guid ,powershell 
+New-ScheduledTaskPrincipal,powershell 
+New-StoragePool,powershell 
+New-SmbMapping,powershell 
+New-Volume,powershell 
+New-NetRoute,powershell 
+New-NetNat,powershell 
+New-ScheduledTaskAction,powershell 
+New-ScheduledTaskSettingsSet,powershell 
+New-ScheduledTask,powershell 
+New-Service,powershell 
+New-PSSessionOption,powershell 
+New-Variable,powershell 
+Out-String,powershell 
+Out-GridView,powershell 
+Out-File ,powershell 
+Out-Null ,powershell 
+Optimize-Volume,powershell 
+Out-Printer,powershell 
+Out-Default,powershell 
+Receive-Job,powershell 
+Read-Host ,powershell 
+Remove-Event,powershell 
+Remove-Item,powershell 
+Remove-PhysicalDisk,powershell 
+Remove-AppxPackage,powershell 
+Remove-NetIPAddress,powershell 
+Remove-Printer,powershell 
+Remove-AppxProvisionedPackage,powershell 
+Remove-WmiObject,powershell 
+Remove-ItemProperty,powershell 
+Remove-Computer,powershell 
+Remove-Module,powershell 
+Rename-Item,powershell 
+Rename-Computer,powershell 
+Restart-Computer,powershell 
+Restart-Service,powershell 
+Reset-ComputerMachinePassword,powershell 
+Repair-Volume,powershell 
+Repair-WindowsImage,powershell 
+Resolve-DnsName,powershell 
+Resize-Partition,powershell 
+Resolve-Path,powershell 
+Receive-Job,powershell 
+Register-PSRepository,powershell 
+Register-EngineEvent,powershell 
+Register-ObjectEvent,powershell 
+Register-ScheduledTask,powershell 
+Select-Object,powershell 
+Select-String,powershell 
+Set-Alias ,powershell 
+Set-StrictMode,powershell 
+Set-AuthenticodeSignature,powershell 
+Set-ExecutionPolicy,powershell 
+Set-PSDebug,powershell 
+Set-Service,powershell 
+Set-Acl ,powershell 
+Set-Variable,powershell 
+Set-Content,powershell 
+Set-Item ,powershell 
+Set-ItemProperty,powershell 
+Set-NetConnectionProfile,powershell 
+Set-Location,powershell 
+Set-TimeZone,powershell 
+Set-Clipboard,powershell 
+Set-WSManQuickConfig,powershell 
+Set-MpPreference,powershell 
+Set-NetFirewallProfile,powershell 
+Set-PSRepository,powershell 
+Set-DscLocalConfigurationManager,powershell 
+Set-NetAdapterVmq,powershell 
+Set-Date ,powershell 
+Set-PhysicalDisk,powershell 
+Set-Printer,powershell 
+Set-ScheduledTask,powershell 
+Set-SmbClientConfiguration,powershell 
+Set-LocalUser,powershell 
+Set-Partition,powershell 
+Set-Culture,powershell 
+Set-Disk ,powershell 
+Set-WinUserLanguageList,powershell 
+Set-WinSystemLocale,powershell 
+Set-PSSessionConfiguration,powershell 
+Set-SmbShare,powershell 
+Set-VpnConnection,powershell 
+Set-PSDebug,powershell 
+Start-Sleep,powershell 
+Start-Process,powershell 
+Start-Transcript,powershell 
+Start-Service,powershell 
+Start-BitsTransfer,powershell 
+Start-ScheduledTask,powershell 
+Send-MailMessage,powershell 
+Start-Job ,powershell 
+Sort-Object,powershell 
+Split-Path ,powershell 
+Save-Module,powershell 
+Stop-Service,powershell 
+Stop-Process,powershell 
+Stop-Transcript,powershell 
+Select-Xml,powershell 
+Suspend-BitLocker,powershell 
+Test-Path ,powershell 
+Tee-Object ,powershell 
+Test-AppLockerPolicy,powershell 
+Test-ComputerSecureChannel,powershell 
+Test-Path ,powershell 
+Trace-Command,powershell 
+Test-Connection,powershell 
+Test-NetConnection,powershell 
+Test-WSMan,powershell 
+Unblock-File,powershell 
+Update-Help,powershell 
+Uninstall-Module,powershell 
+Update-Script,powershell 
+Unregister-ScheduledTask,powershell 
+Write-Debug,powershell 
+Write-Host,powershell 
+Write-Output,powershell 
+Where-Object,powershell 
+Wait-Job ,powershell 
+Write-Progress,powershell 
+Where-Object,powershell 
+Write-Error,powershell 
+Write-EventLog,powershell 
+Wait-Process,powershell 
+Write-Information,powershell 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

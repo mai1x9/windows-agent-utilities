@@ -1,182 +1,181 @@
-C (ANSI (C89)) (32 keywords)
+C (ANSI (C89)) (32 keywords) 
 
-auto	, C89
-break	, C89
-case	, C89
-char	, C89
-const	, C89
-continue	, C89
-default	, C89
-do	, C89
-double	, C89
-else	, C89
-enum	, C89
-extern	, C89
-float	, C89
-for	, C89
-goto	, C89
-if	, C89
-int	, C89
-long	, C89
-register	, C89
-return	, C89
-short	, C89
-signed	, C89
-sizeof	, C89
-static	, C89
-struct	, C89
-switch	, C89
-typedef	, C89
-union	, C89
-unsigned	, C89
-void	, C89
-volatile	, C89
-while	, C89
+auto,C89 
+break,C89 
+case,C89 
+char,C89 
+const,C89 
+continue,C89 
+default,C89 
+do,C89 
+double,C89 
+else,C89 
+enum,C89 
+extern,C89 
+float,C89 
+for,C89 
+goto,C89 
+if,C89 
+int,C89 
+long,C89 
+register,C89 
+return,C89 
+short,C89 
+signed,C89 
+sizeof,C89 
+static,C89 
+struct,C89 
+switch,C89 
+typedef,C89 
+union,C89 
+unsigned,C89 
+void,C89 
+volatile,C89 
+while,C89 C 
 
 
 
 
 C (C11) (44 keywords)
 
-auto	, C11
-break	, C11
-case	, C11
-char	, C11
-const	, C11
-continue	, C11
-default	, C11
-do	, C11
-double	, C11
-else	, C11
-enum	, C11
-extern	, C11
-float	, C11
-for	, C11
-goto	, C11
-if	, C11
-inline	, C11
-int	, C11
-long	, C11
-register	, C11
-restrict	, C11
-return	, C11
-short	, C11
-signed	, C11
-sizeof	, C11
-static	, C11
-struct	, C11
-switch	, C11
-typedef	, C11
-union	, C11
-unsigned	, C11
-void	, C11
-volatile	, C11
-while	, C11
-_Alignas	, C11
-_Alignof	, C11
-_Atomic	, C11
-_Bool	, C11
-_Complex	, C11
-_Generic	, C11
-_Imaginary, C11
-_Noreturn	, C11
-_Static_assert, C11
-_Thread_local, C11
+auto,C11
+break,C11
+case,C11
+char,C11
+const ,C11
+continue ,C11
+default ,C11
+do ,C11
+double ,C11
+else ,C11
+enum ,C11
+extern ,C11
+float ,C11
+for ,C11
+goto ,C11
+if ,C11
+inline ,C11
+int ,C11
+long ,C11
+register ,C11
+restrict ,C11
+return ,C11
+short ,C11
+signed ,C11
+sizeof ,C11
+static ,C11
+struct ,C11
+switch ,C11
+typedef ,C11
+union ,C11
+unsigned ,C11
+void ,C11
+volatile ,C11
+while ,C11
+_Alignas ,C11
+_Alignof,C11
+_Atomic,C11
+_Bool,C11
+_Complex,C11
+_Generic,C11
+_Imaginary,C11
+_Noreturn,C11
+_Static_assert,C11
+_Thread_local,C11
 
 
 
 
 
 C (C17) (44 keywords)
+auto ,C17
+break ,C17
+case ,C17
+char ,C17
+const ,C17
+continue ,C17
+default ,C17
+do ,C17
+double ,C17
+else ,C17
+enum ,C17
+extern ,C17
+float ,C17
+for ,C17
+goto ,C17
+if ,C17
+inline ,C17
+int ,C17
+long ,C17
+register ,C17
+restrict ,C17
+return ,C17
+short ,C17
+signed ,C17
+sizeof ,C17
+static ,C17
+struct ,C17
+switch ,C17
+typedef ,C17
+union ,C17
+unsigned ,C17
+void ,C17
+volatile ,C17
+while ,C17
+_Alignas ,C17
+_Alignof ,C17
+_Atomic ,C17
+_Bool ,C17
+_Complex ,C17
+_Generic ,C17
+_Imaginary,C17
+_Noreturn ,C17
+_Static_assert,C17
+_Thread_local,C17
 
-auto	, C17
-break	, C17
-case	, C17
-char	, C17
-const	, C17
-continue	, C17
-default	, C17
-do	, C17
-double	, C17
-else	, C17
-enum	, C17
-extern	, C17
-float	, C17
-for	, C17
-goto	, C17
-if	, C17
-inline	, C17
-int	, C17
-long	, C17
-register	, C17
-restrict	, C17
-return	, C17
-short	, C17
-signed	, C17
-sizeof	, C17
-static	, C17
-struct	, C17
-switch	, C17
-typedef	, C17
-union	, C17
-unsigned	, C17
-void	, C17
-volatile	, C17
-while	, C17
-_Alignas	, C17
-_Alignof	, C17
-_Atomic	, C17
-_Bool	, C17
-_Complex	, C17
-_Generic	, C17
-_Imaginary, C17
-_Noreturn	, C17
-_Static_assert, C17
-_Thread_local, C17
 
 
 
 
 
 C (C99) (37 keywords)
-
-auto	, C99
-break	, C99
-case	, C99
-char	, C99
-const	, C99
-continue	, C99
-default	, C99
-do	, C99
-double	, C99
-else	, C99
-enum	, C99
-extern	, C99
-float	, C99
-for	, C99
-goto	, C99
-if	, C99
-inline	, C99
-int	, C99
-long	, C99
-register	, C99
-restrict	, C99
-return	, C99
-short	, C99
-signed	, C99
-sizeof	, C99
-static	, C99
-struct	, C99
-switch	, C99
-typedef	, C99
-union	, C99
-unsigned	, C99
-void	, C99
-volatile	, C99
-while	, C99
-_Bool	, C99
-_Complex	, C99
-_Imaginary, C99
+auto ,C99
+break ,C99
+case ,C99
+char ,C99
+const ,C99
+continue ,C99
+default ,C99
+do ,C99
+double ,C99
+else ,C99
+enum ,C99
+extern ,C99
+float ,C99
+for ,C99
+goto ,C99
+if ,C99
+inline ,C99
+int ,C99
+long ,C99
+register ,C99
+restrict ,C99
+return ,C99
+short ,C99
+signed ,C99
+sizeof ,C99
+static ,C99
+struct ,C99
+switch ,C99
+typedef ,C99
+union ,C99
+unsigned ,C99
+void ,C99
+volatile ,C99
+while ,C99
+_Bool ,C99
+_Complex ,C99
+_Imaginary,C99
 
 
 
@@ -185,194 +184,194 @@ _Imaginary, C99
 
 
 C# (8.0) (107 keywords)
+abstract ,C#8.0
+break ,C#8.0
+char ,C#8.0
+continue ,C#8.0
+do ,C#8.0
+event ,C#8.0
+finally ,C#8.0
+foreach ,C#8.0
+in ,C#8.0
+is ,C#8.0
+new ,C#8.0
+out ,C#8.0
+protected ,C#8.0
+return ,C#8.0
+sizeof ,C#8.0
+struct ,C#8.0
+true ,C#8.0
+ulong ,C#8.0
+using ,C#8.0
+while ,C#8.0
+async ,C#8.0
+dynamic ,C#8.0
+global ,C#8.0
+let ,C#8.0
+orderby ,C#8.0
+set ,C#8.0
+when ,C#8.0
+as ,C#8.0
+byte ,C#8.0
+checked ,C#8.0
+decimal ,C#8.0
+double ,C#8.0
+explicit ,C#8.0
+fixed ,C#8.0
+goto ,C#8.0
+int ,C#8.0
+lock ,C#8.0
+null ,C#8.0
+override ,C#8.0
+public ,C#8.0
+sbyte ,C#8.0
+stackalloc ,C#8.0
+switch ,C#8.0
+try ,C#8.0
+unchecked,C#8.0
+virtual ,C#8.0
+add ,C#8.0
+await ,C#8.0
+equals ,C#8.0
+group ,C#8.0
+nameof ,C#8.0
+partial ,C#8.0
+unmanaged,C#8.0
+where ,C#8.0
+base ,C#8.0
+case ,C#8.0
+class ,C#8.0
+default ,C#8.0
+else ,C#8.0
+extern ,C#8.0
+float ,C#8.0
+if ,C#8.0
+interface ,C#8.0
+long ,C#8.0
+object ,C#8.0
+params ,C#8.0
+readonly ,C#8.0
+sealed ,C#8.0
+static ,C#8.0
+this ,C#8.0
+typeof ,C#8.0
+unsafe ,C#8.0
+void ,C#8.0
+alias ,C#8.0
+by ,C#8.0
+from ,C#8.0
+into ,C#8.0
+notnull ,C#8.0
+remove ,C#8.0
+value ,C#8.0
+yield ,C#8.0
+bool ,C#8.0
+catch ,C#8.0
+const ,C#8.0
+delegate ,C#8.0
+enum ,C#8.0
+false ,C#8.0
+for ,C#8.0
+implicit ,C#8.0
+internal ,C#8.0
+namespace,C#8.0
+operator ,C#8.0
+private ,C#8.0
+ref ,C#8.0
+short ,C#8.0
+string ,C#8.0
+throw ,C#8.0
+uint ,C#8.0
+ushort ,C#8.0
+volatile ,C#8.0
+ascending ,C#8.0
+descending,C#8.0
+get ,C#8.0
+join ,C#8.0
+on ,C#8.0
+select ,C#8.0
+var ,C#8.0
 
-abstract	, C#8.0
-break	, C#8.0
-char	, C#8.0
-continue	, C#8.0
-do	, C#8.0
-event	, C#8.0
-finally	, C#8.0
-foreach	, C#8.0
-in	, C#8.0
-is	, C#8.0
-new	, C#8.0
-out	, C#8.0
-protected	, C#8.0
-return	, C#8.0
-sizeof	, C#8.0
-struct	, C#8.0
-true	, C#8.0
-ulong	, C#8.0
-using	, C#8.0
-while	, C#8.0
-async	, C#8.0
-dynamic	, C#8.0
-global	, C#8.0
-let	, C#8.0
-orderby	, C#8.0
-set	, C#8.0
-when	, C#8.0
-as	, C#8.0
-byte	, C#8.0
-checked	, C#8.0
-decimal	, C#8.0
-double	, C#8.0
-explicit	,C#8.0
-fixed	, C#8.0
-goto	, C#8.0
-int	, C#8.0
-lock	, C#8.0
-null	, C#8.0
-override	, C#8.0
-public	, C#8.0
-sbyte	, C#8.0
-stackalloc	, C#8.0
-switch	, C#8.0
-try	, C#8.0
-unchecked, C#8.0
-virtual	, C#8.0
-add	, C#8.0
-await	, C#8.0
-equals	, C#8.0
-group	, C#8.0
-nameof	, C#8.0
-partial	, C#8.0
-unmanaged, C#8.0
-where	, C#8.0
-base	, C#8.0
-case	, C#8.0
-class	, C#8.0
-default	, C#8.0
-else	, C#8.0
-extern	, C#8.0
-float	, C#8.0
-if	, C#8.0
-interface	, C#8.0
-long	, C#8.0
-object	, C#8.0
-params	, C#8.0
-readonly	, C#8.0
-sealed	, C#8.0
-static	, C#8.0
-this	, C#8.0
-typeof	, C#8.0
-unsafe	, C#8.0
-void	, C#8.0
-alias	, C#8.0
-by	, C#8.0
-from	, C#8.0
-into	, C#8.0
-notnull	, C#8.0
-remove	, C#8.0
-value	, C#8.0
-yield	, C#8.0
-bool	, C#8.0
-catch	, C#8.0
-const	, C#8.0
-delegate	, C#8.0
-enum	, C#8.0
-false	, C#8.0
-for	, C#8.0
-implicit	, C#8.0
-internal	, C#8.0
-namespace, C#8.0
-operator	, C#8.0
-private	, C#8.0
-ref	, C#8.0
-short	, C#8.0
-string	, C#8.0
-throw	, C#8.0
-uint	, C#8.0
-ushort	, C#8.0
-volatile	, C#8.0
-ascending	, C#8.0
-descending, C#8.0
-get	, C#8.0
-join	, C#8.0
-on	, C#8.0
-select	, C#8.0
-var	, C#8.0
 
 
 
 
 C++ (C++03) (74 keywords)
+asm ,C++03
+auto ,C++03
+bool ,C++03
+break  ,C++03
+case ,C++03
+catch ,C++03
+char ,C++03
+class ,C++03
+const ,C++03
+const_cast ,C++03
+continue ,C++03
+default ,C++03
+delete ,C++03
+do ,C++03
+double ,C++03
+dynamic_cast,C++03
+else ,C++03
+enum ,C++03
+explicit ,C++03
+export ,C++03
+extern ,C++03
+false ,C++03
+float ,C++03
+for ,C++03
+friend ,C++03
+goto ,C++03
+if ,C++03
+inline ,C++03
+int ,C++03
+long ,C++03
+mutable ,C++03
+namespace,C++03
+new ,C++03
+operator ,C++03
+private ,C++03
+protected ,C++03
+public ,C++03
+register ,C++03
+reinterpret_cast ,C++03
+return ,C++03
+short ,C++03
+signed ,C++03
+sizeof ,C++03
+static ,C++03
+static_cast ,C++03
+struct ,C++03
+switch ,C++03
+template ,C++03
+this ,C++03
+throw ,C++03
+true ,C++03
+try ,C++03
+typedef ,C++03
+typeid ,C++03
+typename ,C++03
+union ,C++03
+unsigned ,C++03
+using ,C++03
+virtual ,C++03
+void ,C++03
+volatile ,C++03
+wchar_t ,C++03
+while ,C++03
+and ,C++03
+and_eq ,C++03
+bitand ,C++03
+bitor ,C++03
+compl ,C++03
+not ,C++03
+not_eq ,C++03
+or ,C++03
+or_eq ,C++03
+xor ,C++03
+xor_eq ,C++03
 
-asm	, C++03
-auto	, C++03
-bool	, C++03
-break 	, C++03
-case	, C++03
-catch	, C++03
-char	, C++03
-class	, C++03
-const	, C++03
-const_cast	, C++03
-continue	, C++03
-default	, C++03
-delete	, C++03
-do	, C++03
-double	, C++03
-dynamic_cast, C++03
-else	, C++03
-enum	, C++03
-explicit	, C++03
-export	, C++03
-extern	, C++03
-false	, C++03
-float	, C++03
-for	, C++03
-friend	, C++03
-goto	, C++03
-if	, C++03
-inline	, C++03
-int	, C++03
-long	, C++03
-mutable	, C++03
-namespace, C++03
-new	, C++03
-operator	, C++03
-private	, C++03
-protected	, C++03
-public	, C++03
-register	, C++03
-reinterpret_cast	, C++03
-return	, C++03
-short	, C++03
-signed	, C++03
-sizeof	, C++03
-static	, C++03
-static_cast	, C++03
-struct	, C++03
-switch	, C++03
-template	, C++03
-this	, C++03
-throw	, C++03
-true	, C++03
-try	, C++03
-typedef	, C++03
-typeid	, C++03
-typename	, C++03
-union	, C++03
-unsigned	, C++03
-using	, C++03
-virtual	, C++03
-void	, C++03
-volatile	, C++03
-wchar_t	, C++03
-while	, C++03
-and	, C++03
-and_eq	, C++03
-bitand	, C++03
-bitor	, C++03
-compl	, C++03
-not	, C++03
-not_eq	, C++03
-or	, C++03
-or_eq	, C++03
-xor	, C++03
-xor_eq	, C++03
 
 
 
@@ -380,492 +379,492 @@ xor_eq	, C++03
 
 
 C++ (C++11) (84 keywords)
+alignas ,C++11
+alignof ,C++11
+asm ,C++11
+auto ,C++11
+bool ,C++11
+break ,C++11
+case ,C++11
+catch ,C++11
+char ,C++11
+char_16t ,C++11
+char_32t ,C++11
+class ,C++11
+const ,C++11
+constexpr ,C++11
+const_cast ,C++11
+continue ,C++11
+decltype ,C++11
+default ,C++11
+delete ,C++11
+do ,C++11
+double ,C++11
+dynamic_cast,C++11
+else ,C++11
+enum ,C++11
+explicit ,C++11
+export ,C++11
+extern ,C++11
+false ,C++11
+float ,C++11
+for ,C++11
+friend ,C++11
+goto ,C++11
+if ,C++11
+inline ,C++11
+int ,C++11
+long ,C++11
+mutable ,C++11
+namespace,C++11
+new ,C++11
+noexcept ,C++11
+nullptr ,C++11
+operator ,C++11
+private ,C++11
+protected ,C++11
+public ,C++11
+register ,C++11
+reinterpret_cast ,C++11
+return ,C++11
+short ,C++11
+signed ,C++11
+sizeof ,C++11
+static ,C++11
+static_assert,C++11
+static_cast ,C++11
+struct ,C++11
+switch ,C++11
+template ,C++11
+this ,C++11
+thread_local,C++11
+throw ,C++11
+true ,C++11
+try ,C++11
+typedef ,C++11
+typeid ,C++11
+typename ,C++11
+union ,C++11
+unsigned ,C++11
+using ,C++11
+virtual ,C++11
+void ,C++11
+volatile ,C++11
+wchar_t ,C++11
+while ,C++11
+and ,C++11
+and_eq ,C++11
+bitand ,C++11
+bitor ,C++11
+compl ,C++11
+not ,C++11
+not_eq ,C++11
+or ,C++11
+or_eq ,C++11
+xor ,C++11
+xor_eq ,C++11
 
-alignas	, C++11
-alignof	, C++11
-asm	, C++11
-auto	, C++11
-bool	, C++11
-break	, C++11
-case	, C++11
-catch	, C++11
-char	, C++11
-char_16t	, C++11
-char_32t	, C++11
-class	, C++11
-const	, C++11
-constexpr	, C++11
-const_cast	, C++11
-continue	, C++11
-decltype	, C++11
-default	, C++11
-delete	, C++11
-do	, C++11
-double	, C++11
-dynamic_cast, C++11
-else	, C++11
-enum	, C++11
-explicit	, C++11
-export	, C++11
-extern	, C++11
-false	, C++11
-float	, C++11
-for	, C++11
-friend	, C++11
-goto	, C++11
-if	, C++11
-inline	, C++11
-int	, C++11
-long	, C++11
-mutable	, C++11
-namespace, C++11
-new	, C++11
-noexcept	, C++11
-nullptr	, C++11
-operator	, C++11
-private	, C++11
-protected	, C++11
-public	, C++11
-register	, C++11
-reinterpret_cast	, C++11
-return	, C++11
-short	, C++11
-signed	, C++11
-sizeof	, C++11
-static	, C++11
-static_assert, C++11
-static_cast	, C++11
-struct	, C++11
-switch	, C++11
-template	, C++11
-this	, C++11
-thread_local, C++11
-throw	, C++11
-true	, C++11
-try	, C++11
-typedef	, C++11
-typeid	, C++11
-typename	, C++11
-union	, C++11
-unsigned	, C++11
-using	, C++11
-virtual	, C++11
-void	, C++11
-volatile	, C++11
-wchar_t	, C++11
-while	, C++11
-and	, C++11
-and_eq	, C++11
-bitand	, C++11
-bitor	, C++11
-compl	, C++11
-not	, C++11
-not_eq	, C++11
-or	, C++11
-or_eq	, C++11
-xor	, C++11
-xor_eq	, C++11
 
 
 
 
 
 C++ (C++14) (84 keywords)
+alignas ,C++14
+alignof ,C++14
+asm ,C++14
+auto ,C++14
+bool ,C++14
+break ,C++14
+case ,C++14
+catch ,C++14
+char ,C++14
+char_16t ,C++14
+char_32t ,C++14
+class ,C++14
+const ,C++14
+constexpr ,C++14
+const_cast ,C++14
+continue ,C++14
+decltype ,C++14
+default ,C++14
+delete ,C++14
+do ,C++14
+double ,C++14
+dynamic_cast,C++14
+else ,C++14
+enum ,C++14
+explicit ,C++14
+export ,C++14
+extern ,C++14
+false ,C++14
+float ,C++14
+for ,C++14
+friend ,C++14
+goto ,C++14
+if ,C++14
+inline ,C++14
+int ,C++14
+long ,C++14
+mutable ,C++14
+namespace,C++14
+new ,C++14
+noexcept ,C++14
+nullptr ,C++14
+operator ,C++14
+private ,C++14
+protected ,C++14
+public ,C++14
+register ,C++14
+reinterpret_cast ,C++14
+return ,C++14
+short ,C++14
+signed ,C++14
+sizeof ,C++14
+static ,C++14
+static_assert,C++14
+static_cast ,C++14
+struct ,C++14
+switch ,C++14
+template ,C++14
+this ,C++14
+thread_local ,C++14
+throw ,C++14
+true ,C++14
+try ,C++14
+typedef ,C++14
+typeid ,C++14
+typename ,C++14
+union ,C++14
+unsigned ,C++14
+using ,C++14
+virtual ,C++14
+void ,C++14
+volatile ,C++14
+wchar_t ,C++14
+while ,C++14
+and ,C++14
+and_eq ,C++14
+bitand ,C++14
+bitor ,C++14
+compl ,C++14
+not ,C++14
+not_eq ,C++14
+or ,C++14
+or_eq ,C++14
+xor ,C++14
+xor_eq ,C++14
 
-alignas	, C++14
-alignof	, C++14
-asm	, C++14
-auto	, C++14
-bool	, C++14
-break	, C++14
-case	, C++14
-catch	, C++14
-char	, C++14
-char_16t	, C++14
-char_32t	, C++14
-class	, C++14
-const	, C++14
-constexpr	, C++14
-const_cast	, C++14
-continue	, C++14
-decltype	, C++14
-default	, C++14
-delete	, C++14
-do	, C++14
-double	, C++14
-dynamic_cast, C++14
-else	, C++14
-enum	, C++14
-explicit	, C++14
-export	, C++14
-extern	, C++14
-false	, C++14
-float	, C++14
-for	, C++14
-friend	, C++14
-goto	, C++14
-if	, C++14
-inline	, C++14
-int	, C++14
-long	, C++14
-mutable	, C++14
-namespace, C++14
-new	, C++14
-noexcept	, C++14
-nullptr	, C++14
-operator	, C++14
-private	, C++14
-protected	, C++14
-public	, C++14
-register	, C++14
-reinterpret_cast	, C++14
-return	, C++14
-short	, C++14
-signed	, C++14
-sizeof	, C++14
-static	, C++14
-static_assert, C++14
-static_cast	, C++14
-struct	, C++14
-switch	, C++14
-template	, C++14
-this	, C++14
-thread_local	, C++14
-throw	, C++14
-true	, C++14
-try	, C++14
-typedef	, C++14
-typeid	, C++14
-typename	, C++14
-union	, C++14
-unsigned	, C++14
-using	, C++14
-virtual	, C++14
-void	, C++14
-volatile	, C++14
-wchar_t	, C++14
-while	, C++14
-and	, C++14
-and_eq	, C++14
-bitand	, C++14
-bitor	, C++14
-compl	, C++14
-not	, C++14
-not_eq	, C++14
-or	, C++14
-or_eq	, C++14
-xor	, C++14
-xor_eq	, C++14
 
 
 
 
 
 C++ (C++17) (84 keywords)
+alignas ,C++17
+alignof ,C++17
+asm ,C++17
+auto ,C++17
+bool ,C++17
+break ,C++17
+case ,C++17
+catch ,C++17
+char ,C++17
+char16_t ,C++17
+char32_t ,C++17
+class ,C++17
+const ,C++17
+constexpr ,C++17
+const_cast ,C++17
+continue ,C++17
+decltype ,C++17
+default ,C++17
+delete ,C++17
+do ,C++17
+double ,C++17
+dynamic_cast ,C++17
+else ,C++17
+enum ,C++17
+explicit ,C++17
+export ,C++17
+extern ,C++17
+false ,C++17
+float ,C++17
+for ,C++17
+friend ,C++17
+goto ,C++17
+if ,C++17
+inline ,C++17
+int ,C++17
+long ,C++17
+mutable ,C++17
+namespace,C++17
+new ,C++17
+noexcept ,C++17
+nullptr ,C++17
+operator ,C++17
+private ,C++17
+protected ,C++17
+public ,C++17
+register ,C++17
+reinterpret_cast ,C++17
+return ,C++17
+short ,C++17
+signed ,C++17
+sizeof ,C++17
+static ,C++17
+static_assert ,C++17
+static_cast struct ,C++17
+switch ,C++17
+template ,C++17
+this ,C++17
+thread_local ,C++17
+throw ,C++17
+true ,C++17
+try ,C++17
+typedef ,C++17
+typeid ,C++17
+typename ,C++17
+union ,C++17
+unsigned ,C++17
+using ,C++17
+virtual ,C++17
+void ,C++17
+volatile ,C++17
+wchar_t ,C++17
+while ,C++17
+and ,C++17
+and_eq ,C++17
+bitand ,C++17
+bitor ,C++17
+compl ,C++17
+not ,C++17
+not_eq ,C++17
+or ,C++17
+or_eq ,C++17
+xor ,C++17
+xor_eq ,C++17
 
-alignas	, C++17
-alignof	, C++17
-asm	, C++17
-auto	, C++17
-bool	, C++17
-break	, C++17
-case	, C++17
-catch	, C++17
-char	, C++17
-char16_t	, C++17
-char32_t	, C++17
-class	, C++17
-const	, C++17
-constexpr	, C++17
-const_cast	, C++17
-continue	, C++17
-decltype	, C++17
-default	, C++17
-delete	, C++17
-do	, C++17
-double	, C++17
-dynamic_cast	, C++17
-else	, C++17
-enum	, C++17
-explicit	, C++17
-export	, C++17
-extern	, C++17
-false	, C++17
-float	, C++17
-for	, C++17
-friend	, C++17
-goto	, C++17
-if	, C++17
-inline	, C++17
-int	, C++17
-long	, C++17
-mutable	, C++17
-namespace, C++17
-new	, C++17
-noexcept	, C++17
-nullptr	, C++17
-operator	, C++17
-private	, C++17
-protected	, C++17
-public	, C++17
-register	, C++17
-reinterpret_cast	, C++17
-return	, C++17
-short	, C++17
-signed	, C++17
-sizeof	, C++17
-static	, C++17
-static_assert	, C++17
-static_cast	struct	, C++17
-switch	, C++17
-template	, C++17
-this	, C++17
-thread_local	, C++17
-throw	, C++17
-true	, C++17
-try	, C++17
-typedef	, C++17
-typeid	, C++17
-typename	, C++17
-union	, C++17
-unsigned	, C++17
-using	, C++17
-virtual	, C++17
-void	, C++17
-volatile	, C++17
-wchar_t	, C++17
-while	, C++17
-and	, C++17
-and_eq	, C++17
-bitand	, C++17
-bitor	, C++17
-compl	, C++17
-not	, C++17
-not_eq	, C++17
-or	, C++17
-or_eq	, C++17
-xor	, C++17
-xor_eq	, C++17
 
 
 
 
 
 C++ (C++20) (92 keywords)
+alignas ,C++20
+alignof ,C++20
+asm ,C++20
+auto  ,C++20
+bool ,C++20
+break ,C++20
+case ,C++20
+catch ,C++20
+char ,C++20
+char8_t ,C++20
+char16_t ,C++20
+char32_t ,C++20
+class ,C++20
+concept ,C++20
+const ,C++20
+consteval ,C++20
+constexpr ,C++20
+constinit ,C++20
+const_cast ,C++20
+continue ,C++20
+co_await ,C++20
+co_return ,C++20
+co_yield ,C++20
+decltype ,C++20
+default ,C++20
+delete ,C++20
+do ,C++20
+double ,C++20
+dynamic_cast ,C++20
+else ,C++20
+enum ,C++20
+explicit ,C++20
+export ,C++20
+extern ,C++20
+false ,C++20
+float ,C++20
+for ,C++20
+friend ,C++20
+goto ,C++20
+if ,C++20
+inline ,C++20
+int ,C++20
+long ,C++20
+mutable ,C++20
+namespace,C++20
+new ,C++20
+noexcept ,C++20
+nullptr,C++20
+operator ,C++20
+private ,C++20
+protected ,C++20
+public ,C++20
+register ,C++20
+reinterpret_cast ,C++20
+requires ,C++20
+return ,C++20
+short ,C++20
+signed ,C++20
+sizeof ,C++20
+static ,C++20
+static_assert ,C++20
+static_cast ,C++20
+struct ,C++20
+switch ,C++20
+template ,C++20
+this ,C++20
+thread_local ,C++20
+throw ,C++20
+true ,C++20
+try ,C++20
+typedef ,C++20
+typeid ,C++20
+typename ,C++20
+union ,C++20
+unsigned ,C++20
+using ,C++20
+virtual ,C++20
+void ,C++20
+volatile ,C++20
+wchar_t ,C++20
+while ,C++20
+and ,C++20
+and_eq ,C++20
+bitand ,C++20
+bitor ,C++20
+compl ,C++20
+not ,C++20
+not_eq ,C++20
+or ,C++20
+or_eq ,C++20
+xor ,C++20
+xor_eq ,C++20
 
-alignas	, C++20
-alignof	, C++20
-asm	, C++20
-auto 	, C++20
-bool	, C++20
-break	, C++20
-case	, C++20
-catch	, C++20
-char	, C++20
-char8_t	, C++20
-char16_t	, C++20
-char32_t	, C++20
-class	, C++20
-concept	, C++20
-const	, C++20
-consteval	, C++20
-constexpr	, C++20
-constinit	, C++20
-const_cast	, C++20
-continue	, C++20
-co_await	, C++20
-co_return	, C++20
-co_yield	, C++20
-decltype	, C++20
-default	, C++20
-delete	, C++20
-do	, C++20
-double	, C++20
-dynamic_cast	, C++20
-else	, C++20
-enum	, C++20
-explicit	, C++20
-export	, C++20
-extern	, C++20
-false	, C++20
-float	, C++20
-for	, C++20
-friend	, C++20
-goto	, C++20
-if	, C++20
-inline	, C++20
-int	, C++20
-long	, C++20
-mutable	, C++20
-namespace, C++20
-new	, C++20
-noexcept	, C++20
-nullptr, C++20
-operator	, C++20
-private	, C++20
-protected	, C++20
-public	, C++20
-register	, C++20
-reinterpret_cast	, C++20
-requires	, C++20
-return	, C++20
-short	, C++20
-signed	, C++20
-sizeof	, C++20
-static	, C++20
-static_assert	, C++20
-static_cast	, C++20
-struct	, C++20
-switch	, C++20
-template	, C++20
-this	, C++20
-thread_local	, C++20
-throw	, C++20
-true	, C++20
-try	, C++20
-typedef	, C++20
-typeid	, C++20
-typename	, C++20
-union	, C++20
-unsigned	, C++20
-using	, C++20
-virtual	, C++20
-void	, C++20
-volatile	, C++20
-wchar_t	, C++20
-while	, C++20
-and	, C++20
-and_eq	, C++20
-bitand	, C++20
-bitor	, C++20
-compl	, C++20
-not	, C++20
-not_eq	, C++20
-or	, C++20
-or_eq	, C++20
-xor	, C++20
-xor_eq	, C++20
 
 
 
 
 
 C++ (C++98) (74 keywords)
+asm ,C++98
+auto ,C++98
+bool ,C++98
+break ,C++98
+case ,C++98
+catch ,C++98
+char ,C++98
+class ,C++98
+const ,C++98
+const_cast ,C++98
+continue ,C++98
+default ,C++98
+delete ,C++98
+do ,C++98
+double ,C++98
+dynamic_cast,C++98
+else ,C++98
+enum ,C++98
+explicit ,C++98
+export ,C++98
+extern ,C++98
+false ,C++98
+float ,C++98
+for ,C++98
+friend ,C++98
+goto ,C++98
+if ,C++98
+inline ,C++98
+int ,C++98
+long ,C++98
+mutable ,C++98
+namespace,C++98
+new ,C++98
+operator ,C++98
+private ,C++98
+protected,C++98
+public ,C++98
+register ,C++98
+reinterpret_cast ,C++98
+return ,C++98
+short ,C++98
+signed ,C++98
+sizeof ,C++98
+static ,C++98
+static_cast ,C++98
+struct ,C++98
+switch ,C++98
+template ,C++98
+this ,C++98
+throw ,C++98
+true ,C++98
+try ,C++98
+typedef ,C++98
+typeid ,C++98
+typename ,C++98
+union ,C++98
+unsigned ,C++98
+using ,C++98
+virtual ,C++98
+void ,C++98
+volatile ,C++98
+wchar_t ,C++98
+while ,C++98
+and ,C++98
+and_eq ,C++98
+bitand ,C++98
+bitor ,C++98
+compl ,C++98
+not ,C++98
+not_eq ,C++98
+or ,C++98
+or_eq ,C++98
+xor ,C++98
+xor_eq ,C++98
 
-asm	, C++98
-auto	, C++98
-bool	, C++98
-break	, C++98
-case	, C++98
-catch	, C++98
-char	, C++98
-class	, C++98
-const	, C++98
-const_cast	, C++98
-continue	, C++98
-default	, C++98
-delete	, C++98
-do	, C++98
-double	, C++98
-dynamic_cast, C++98
-else	, C++98
-enum	, C++98
-explicit	, C++98
-export	, C++98
-extern	, C++98
-false	, C++98
-float	, C++98
-for	, C++98
-friend	, C++98
-goto	, C++98
-if	, C++98
-inline	, C++98
-int	, C++98
-long	, C++98
-mutable	, C++98
-namespace, C++98
-new	, C++98
-operator	, C++98
-private	, C++98
-protected, C++98
-public	, C++98
-register	, C++98
-reinterpret_cast	, C++98
-return	, C++98
-short	, C++98
-signed	, C++98
-sizeof	, C++98
-static	, C++98
-static_cast	, C++98
-struct	, C++98
-switch	, C++98
-template	, C++98
-this	, C++98
-throw	, C++98
-true	, C++98
-try	, C++98
-typedef	, C++98
-typeid	, C++98
-typename	, C++98
-union	, C++98
-unsigned	, C++98
-using	, C++98
-virtual	, C++98
-void	, C++98
-volatile	, C++98
-wchar_t	, C++98
-while	, C++98
-and	, C++98
-and_eq	, C++98
-bitand	, C++98
-bitor	, C++98
-compl	, C++98
-not	, C++98
-not_eq	, C++98
-or	, C++98
-or_eq	, C++98
-xor	, C++98
-xor_eq	, C++98
 
 
 
 
 
 Dart (2.2) (33 keywords)
+assert ,Dart
+break ,Dart
+case ,Dart
+catch ,Dart
+class ,Dart
+const ,Dart
+continue ,Dart
+default ,Dart
+do ,Dart
+else ,Dart
+enum ,Dart
+extends ,Dart
+false ,Dart
+final ,Dart
+finally ,Dart
+for ,Dart
+if ,Dart
+in ,Dart
+is ,Dart
+new ,Dart
+null ,Dart
+rethrow ,Dart
+return ,Dart
+super ,Dart
+switch ,Dart
+this ,Dart
+throw ,Dart
+true ,Dart
+try ,Dart
+var ,Dart
+void ,Dart
+while ,Dart
+with ,Dart
 
-assert	, Dart
-break	, Dart
-case	, Dart
-catch	, Dart
-class	, Dart
-const	, Dart
-continue	, Dart
-default	, Dart
-do	, Dart
-else	, Dart
-enum	, Dart
-extends	, Dart
-false	, Dart
-final	, Dart
-finally	, Dart
-for	, Dart
-if	, Dart
-in	, Dart
-is	, Dart
-new	, Dart
-null	, Dart
-rethrow	, Dart
-return	, Dart
-super	, Dart
-switch	, Dart
-this	, Dart
-throw	, Dart
-true	, Dart
-try	, Dart
-var	, Dart
-void	, Dart
-while	, Dart
-with	, Dart
 
 
 
@@ -873,21 +872,21 @@ with	, Dart
 
 Elixir (1.10) (15 keywords)
 
-true	, Elixir
-false	, Elixir
-nil	, Elixir
-when	, Elixir
-and	, Elixir
-or	, Elixir
-not	, Elixir
-in	, Elixir
-fn	, Elixir
-do	, Elixir
-end	, Elixir
-catch	, Elixir
-rescue	, Elixir
-after	, Elixir
-else	, Elixir
+true ,Elixir
+false ,Elixir
+nil ,Elixir
+when ,Elixir
+and ,Elixir
+or ,Elixir
+not ,Elixir
+in ,Elixir
+fn ,Elixir
+do ,Elixir
+end ,Elixir
+catch ,Elixir
+rescue ,Elixir
+after ,Elixir
+else ,Elixir
 
 
 
@@ -895,33 +894,33 @@ else	, Elixir
 
 Erlang (23) (27 keywords)
 
-after	, Erlang
-and	, Erlang
-andalso	, Erlang
-band	, Erlang
-begin	, Erlang
-bnot	, Erlang
-bor	, Erlang
-bsl	, Erlang
-bsr	, Erlang
-bxor	, Erlang
-case	, Erlang
-catch	, Erlang
-cond	, Erlang
-div	, Erlang
-end	, Erlang
-fun	, Erlang
-if	, Erlang
-let	, Erlang
-not	, Erlang
-of	, Erlang
-or	, Erlang
-orelse	, Erlang
-receive	, Erlang
-rem	, Erlang
-try	, Erlang
-when	, Erlang
-xor	, Erlang
+after,Erlang
+and,Erlang
+andalso,Erlang
+band,Erlang
+begin,Erlang
+bnot,Erlang
+bor,Erlang
+bsl,Erlang
+bsr,Erlang
+bxor,Erlang
+case,Erlang
+catch,Erlang
+cond,Erlang
+div,Erlang
+end,Erlang
+fun,Erlang
+if,Erlang
+let,Erlang
+not,Erlang
+of,Erlang
+or,Erlang
+orelse,Erlang
+receive,Erlang
+rem,Erlang
+try,Erlang
+when,Erlang
+xor,Erlang
 
 
 
@@ -929,109 +928,109 @@ xor	, Erlang
 
 Fortran (Fortran 2008) (103 keywords)
 
-abstract	, Fortran
-allocatable	, Fortran
-allocate	, Fortran
-assign	, Fortran
-associate	, Fortran
-asynchronous	, Fortran
-backspace	, Fortran
-bind	, Fortran
-block	, Fortran
-block data	, Fortran
-call	, Fortran
-case	, Fortran
-class	, Fortran
-close	, Fortran
-codimension	, Fortran
-common	, Fortran
-contains	, Fortran
-contiguous	, Fortran
-continue	, Fortran
-critical	, Fortran
-cycle	, Fortran
-data	, Fortran
-deallocate	, Fortran
-deferred	, Fortran
-dimension	, Fortran
-do	, Fortran
-do concurrent	, Fortran
-elemental	, Fortran
-else	, Fortran
-else if	, Fortran
-elsewhere	, Fortran
-end	, Fortran
-endfile	, Fortran
-endif	, Fortran
-entry	, Fortran
-enum	, Fortran
+abstract,Fortran
+allocatable,Fortran
+allocate,Fortran
+assign,Fortran
+associate,Fortran
+asynchronous,Fortran
+backspace,Fortran
+bind,Fortran
+block,Fortran
+block data,Fortran
+call,Fortran
+case,Fortran
+class,Fortran
+close,Fortran
+codimension,Fortran
+common,Fortran
+contains,Fortran
+contiguous,Fortran
+continue,Fortran
+critical,Fortran
+cycle,Fortran
+data,Fortran
+deallocate,Fortran
+deferred,Fortran
+dimension,Fortran
+do,Fortran
+do concurrent,Fortran
+elemental,Fortran
+else,Fortran
+else if,Fortran
+elsewhere,Fortran
+end,Fortran
+endfile,Fortran
+endif,Fortran
+entry,Fortran
+enum,Fortran
 enumerator, Fortran
 equivalence, Fortran
-error stop	, Fortran
-exit	, Fortran
-extends	, Fortran
-external	, Fortran
-final	, Fortran
-flush	, Fortran
-forall	, Fortran
-format	, Fortran
-function	, Fortran
-generic	, Fortran
-goto	, Fortran
-if	, Fortran
-implicit	, Fortran
-import	, Fortran
-include	, Fortran
-inquire	, Fortran
-intent	, Fortran
-interface	, Fortran
-intrinsic	, Fortran
-lock	, Fortran
-module	, Fortran
-namelist	, Fortran
-non_overridable	, Fortran
-nopass	, Fortran
-nullify	, Fortran
-only	, Fortran
-open	, Fortran
-operator	, Fortran
-optional	, Fortran
-parameter	, Fortran
-pass	, Fortran
-pause	, Fortran
-pointer	, Fortran
-print	, Fortran
-private	, Fortran
-procedure	, Fortran
-program	, Fortran
-protected	, Fortran
-public	, Fortran
-pure	, Fortran
-read	, Fortran
-recursive	, Fortran
-result	, Fortran
-return	, Fortran
-rewind	, Fortran
-rewrite	, Fortran
-save	, Fortran
-select	, Fortran
-sequence	, Fortran
-stop	, Fortran
-submodule	, Fortran
-subroutine	, Fortran
-sync all	, Fortran
+error stop,Fortran
+exit,Fortran
+extends,Fortran
+external,Fortran
+final,Fortran
+flush,Fortran
+forall,Fortran
+format,Fortran
+function,Fortran
+generic,Fortran
+goto,Fortran
+if,Fortran
+implicit,Fortran
+import,Fortran
+include,Fortran
+inquire,Fortran
+intent,Fortran
+interface,Fortran
+intrinsic,Fortran
+lock,Fortran
+module,Fortran
+namelist,Fortran
+non_overridable,Fortran
+nopass,Fortran
+nullify,Fortran
+only,Fortran
+open,Fortran
+operator,Fortran
+optional,Fortran
+parameter,Fortran
+pass,Fortran
+pause,Fortran
+pointer,Fortran
+print,Fortran
+private,Fortran
+procedure,Fortran
+program,Fortran
+protected,Fortran
+public,Fortran
+pure,Fortran
+read,Fortran
+recursive,Fortran
+result,Fortran
+return,Fortran
+rewind,Fortran
+rewrite,Fortran
+save,Fortran
+select,Fortran
+sequence,Fortran
+stop,Fortran
+submodule,Fortran
+subroutine,Fortran
+sync all,Fortran
 sync images, Fortran
-sync memory	, Fortran
-target	, Fortran
-then	, Fortran
-unlock	, Fortran
-use	, Fortran
-value	, Fortran
-volatile	, Fortran
-wait	, Fortran
-where	, Fortran
-while	, Fortran
-write	, Fortran
+sync memory,Fortran
+target,Fortran
+then,Fortran
+unlock,Fortran
+use,Fortran
+value,Fortran
+volatile,Fortran
+wait,Fortran
+where,Fortran
+while,Fortran
+write,Fortran
 
 
 
@@ -1039,31 +1038,31 @@ write	, Fortran
 
 Go (1.18) (25 keywords)
 
-break	, Go
-case	, Go
-chan	, Go
-const	, Go
-continue	, Go
-default	, Go
-defer	, Go
-else	, Go
+break,Go
+case,Go
+chan,Go
+const,Go
+continue,Go
+default,Go
+defer,Go
+else,Go
 fallthrough, Go
-for	, Go
-func	, Go
-go	, Go
-goto	, Go
-if	, Go
-import	, Go
-interface	, Go
-map	, Go
-package	, Go
-range	, Go
-return	, Go
-select	, Go
-struct	, Go
-switch	, Go
-type	, Go
-var	, Go
+for,Go
+func,Go
+go,Go
+goto,Go
+if,Go
+import,Go
+interface,Go
+map,Go
+package,Go
+range,Go
+return,Go
+select,Go
+struct,Go
+switch,Go
+type,Go
+var,Go
 
 
 
@@ -1071,36 +1070,36 @@ var	, Go
 
 Java (SE 11 LTS) (51 keywords)
 
-if	, Java(SE 11 LTS)
-goto	, Java(SE 11 LTS)
+if,Java(SE 11 LTS)
+goto,Java(SE 11 LTS)
 implements, Java(SE 11 LTS)
-import	, Java(SE 11 LTS)
-instanceof	, Java(SE 11 LTS)
-int	, Java(SE 11 LTS)
+import,Java(SE 11 LTS)
+instanceof,Java(SE 11 LTS)
+int,Java(SE 11 LTS)
 interface, Java(SE 11 LTS)
-long	, Java(SE 11 LTS)
-native	, Java(SE 11 LTS)
-new	, Java(SE 11 LTS)
+long,Java(SE 11 LTS)
+native,Java(SE 11 LTS)
+new,Java(SE 11 LTS)
 package, Java(SE 11 LTS)
-private	, Java(SE 11 LTS)
-protected	, Java(SE 11 LTS)
-public	, Java(SE 11 LTS)
-return	, Java(SE 11 LTS)
-short	, Java(SE 11 LTS)
-static	, Java(SE 11 LTS)
-strictfp	, Java(SE 11 LTS)
-super	, Java(SE 11 LTS)
-switch	, Java(SE 11 LTS)
-synchronized	, Java(SE 11 LTS)
-this	, Java(SE 11 LTS)
-throw	, Java(SE 11 LTS)
-throws	, Java(SE 11 LTS)
-transient	, Java(SE 11 LTS)
-try	, Java(SE 11 LTS)
-void	, Java(SE 11 LTS)
-volatile	, Java(SE 11 LTS)
-while	, Java(SE 11 LTS)
-_	, Java(SE 11 LTS)
+private,Java(SE 11 LTS)
+protected,Java(SE 11 LTS)
+public,Java(SE 11 LTS)
+return,Java(SE 11 LTS)
+short,Java(SE 11 LTS)
+static,Java(SE 11 LTS)
+strictfp,Java(SE 11 LTS)
+super,Java(SE 11 LTS)
+switch,Java(SE 11 LTS)
+synchronized,Java(SE 11 LTS)
+this,Java(SE 11 LTS)
+throw,Java(SE 11 LTS)
+throws,Java(SE 11 LTS)
+transient,Java(SE 11 LTS)
+try,Java(SE 11 LTS)
+void,Java(SE 11 LTS)
+volatile,Java(SE 11 LTS)
+while,Java(SE 11 LTS)
+_,Java(SE 11 LTS)
 
 
 
@@ -1108,73 +1107,73 @@ _	, Java(SE 11 LTS)
 
 Java (SE 17 LTS) (67 keywords)
 
-abstract	, Java(SE 17 LTS)
-assert	, Java(SE 17 LTS)
-boolean	, Java(SE 17 LTS)
-break	, Java(SE 17 LTS)
-byte	, Java(SE 17 LTS)
-case	, Java(SE 17 LTS)
-catch	, Java(SE 17 LTS)
-char	, Java(SE 17 LTS)
-class	, Java(SE 17 LTS)
-const	, Java(SE 17 LTS)
-continue	, Java(SE 17 LTS)
-default	, Java(SE 17 LTS)
-do	, Java(SE 17 LTS)
-double	, Java(SE 17 LTS)
-else	, Java(SE 17 LTS)
-enum	, Java(SE 17 LTS)
-extends	, Java(SE 17 LTS)
-final	, Java(SE 17 LTS)
-finally	, Java(SE 17 LTS)
-float	, Java(SE 17 LTS)
-for	, Java(SE 17 LTS)
-if	, Java(SE 17 LTS)
-goto	, Java(SE 17 LTS)
+abstract,Java(SE 17 LTS)
+assert,Java(SE 17 LTS)
+boolean,Java(SE 17 LTS)
+break,Java(SE 17 LTS)
+byte,Java(SE 17 LTS)
+case,Java(SE 17 LTS)
+catch,Java(SE 17 LTS)
+char,Java(SE 17 LTS)
+class,Java(SE 17 LTS)
+const,Java(SE 17 LTS)
+continue,Java(SE 17 LTS)
+default,Java(SE 17 LTS)
+do,Java(SE 17 LTS)
+double,Java(SE 17 LTS)
+else,Java(SE 17 LTS)
+enum,Java(SE 17 LTS)
+extends,Java(SE 17 LTS)
+final,Java(SE 17 LTS)
+finally,Java(SE 17 LTS)
+float,Java(SE 17 LTS)
+for,Java(SE 17 LTS)
+if,Java(SE 17 LTS)
+goto,Java(SE 17 LTS)
 implements, Java(SE 17 LTS)
-import	, Java(SE 17 LTS)
-instanceof	, Java(SE 17 LTS)
-int	, Java(SE 17 LTS)
-interface	, Java(SE 17 LTS)
-long	, Java(SE 17 LTS)
-native	, Java(SE 17 LTS)
-new	, Java(SE 17 LTS)
-package	, Java(SE 17 LTS)
-private	, Java(SE 17 LTS)
-protected	, Java(SE 17 LTS)
-public	, Java(SE 17 LTS)
-return	, Java(SE 17 LTS)
-short	, Java(SE 17 LTS)
-static	, Java(SE 17 LTS)
-strictfp	, Java(SE 17 LTS)
-super	, Java(SE 17 LTS)
-switch	, Java(SE 17 LTS)
-synchronized	, Java(SE 17 LTS)
-this	, Java(SE 17 LTS)
-throw	, Java(SE 17 LTS)
-throws	, Java(SE 17 LTS)
-transient	, Java(SE 17 LTS)
-try	, Java(SE 17 LTS)
-void	, Java(SE 17 LTS)
-volatile	, Java(SE 17 LTS)
-while	, Java(SE 17 LTS)
-_	, Java(SE 17 LTS)
-exports	, Java(SE 17 LTS)
-module	, Java(SE 17 LTS)
+import,Java(SE 17 LTS)
+instanceof,Java(SE 17 LTS)
+int,Java(SE 17 LTS)
+interface,Java(SE 17 LTS)
+long,Java(SE 17 LTS)
+native,Java(SE 17 LTS)
+new,Java(SE 17 LTS)
+package,Java(SE 17 LTS)
+private,Java(SE 17 LTS)
+protected,Java(SE 17 LTS)
+public,Java(SE 17 LTS)
+return,Java(SE 17 LTS)
+short,Java(SE 17 LTS)
+static,Java(SE 17 LTS)
+strictfp,Java(SE 17 LTS)
+super,Java(SE 17 LTS)
+switch,Java(SE 17 LTS)
+synchronized,Java(SE 17 LTS)
+this,Java(SE 17 LTS)
+throw,Java(SE 17 LTS)
+throws,Java(SE 17 LTS)
+transient,Java(SE 17 LTS)
+try,Java(SE 17 LTS)
+void,Java(SE 17 LTS)
+volatile,Java(SE 17 LTS)
+while,Java(SE 17 LTS)
+_,Java(SE 17 LTS)
+exports,Java(SE 17 LTS)
+module,Java(SE 17 LTS)
 non-sealed, Java(SE 17 LTS)
-open	, Java(SE 17 LTS)
-opens	, Java(SE 17 LTS)
-permits	, Java(SE 17 LTS)
-provides	, Java(SE 17 LTS)
-record	, Java(SE 17 LTS)
-requires	, Java(SE 17 LTS)
-sealed	, Java(SE 17 LTS)
-to	, Java(SE 17 LTS)
-transitive	, Java(SE 17 LTS)
-uses	, Java(SE 17 LTS)
-var	, Java(SE 17 LTS)
-with	, Java(SE 17 LTS)
-yield	, Java(SE 17 LTS)
+open,Java(SE 17 LTS)
+opens,Java(SE 17 LTS)
+permits,Java(SE 17 LTS)
+provides,Java(SE 17 LTS)
+record,Java(SE 17 LTS)
+requires,Java(SE 17 LTS)
+sealed,Java(SE 17 LTS)
+to,Java(SE 17 LTS)
+transitive,Java(SE 17 LTS)
+uses,Java(SE 17 LTS)
+var,Java(SE 17 LTS)
+with,Java(SE 17 LTS)
+yield,Java(SE 17 LTS)
 
 
 
@@ -1182,41 +1181,41 @@ yield	, Java(SE 17 LTS)
 
 JavaScript (1st edition) (35 keywords)
 
-break	, JavaScript-1st edition
-continue	, JavaScript-1st edition
-delete	, JavaScript-1st edition
-else	, JavaScript-1st edition
-for	, JavaScript-1st edition
-function	, JavaScript-1st edition
-if	, JavaScript-1st edition
-in	, JavaScript-1st edition
-new	, JavaScript-1st edition
-return	, JavaScript-1st edition
-this	, JavaScript-1st edition
-typeof	, JavaScript-1st edition
-var	, JavaScript-1st edition
-void	, JavaScript-1st edition
-while	, JavaScript-1st edition
-with	, JavaScript-1st edition
-case	, JavaScript-1st edition
-catch	, JavaScript-1st edition
-class	, JavaScript-1st edition
-const	, JavaScript-1st edition
-debugger	, JavaScript-1st edition
-default	, JavaScript-1st edition
-do	, JavaScript-1st edition
-enum	, JavaScript-1st edition
-export	, JavaScript-1st edition
-extends	, JavaScript-1st edition
-finally	, JavaScript-1st edition
-import	, JavaScript-1st edition
-super	, JavaScript-1st edition
-switch	, JavaScript-1st edition
-throw	, JavaScript-1st edition
-try	, JavaScript-1st edition
-null	, JavaScript-1st edition
-true	, JavaScript-1st edition
-false	, JavaScript-1st edition
+break,JavaScript-1st edition
+continue,JavaScript-1st edition
+delete,JavaScript-1st edition
+else,JavaScript-1st edition
+for,JavaScript-1st edition
+function,JavaScript-1st edition
+if,JavaScript-1st edition
+in,JavaScript-1st edition
+new,JavaScript-1st edition
+return,JavaScript-1st edition
+this,JavaScript-1st edition
+typeof,JavaScript-1st edition
+var,JavaScript-1st edition
+void,JavaScript-1st edition
+while,JavaScript-1st edition
+with,JavaScript-1st edition
+case,JavaScript-1st edition
+catch,JavaScript-1st edition
+class,JavaScript-1st edition
+const,JavaScript-1st edition
+debugger,JavaScript-1st edition
+default,JavaScript-1st edition
+do,JavaScript-1st edition
+enum,JavaScript-1st edition
+export,JavaScript-1st edition
+extends,JavaScript-1st edition
+finally,JavaScript-1st edition
+import,JavaScript-1st edition
+super,JavaScript-1st edition
+switch,JavaScript-1st edition
+throw,JavaScript-1st edition
+try,JavaScript-1st edition
+null,JavaScript-1st edition
+true,JavaScript-1st edition
+false,JavaScript-1st edition
 
 
 
@@ -1224,64 +1223,64 @@ false	, JavaScript-1st edition
 
 JavaScript (2nd edition) (59 keywords)
 
-break	, JavaScript-2nd edition
-continue	, JavaScript-2nd edition
-delete	, JavaScript-2nd edition
+break,JavaScript-2nd edition
+continue,JavaScript-2nd edition
+delete,JavaScript-2nd edition
 else, JavaScript-2nd edition
-for	, JavaScript-2nd edition
-function	, JavaScript-2nd edition
-if	, JavaScript-2nd edition
+for,JavaScript-2nd edition
+function,JavaScript-2nd edition
+if,JavaScript-2nd edition
 in, JavaScript-2nd edition
-new	, JavaScript-2nd edition
-return	, JavaScript-2nd edition
-this	, JavaScript-2nd edition
+new,JavaScript-2nd edition
+return,JavaScript-2nd edition
+this,JavaScript-2nd edition
 typeof, JavaScript-2nd edition
-var	, JavaScript-2nd edition
-void	, JavaScript-2nd edition
-while	, JavaScript-2nd edition
+var,JavaScript-2nd edition
+void,JavaScript-2nd edition
+while,JavaScript-2nd edition
 with, JavaScript-2nd edition
-abstract	, JavaScript-2nd edition
-boolean	, JavaScript-2nd edition
-byte	, JavaScript-2nd edition
+abstract,JavaScript-2nd edition
+boolean,JavaScript-2nd edition
+byte,JavaScript-2nd edition
 case, JavaScript-2nd edition
-catch	, JavaScript-2nd edition
-char	, JavaScript-2nd edition
-class	, JavaScript-2nd edition
+catch,JavaScript-2nd edition
+char,JavaScript-2nd edition
+class,JavaScript-2nd edition
 const, JavaScript-2nd edition
-debugger	, JavaScript-2nd edition
-default	, JavaScript-2nd edition
-do	, JavaScript-2nd edition
+debugger,JavaScript-2nd edition
+default,JavaScript-2nd edition
+do,JavaScript-2nd edition
 double, JavaScript-2nd edition
-enum	, JavaScript-2nd edition
-export	, JavaScript-2nd edition
-extends	, JavaScript-2nd edition
+enum,JavaScript-2nd edition
+export,JavaScript-2nd edition
+extends,JavaScript-2nd edition
 final, JavaScript-2nd edition
-finally	, JavaScript-2nd edition
-float	, JavaScript-2nd edition
-goto	, JavaScript-2nd edition
+finally,JavaScript-2nd edition
+float,JavaScript-2nd edition
+goto,JavaScript-2nd edition
 implements, JavaScript-2nd edition
-import	, JavaScript-2nd edition
-instanceof	, JavaScript-2nd edition
-int	, JavaScript-2nd edition
+import,JavaScript-2nd edition
+instanceof,JavaScript-2nd edition
+int,JavaScript-2nd edition
 interface, JavaScript-2nd edition
-long	, JavaScript-2nd edition
-native	, JavaScript-2nd edition
-package	, JavaScript-2nd edition
+long,JavaScript-2nd edition
+native,JavaScript-2nd edition
+package,JavaScript-2nd edition
 private, JavaScript-2nd edition
-protected	, JavaScript-2nd edition
-public	, JavaScript-2nd edition
-short	, JavaScript-2nd edition
+protected,JavaScript-2nd edition
+public,JavaScript-2nd edition
+short,JavaScript-2nd edition
 static, JavaScript-2nd edition
-super	, JavaScript-2nd edition
-switch	, JavaScript-2nd edition
-synchronized	, JavaScript-2nd edition
+super,JavaScript-2nd edition
+switch,JavaScript-2nd edition
+synchronized,JavaScript-2nd edition
 throw, JavaScript-2nd edition
-throws	, JavaScript-2nd edition
-transient	, JavaScript-2nd edition
-try	, JavaScript-2nd edition
+throws,JavaScript-2nd edition
+transient,JavaScript-2nd edition
+try,JavaScript-2nd edition
 volatile, JavaScript-2nd edition
-null	, JavaScript-2nd edition
-true	, JavaScript-2nd edition
+null,JavaScript-2nd edition
+true,JavaScript-2nd edition
 false, JavaScript-2nd edition
 
 
@@ -1289,65 +1288,65 @@ false, JavaScript-2nd edition
 
 JavaScript (3rd edition) (59 keywords)
 
-break	, JavaScript-3rd edition
-case	, JavaScript-3rd edition
-catch	, JavaScript-3rd edition
+break,JavaScript-3rd edition
+case,JavaScript-3rd edition
+catch,JavaScript-3rd edition
 continue, JavaScript-3rd edition
-default	, JavaScript-3rd edition
-delete	, JavaScript-3rd edition
-do	, JavaScript-3rd edition
+default,JavaScript-3rd edition
+delete,JavaScript-3rd edition
+do,JavaScript-3rd edition
 else, JavaScript-3rd edition
-finally	, JavaScript-3rd edition
-for	, JavaScript-3rd edition
-function	, JavaScript-3rd edition
+finally,JavaScript-3rd edition
+for,JavaScript-3rd edition
+function,JavaScript-3rd edition
 if, JavaScript-3rd edition
-in	, JavaScript-3rd edition
-instanceof	, JavaScript-3rd edition
-new	, JavaScript-3rd edition
+in,JavaScript-3rd edition
+instanceof,JavaScript-3rd edition
+new,JavaScript-3rd edition
 return, JavaScript-3rd edition
-switch	, JavaScript-3rd edition
-this	, JavaScript-3rd edition
-throw	, JavaScript-3rd edition
+switch,JavaScript-3rd edition
+this,JavaScript-3rd edition
+throw,JavaScript-3rd edition
 try, JavaScript-3rd edition
-typeof	, JavaScript-3rd edition
-var	, JavaScript-3rd edition
-void	, JavaScript-3rd edition
+typeof,JavaScript-3rd edition
+var,JavaScript-3rd edition
+void,JavaScript-3rd edition
 while, JavaScript-3rd edition
-with	, JavaScript-3rd edition
-abstract	, JavaScript-3rd edition
-boolean	, JavaScript-3rd edition
+with,JavaScript-3rd edition
+abstract,JavaScript-3rd edition
+boolean,JavaScript-3rd edition
 byte, JavaScript-3rd edition
-char	, JavaScript-3rd edition
-class	, JavaScript-3rd edition
-const	, JavaScript-3rd edition
+char,JavaScript-3rd edition
+class,JavaScript-3rd edition
+const,JavaScript-3rd edition
 debugger, JavaScript-3rd edition
-double	, JavaScript-3rd edition
-enum	, JavaScript-3rd edition
-export	, JavaScript-3rd edition
+double,JavaScript-3rd edition
+enum,JavaScript-3rd edition
+export,JavaScript-3rd edition
 extends, JavaScript-3rd edition
-final	, JavaScript-3rd edition
-float	, JavaScript-3rd edition
-goto	, JavaScript-3rd edition
+final,JavaScript-3rd edition
+float,JavaScript-3rd edition
+goto,JavaScript-3rd edition
 implements, JavaScript-3rd edition
-import	, JavaScript-3rd edition
-int	, JavaScript-3rd edition
-interface	, JavaScript-3rd edition
+import,JavaScript-3rd edition
+int,JavaScript-3rd edition
+interface,JavaScript-3rd edition
 long, JavaScript-3rd edition
-native	, JavaScript-3rd edition
-package	, JavaScript-3rd edition
-private	, JavaScript-3rd edition
+native,JavaScript-3rd edition
+package,JavaScript-3rd edition
+private,JavaScript-3rd edition
 protected, JavaScript-3rd edition
-public	, JavaScript-3rd edition
-short	, JavaScript-3rd edition
-static	, JavaScript-3rd edition
+public,JavaScript-3rd edition
+short,JavaScript-3rd edition
+static,JavaScript-3rd edition
 super, JavaScript-3rd edition
-synchronized	, JavaScript-3rd edition
-throws	, JavaScript-3rd edition
-transient	, JavaScript-3rd edition
+synchronized,JavaScript-3rd edition
+throws,JavaScript-3rd edition
+transient,JavaScript-3rd edition
 volatile, JavaScript-3rd edition
-null	, JavaScript-3rd edition
-true	, JavaScript-3rd edition
-false	, JavaScript-3rd edition
+null,JavaScript-3rd edition
+true,JavaScript-3rd edition
+false,JavaScript-3rd edition
 
 
 
@@ -1355,51 +1354,51 @@ false	, JavaScript-3rd edition
 
 JavaScript (5th edition) (45 keywords)
 
-break	, JavaScript-5th edition
-case	, JavaScript-5th edition
-catch	, JavaScript-5th edition
+break,JavaScript-5th edition
+case,JavaScript-5th edition
+catch,JavaScript-5th edition
 continue, JavaScript-5th edition
-debugger	, JavaScript-5th edition
-default	, JavaScript-5th edition
-delete	, JavaScript-5th edition
+debugger,JavaScript-5th edition
+default,JavaScript-5th edition
+delete,JavaScript-5th edition
 do, JavaScript-5th edition
-else	, JavaScript-5th edition
-finally	, JavaScript-5th edition
-for	, JavaScript-5th edition
+else,JavaScript-5th edition
+finally,JavaScript-5th edition
+for,JavaScript-5th edition
 function, JavaScript-5th edition
-if	, JavaScript-5th edition
-in	, JavaScript-5th edition
-instanceof	, JavaScript-5th edition
+if,JavaScript-5th edition
+in,JavaScript-5th edition
+instanceof,JavaScript-5th edition
 new, JavaScript-5th edition
-return	, JavaScript-5th edition
-switch	, JavaScript-5th edition
-this	, JavaScript-5th edition
+return,JavaScript-5th edition
+switch,JavaScript-5th edition
+this,JavaScript-5th edition
 throw, JavaScript-5th edition
-try	, JavaScript-5th edition
-typeof	, JavaScript-5th edition
-var	, JavaScript-5th edition
+try,JavaScript-5th edition
+typeof,JavaScript-5th edition
+var,JavaScript-5th edition
 void, JavaScript-5th edition
-while	, JavaScript-5th edition
-with	, JavaScript-5th edition
-class	, JavaScript-5th edition
+while,JavaScript-5th edition
+with,JavaScript-5th edition
+class,JavaScript-5th edition
 const, JavaScript-5th edition
-enum	, JavaScript-5th edition
-export	, JavaScript-5th edition
-extends	, JavaScript-5th edition
+enum,JavaScript-5th edition
+export,JavaScript-5th edition
+extends,JavaScript-5th edition
 import, JavaScript-5th edition
-super	, JavaScript-5th edition
-implements	, JavaScript-5th edition
-interface	, JavaScript-5th edition
+super,JavaScript-5th edition
+implements,JavaScript-5th edition
+interface,JavaScript-5th edition
 let, JavaScript-5th edition
-package	, JavaScript-5th edition
-private	, JavaScript-5th edition
-protected	, JavaScript-5th edition
+package,JavaScript-5th edition
+private,JavaScript-5th edition
+protected,JavaScript-5th edition
 public, JavaScript-5th edition
-static	, JavaScript-5th edition
-yield	, JavaScript-5th edition
-null	, JavaScript-5th edition
+static,JavaScript-5th edition
+yield,JavaScript-5th edition
+null,JavaScript-5th edition
 true, JavaScript-5th edition
-false	, JavaScript-5th edition
+false,JavaScript-5th edition
 
 
 
@@ -1407,51 +1406,51 @@ false	, JavaScript-5th edition
 
 JavaScript (6th edition) (46 keywords)
 
-break	, JavaScript-6th edition
-case	, JavaScript-6th edition
-catch	, JavaScript-6th edition
+break,JavaScript-6th edition
+case,JavaScript-6th edition
+catch,JavaScript-6th edition
 class, JavaScript-6th edition
-const	, JavaScript-6th edition
-continue	, JavaScript-6th edition
-debugger	, JavaScript-6th edition
+const,JavaScript-6th edition
+continue,JavaScript-6th edition
+debugger,JavaScript-6th edition
 default, JavaScript-6th edition
-delete	, JavaScript-6th edition
-do	, JavaScript-6th edition
-else	, JavaScript-6th edition
+delete,JavaScript-6th edition
+do,JavaScript-6th edition
+else,JavaScript-6th edition
 export, JavaScript-6th edition
-extends	, JavaScript-6th edition
-finally	, JavaScript-6th edition
-for	, JavaScript-6th edition
+extends,JavaScript-6th edition
+finally,JavaScript-6th edition
+for,JavaScript-6th edition
 function, JavaScript-6th edition
-if	, JavaScript-6th edition
-import	, JavaScript-6th edition
-in	, JavaScript-6th edition
+if,JavaScript-6th edition
+import,JavaScript-6th edition
+in,JavaScript-6th edition
 instanceof, JavaScript-6th edition
-new	, JavaScript-6th edition
-return	, JavaScript-6th edition
-super	, JavaScript-6th edition
+new,JavaScript-6th edition
+return,JavaScript-6th edition
+super,JavaScript-6th edition
 switch, JavaScript-6th edition
-this	, JavaScript-6th edition
-throw	, JavaScript-6th edition
-try	, JavaScript-6th edition
+this,JavaScript-6th edition
+throw,JavaScript-6th edition
+try,JavaScript-6th edition
 typeof, JavaScript-6th edition
-var	, JavaScript-6th edition
-void	, JavaScript-6th edition
-while	, JavaScript-6th edition
+var,JavaScript-6th edition
+void,JavaScript-6th edition
+while,JavaScript-6th edition
 with, JavaScript-6th edition
-yield	, JavaScript-6th edition
-let	, JavaScript-6th edition
-static	, JavaScript-6th edition
+yield,JavaScript-6th edition
+let,JavaScript-6th edition
+static,JavaScript-6th edition
 enum, JavaScript-6th edition
-await	, JavaScript-6th edition
-implements	, JavaScript-6th edition
-interface	, JavaScript-6th edition
+await,JavaScript-6th edition
+implements,JavaScript-6th edition
+interface,JavaScript-6th edition
 package, JavaScript-6th edition
-private	, JavaScript-6th edition
-protected	, JavaScript-6th edition
-public	, JavaScript-6th edition
+private,JavaScript-6th edition
+protected,JavaScript-6th edition
+public,JavaScript-6th edition
 null, JavaScript-6th edition
-true	, JavaScript-6th edition
+true,JavaScript-6th edition
 false, JavaScript-6th edition
 
 
@@ -1460,85 +1459,85 @@ false, JavaScript-6th edition
 
 Kotlin (1.4) (79 keywords)
 
-as	, kotlin
-as?	, kotlin
-break	, kotlin
+as,kotlin
+as?,kotlin
+break,kotlin
 class, kotlin
-continue	, kotlin
-do	, kotlin
-else	, kotlin
+continue,kotlin
+do,kotlin
+else,kotlin
 false, kotlin
-for	, kotlin
-fun	, kotlin
-if	, kotlin
+for,kotlin
+fun,kotlin
+if,kotlin
 in, kotlin
-!in	, kotlin
-interface	, kotlin
-is	, kotlin
+!in,kotlin
+interface,kotlin
+is,kotlin
 !is, kotlin
-null	, kotlin
-object	, kotlin
-package	, kotlin
+null,kotlin
+object,kotlin
+package,kotlin
 return, kotlin
-super	, kotlin
-this	, kotlin
-throw	, kotlin
+super,kotlin
+this,kotlin
+throw,kotlin
 true, kotlin
-try	, kotlin
-typealias	, kotlin
-typeof	, kotlin
+try,kotlin
+typealias,kotlin
+typeof,kotlin
 val, kotlin
-var	, kotlin
-when	, kotlin
-while	, kotlin
+var,kotlin
+when,kotlin
+while,kotlin
 by, kotlin
-catch	, kotlin
-constructor	, kotlin
-delegate	, kotlin
+catch,kotlin
+constructor,kotlin
+delegate,kotlin
 dynamic, kotlin
-field	, kotlin
-file	, kotlin
-finally	, kotlin
+field,kotlin
+file,kotlin
+finally,kotlin
 get, kotlin
-import	, kotlin
-init	, kotlin
-param	, kotlin
+import,kotlin
+init,kotlin
+param,kotlin
 property, kotlin
-receiver	, kotlin
-set	, kotlin
-setparam	, kotlin
+receiver,kotlin
+set,kotlin
+setparam,kotlin
 where, kotlin
-actual	, kotlin
-abstract	, kotlin
-annotation	, kotlin
+actual,kotlin
+abstract,kotlin
+annotation,kotlin
 companion, kotlin
-const	, kotlin
-crossinline	, kotlin
-data	, kotlin
+const,kotlin
+crossinline,kotlin
+data,kotlin
 enum, kotlin
-expect	, kotlin
-external	, kotlin
-final	, kotlin
+expect,kotlin
+external,kotlin
+final,kotlin
 infix, kotlin
-inline	, kotlin
-inner	, kotlin
-internal	, kotlin
-lateinit	, kotlin
-noinline	, kotlin
-open	, kotlin
-operator	, kotlin
-out	, kotlin
-override	, kotlin
-private	, kotlin
-protected	, kotlin
-public	, kotlin
-reified	, kotlin
-sealed	, kotlin
-suspend	, kotlin
-tailrec	, kotlin
-vararg	, kotlin
-field	, kotlin
-it	, kotlin
+inline,kotlin
+inner,kotlin
+internal,kotlin
+lateinit,kotlin
+noinline,kotlin
+open,kotlin
+operator,kotlin
+out,kotlin
+override,kotlin
+private,kotlin
+protected,kotlin
+public,kotlin
+reified,kotlin
+sealed,kotlin
+suspend,kotlin
+tailrec,kotlin
+vararg,kotlin
+field,kotlin
+it,kotlin
 
 
 
@@ -1546,28 +1545,28 @@ it	, kotlin
 
 Lua (5.3) (22 keywords)
 
-and	, Lua
-break	, Lua
-do	, Lua
-else	, Lua
-elseif	, Lua
-end	, Lua
-false	, Lua
-for	, Lua
-function	, Lua
-goto	, Lua
-if	, Lua
-in	, Lua
-local	, Lua
-nil	, Lua
-not	, Lua
-or	, Lua
-repeat	, Lua
-return	, Lua
-then	, Lua
-true	, Lua
-until	, Lua
-while	, Lua
+and,Lua
+break,Lua
+do,Lua
+else,Lua
+elseif,Lua
+end,Lua
+false,Lua
+for,Lua
+function,Lua
+goto,Lua
+if,Lua
+in,Lua
+local,Lua
+nil,Lua
+not,Lua
+or,Lua
+repeat,Lua
+return,Lua
+then,Lua
+true,Lua
+until,Lua
+while,Lua
 
 
 
@@ -1576,192 +1575,192 @@ while	, Lua
 
 MATLAB (R2020a) (20 keywords)
 
-break	, Matlab
-case	, Matlab
-catch	, Matlab
-classdef	, Matlab
-continue	, Matlab
-else	, Matlab
-elseif	, Matlab
-end	, Matlab
-for	, Matlab
-function	, Matlab
-global	, Matlab
-if	, Matlab
-otherwise	, Matlab
-parfor	, Matlab
-persistent	, Matlab
-return	, Matlab
-spmd	, Matlab
-switch	, Matlab
-try	, Matlab
-while	, Matlab
+break,Matlab
+case,Matlab
+catch,Matlab
+classdef,Matlab
+continue,Matlab
+else,Matlab
+elseif,Matlab
+end,Matlab
+for,Matlab
+function,Matlab
+global,Matlab
+if,Matlab
+otherwise,Matlab
+parfor,Matlab
+persistent,Matlab
+return,Matlab
+spmd,Matlab
+switch,Matlab
+try,Matlab
+while,Matlab
 
 
 
 
 Objective-C (2.0) (85 keywords)
 
-asm	, Objective
-auto	, Objective
-break	, Objective
-case	, Objective
-char	, Objective
-const	, Objective
-continue	, Objective
-default	, Objective
-do	, Objective
-double	, Objective
-else	, Objective
-enum	, Objective
-extern	, Objective
-float	, Objective
-for	, Objective
-goto	, Objective
-if	, Objective
-inline	, Objective
-int	, Objective
-long	, Objective
-register	, Objective
-restrict	, Objective
-return	, Objective
-short	, Objective
-signed	, Objective
-sizeof	, Objective
-static	, Objective
-struct	, Objective
-switch	, Objective
-typedef	, Objective
-union	, Objective
-unsigned	, Objective
-void	, Objective
-volatile	, Objective
-while	, Objective
-_Bool	, Objective
-_Complex	, Objective
-__block	, Objective
-Imaginary	, Objective
-id	, Objective
-Class	, Objective
-SEL	, Objective
-IMP	, Objective
-BOOL	, Objective
-nil	, Objective
-Nil	, Objective
-YES	, Objective
-NO	, Objective
-self	, Objective
-super	, Objective
-_cmd	, Objective
-__strong	, Objective
-__weak	, Objective
-__autoreleasing	, Objective
-__unsafe_unretained	, Objective
-oneway	, Objective
-In	, Objective
-out	, Objective
-inout	, Objective
-bycopy	, Objective
-byref	, Objective
-@autoreleasepool	, Objective
-@interface		, Objective
+asm,Objective
+auto,Objective
+break,Objective
+case,Objective
+char,Objective
+const,Objective
+continue,Objective
+default,Objective
+do,Objective
+double,Objective
+else,Objective
+enum,Objective
+extern,Objective
+float,Objective
+for,Objective
+goto,Objective
+if,Objective
+inline,Objective
+int,Objective
+long,Objective
+register,Objective
+restrict,Objective
+return,Objective
+short,Objective
+signed,Objective
+sizeof,Objective
+static,Objective
+struct,Objective
+switch,Objective
+typedef,Objective
+union,Objective
+unsigned,Objective
+void,Objective
+volatile,Objective
+while,Objective
+_Bool,Objective
+_Complex,Objective
+__block,Objective
+Imaginary,Objective
+id,Objective
+Class,Objective
+SEL,Objective
+IMP,Objective
+BOOL,Objective
+nil,Objective
+Nil,Objective
+YES,Objective
+NO,Objective
+self,Objective
+super,Objective
+_cmd,Objective
+__strong,Objective
+__weak,Objective
+__autoreleasing,Objective
+__unsafe_unretained,Objective
+oneway,Objective
+In,Objective
+out,Objective
+inout,Objective
+bycopy,Objective
+byref,Objective
+@autoreleasepool,Objective
+@interface ,Objective
 @implementation, Objective
-@protocol	, Objective
-@end	, Objective
-@private	, Objective
+@protocol,Objective
+@end,Objective
+@private,Objective
 @protected, Objective
-@public	, Objective
-@package	, Objective
-@try	, Objective
-@throw	, Objective
-@catch()	, Objective
-@finally	, Objective
-@property	, Objective
+@public,Objective
+@package,Objective
+@try,Objective
+@throw,Objective
+@catch(),Objective
+@finally,Objective
+@property,Objective
 @synthesize, Objective
-@dynamic	, Objective
-@class	, Objective
-@selector()	, Objective
-@protocol()	, Objective
-@required		, Objective
-@optional	, Objective
-@encode	, Objective
-@"string"	, Objective
-@synchronized()	, Objective
+@dynamic,Objective
+@class,Objective
+@selector(),Objective
+@protocol(),Objective
+@required ,Objective
+@optional,Objective
+@encode,Objective
+@"string",Objective
+@synchronized(),Objective
 
 
 
 
 PHP (7.4) (69 keywords)
 
-__halt_compiler()	, Php
-abstract	, Php
-and	, Php
-array()	, Php
-as	, Php
-break	, Php
-callable	, Php
-case	, Php
-catch	, Php
-class	, Php
-clone	, Php
-const	, Php
-continue	, Php
-declare	, Php
-default	, Php
-die()	, Php
-do	, Php
-echo	, Php
-else	, Php
-elseif	, Php
-empty()	, Php
+__halt_compiler(),Php
+abstract,Php
+and,Php
+array(),Php
+as,Php
+break,Php
+callable,Php
+case,Php
+catch,Php
+class,Php
+clone,Php
+const,Php
+continue,Php
+declare,Php
+default,Php
+die(),Php
+do,Php
+echo,Php
+else,Php
+elseif,Php
+empty(),Php
 enddeclare, Php
-endfor	, Php
+endfor,Php
 endforeach, Php
-endif	, Php
-endswitch	, Php
-endwhile	, Php
-eval()	, Php
-exit()	, Php
-extends	, Php
-final	, Php
-finally	, Php
-fn	, Php
-for	, Php
-foreach	, Php
-function	, Php
-global	, Php
-goto	, Php
-if	, Php
+endif,Php
+endswitch,Php
+endwhile,Php
+eval(),Php
+exit(),Php
+extends,Php
+final,Php
+finally,Php
+fn,Php
+for,Php
+foreach,Php
+function,Php
+global,Php
+goto,Php
+if,Php
 implements, Php
-include	, Php
-include_once	, Php
-instanceof	, Php
-insteadof	, Php
-interface	, Php
-isset()	, Php
-list()	, Php
+include,Php
+include_once,Php
+instanceof,Php
+insteadof,Php
+interface,Php
+isset(),Php
+list(),Php
 namespace, Php
-new	, Php
-or	, Php
-print	, Php
-private	, Php
-protected	, Php
-public	, Php
-require	, Php
+new,Php
+or,Php
+print,Php
+private,Php
+protected,Php
+public,Php
+require,Php
 require_once, Php
-return	, Php
-static	, Php
-switch	, Php
-throw	, Php
-trait	, Php
-try	, Php
-unset()	, Php
-use	, Php
-var	, Php
-while	, Php
-xor	, Php
-yield	, Php
-yield from	, Php
+return,Php
+static,Php
+switch,Php
+throw,Php
+trait,Php
+try,Php
+unset(),Php
+use,Php
+var,Php
+while,Php
+xor,Php
+yield,Php
+yield from,Php
 
 
 
@@ -1769,81 +1768,81 @@ yield from	, Php
 
 Python 2 (2.7) (31 keywords)
 
-and	, Python2
-as	, Python2
-assert	, Python2
-break	, Python2
-class	, Python2
-continue	, Python2
-def	, Python2
-del	, Python2
-elif	, Python2
-else	, Python2
-except	, Python2
-exec	, Python2
-finally	, Python2
-for	, Python2
-from	, Python2
-global	, Python2
-if	, Python2
-import	, Python2
-in	, Python2
-is	, Python2
-lambda	, Python2
-not	, Python2
-or	, Python2
-pass	, Python2
-print	, Python2
-raise	, Python2
-return	, Python2
-try	, Python2
-while	, Python2
-with	, Python2
-yield	, Python2
+and,Python2
+as,Python2
+assert,Python2
+break,Python2
+class,Python2
+continue,Python2
+def,Python2
+del,Python2
+elif,Python2
+else,Python2
+except,Python2
+exec,Python2
+finally,Python2
+for,Python2
+from,Python2
+global,Python2
+if,Python2
+import,Python2
+in,Python2
+is,Python2
+lambda,Python2
+not,Python2
+or,Python2
+pass,Python2
+print,Python2
+raise,Python2
+return,Python2
+try,Python2
+while,Python2
+with,Python2
+yield,Python2
 
 
 
 
 Python 3 (3.10) (38 keywords)
 
-False	, Python3
-None	, Python3
-True	, Python3
-and	, Python3
-as	, Python3
-assert	, Python3
-async	, Python3
-await	, Python3
-break	, Python3
-class	, Python3
-continue	, Python3
-def	, Python3
-del	, Python3
-elif	, Python3
-else	, Python3
-except	, Python3
-finally	, Python3
-for	, Python3
-from	, Python3
-global	, Python3
-if	, Python3
-import	, Python3
-in	, Python3
-is	, Python3
-lambda	, Python3
-nonlocal	, Python3
-not	, Python3
-or	, Python3
-pass	, Python3
-raise	, Python3
-return	, Python3
-try	, Python3
-while	, Python3
-with	, Python3
-yield	, Python3
-match	, Python3
-case	, Python3
-_	, Python3
+False,Python3
+None,Python3
+True,Python3
+and,Python3
+as,Python3
+assert,Python3
+async,Python3
+await,Python3
+break,Python3
+class,Python3
+continue,Python3
+def,Python3
+del,Python3
+elif,Python3
+else,Python3
+except,Python3
+finally,Python3
+for,Python3
+from,Python3
+global,Python3
+if,Python3
+import,Python3
+in,Python3
+is,Python3
+lambda,Python3
+nonlocal,Python3
+not,Python3
+or,Python3
+pass,Python3
+raise,Python3
+return,Python3
+try,Python3
+while,Python3
+with,Python3
+yield,Python3
+match,Python3
+case,Python3
+_,Python3
 
 
 
@@ -1851,27 +1850,27 @@ _	, Python3
 
 R (4.0) (21 keywords)
 
-...	, R
-..1	, R
-FALSE	, R
-Inf	, R
-NA	, R
-NA_character_	, R
-NA_complex_	, R
+...,R
+..1,R
+FALSE,R
+Inf,R
+NA,R
+NA_character_,R
+NA_complex_,R
 NA_integer_, R
-NA_real_	, R
-NaN	, R
-NULL	, R
-TRUE	, R
-break	, R
-else	, R
-for	, R
-function	, R
-if	, R
-in	, R
-next	, R
-repeat	, R
-while	, R
+NA_real_,R
+NaN,R
+NULL,R
+TRUE,R
+break,R
+else,R
+for,R
+function,R
+if,R
+in,R
+next,R
+repeat,R
+while,R
 
 
 
@@ -1879,46 +1878,46 @@ while	, R
 Ruby (2.7) (41 keywords)
 
 ENCODING, Ruby
-LINE	, Ruby
-FILE	, Ruby
-BEGIN	, Ruby
-END	, Ruby
-alias	, Ruby
-and	, Ruby
-begin	, Ruby
-break	, Ruby
-case	, Ruby
-class	, Ruby
-def	, Ruby
-defined?	, Ruby
-do	, Ruby
-else	, Ruby
-elsif	, Ruby
-end	, Ruby
-ensure	, Ruby
-false	, Ruby
-for	, Ruby
-if	, Ruby
-in	, Ruby
-module	, Ruby
-next	, Ruby
-nil	, Ruby
-not	, Ruby
-or	, Ruby
-redo	, Ruby
-rescue	, Ruby
-retry	, Ruby
-return	, Ruby
-self	, Ruby
-super	, Ruby
-then	, Ruby
-true	, Ruby
-undef	, Ruby
-unless	, Ruby
-until	, Ruby
-when	, Ruby
-while	, Ruby
-yield	, Ruby
+LINE,Ruby
+FILE,Ruby
+BEGIN,Ruby
+END,Ruby
+alias,Ruby
+and,Ruby
+begin,Ruby
+break,Ruby
+case,Ruby
+class,Ruby
+def,Ruby
+defined?,Ruby
+do,Ruby
+else,Ruby
+elsif,Ruby
+end,Ruby
+ensure,Ruby
+false,Ruby
+for,Ruby
+if,Ruby
+in,Ruby
+module,Ruby
+next,Ruby
+nil,Ruby
+not,Ruby
+or,Ruby
+redo,Ruby
+rescue,Ruby
+retry,Ruby
+return,Ruby
+self,Ruby
+super,Ruby
+then,Ruby
+true,Ruby
+undef,Ruby
+unless,Ruby
+until,Ruby
+when,Ruby
+while,Ruby
+yield,Ruby
 
 
 
@@ -1926,59 +1925,59 @@ yield	, Ruby
 
 Rust (1.46) (53 keywords)
 
-as	, Rust
-break	, Rust
-const	, Rust
-continue	, Rust
-crate	, Rust
-else	, Rust
-enum	, Rust
-extern	, Rust
-false	, Rust
-fn	, Rust
-for	, Rust
-if	, Rust
-impl	, Rust
-in	, Rust
-let	, Rust
-loop	, Rust
-match	, Rust
-mod	, Rust
-move	, Rust
-mut	, Rust
-pub	, Rust
-ref	, Rust
-return	, Rust
-self	, Rust
-Self	, Rust
-static	, Rust
-struct	, Rust
-super	, Rust
-trait	, Rust
-true	, Rust
-type	, Rust
-unsafe	, Rust
-use	, Rust
-where	, Rust
-while	, Rust
-async	, Rust
-await	, Rust
-dyn	, Rust
-abstract	, Rust
-become	, Rust
-box	, Rust
-do	, Rust
-final	, Rust
-macro	, Rust
-override	, Rust
-priv	, Rust
-typeof	, Rust
-unsized	, Rust
-virtual	, Rust
-yield	, Rust
-try	, Rust
-union	, Rust
-'static	, Rust
+as,Rust
+break,Rust
+const,Rust
+continue,Rust
+crate,Rust
+else,Rust
+enum,Rust
+extern,Rust
+false,Rust
+fn,Rust
+for,Rust
+if,Rust
+impl,Rust
+in,Rust
+let,Rust
+loop,Rust
+match,Rust
+mod,Rust
+move,Rust
+mut,Rust
+pub,Rust
+ref,Rust
+return,Rust
+self,Rust
+Self,Rust
+static,Rust
+struct,Rust
+super,Rust
+trait,Rust
+true,Rust
+type,Rust
+unsafe,Rust
+use,Rust
+where,Rust
+while,Rust
+async,Rust
+await,Rust
+dyn,Rust
+abstract,Rust
+become,Rust
+box,Rust
+do,Rust
+final,Rust
+macro,Rust
+override,Rust
+priv,Rust
+typeof,Rust
+unsized,Rust
+virtual,Rust
+yield,Rust
+try,Rust
+union,Rust
+'static,Rust
 
 
 
@@ -1986,46 +1985,46 @@ union	, Rust
 
 Scala (2.13) (40 keywords)
 
-abstract	, Scala
-case	, Scala
-catch	, Scala
-class	, Scala
-def	, Scala
-do	, Scala
-else	, Scala
-extends	, Scala
-false	, Scala
-final	, Scala
-finally	, Scala
-for	, Scala
-forSome	, Scala
-if	, Scala
-implicit	, Scala
-import	, Scala
-lazy	, Scala
-macro	, Scala
-match	, Scala
-new	, Scala
-null	, Scala
-object	, Scala
-override	, Scala
-package	, Scala
-private	, Scala
-protected	, Scala
-return	, Scala
-sealed	, Scala
-super	, Scala
-this	, Scala
-throw	, Scala
-trait	, Scala
-try	, Scala
-true	, Scala
-type	, Scala
-val	, Scala
-var	, Scala
-while	, Scala
-with	, Scala
-yield	, Scala
+abstract,Scala
+case,Scala
+catch,Scala
+class,Scala
+def,Scala
+do,Scala
+else,Scala
+extends,Scala
+false,Scala
+final,Scala
+finally,Scala
+for,Scala
+forSome,Scala
+if,Scala
+implicit,Scala
+import,Scala
+lazy,Scala
+macro,Scala
+match,Scala
+new,Scala
+null,Scala
+object,Scala
+override,Scala
+package,Scala
+private,Scala
+protected,Scala
+return,Scala
+sealed,Scala
+super,Scala
+this,Scala
+throw,Scala
+trait,Scala
+try,Scala
+true,Scala
+type,Scala
+val,Scala
+var,Scala
+while,Scala
+with,Scala
+yield,Scala
 
 
 
@@ -2034,102 +2033,102 @@ yield	, Scala
 Swift (5.3) (97 keywords)
 
 associatedtype, Swift
-class	, Swift
-deinit	, Swift
-enum	, Swift
-extension	, Swift
-fileprivate	, Swift
-func	, Swift
-import	, Swift
-init	, Swift
-inout	, Swift
-internal	, Swift
-let	, Swift
-open	, Swift
-operator	, Swift
-private	, Swift
-protocol	, Swift
-public	, Swift
-rethrows	, Swift
-static	, Swift
-struct	, Swift
-subscript	, Swift
-typealias	, Swift
-var	, Swift
-break	, Swift
-case	, Swift
-continue	, Swift
-default	, Swift
-defer	, Swift
-do	, Swift
-else	, Swift
-fallthrough	, Swift
-for	, Swift
-guard	, Swift
-if	, Swift
-in	, Swift
-repeat	, Swift
-return	, Swift
-switch	, Swift
-where	, Swift
-while	, Swift
-as	, Swift
-Any	, Swift
-catch	, Swift
-false	, Swift
-is	, Swift
-nil	, Swift
-super	, Swift
-self	, Swift
-Self	, Swift
-throw	, Swift
-throws	, Swift
-true	, Swift
-try	, Swift
-_	, Swift
-#available	, Swift
+class,Swift
+deinit,Swift
+enum,Swift
+extension,Swift
+fileprivate,Swift
+func,Swift
+import,Swift
+init,Swift
+inout,Swift
+internal,Swift
+let,Swift
+open,Swift
+operator,Swift
+private,Swift
+protocol,Swift
+public,Swift
+rethrows,Swift
+static,Swift
+struct,Swift
+subscript,Swift
+typealias,Swift
+var,Swift
+break,Swift
+case,Swift
+continue,Swift
+default,Swift
+defer,Swift
+do,Swift
+else,Swift
+fallthrough,Swift
+for,Swift
+guard,Swift
+if,Swift
+in,Swift
+repeat,Swift
+return,Swift
+switch,Swift
+where,Swift
+while,Swift
+as,Swift
+Any,Swift
+catch,Swift
+false,Swift
+is,Swift
+nil,Swift
+super,Swift
+self,Swift
+Self,Swift
+throw,Swift
+throws,Swift
+true,Swift
+try,Swift
+_,Swift
+#available,Swift
 #colorLiteral, Swift
-#column	, Swift
-#else	, Swift
-#elseif	, Swift
-#endif	, Swift
-#error	, Swift
-#file	, Swift
-#filePath	, Swift
+#column,Swift
+#else,Swift
+#elseif,Swift
+#endif,Swift
+#error,Swift
+#file,Swift
+#filePath,Swift
 #fileLiteral, Swift
-#function	, Swift
-#if	, Swift
-#imageLiteral	, Swift
-#line	, Swift
-#selector	, Swift
-#sourceLocation	, Swift
-#warning	, Swift
+#function,Swift
+#if,Swift
+#imageLiteral,Swift
+#line,Swift
+#selector,Swift
+#sourceLocation,Swift
+#warning,Swift
 associativity, Swift
-convenience	, Swift
-dynamic	, Swift
-didSet	, Swift
-final	, Swift
-get	, Swift
-infix	, Swift
-indirect	, Swift
-lazy	, Swift
-left	, Swift
-mutating	, Swift
-none	, Swift
+convenience,Swift
+dynamic,Swift
+didSet,Swift
+final,Swift
+get,Swift
+infix,Swift
+indirect,Swift
+lazy,Swift
+left,Swift
+mutating,Swift
+none,Swift
 nonmutating, Swift
-optional	, Swift
-override	, Swift
-postfix	, Swift
+optional,Swift
+override,Swift
+postfix,Swift
 precedence, Swift
-prefix	, Swift
-Protocol	, Swift
-required	, Swift
-right	, Swift
-set	, Swift
-Type	, Swift
-unowned	, Swift
-weak	, Swift
-willSet	, Swift
+prefix,Swift
+Protocol,Swift
+required,Swift
+right,Swift
+set,Swift
+Type,Swift
+unowned,Swift
+weak,Swift
+willSet,Swift
 
 
 
@@ -2138,219 +2137,219 @@ willSet	, Swift
 
 Visual Basic (2019) (217 keywords)
 
-AddHandler	, VisualBasic
-AddressOf	Alias	, VisualBasic
-And	, VisualBasic
-AndAlso	, VisualBasic
-As	, VisualBasic
-Boolean	, VisualBasic
-ByRef	, VisualBasic
-Byte	, VisualBasic
-ByVal	, VisualBasic
-Call	, VisualBasic
-Case	, VisualBasic
-Catch	, VisualBasic
-CBool	, VisualBasic
-CByte	, VisualBasic
-CChar	, VisualBasic
-CDate	, VisualBasic
-CDbl	, VisualBasic
-CDec	, VisualBasic
-Char	, VisualBasic
-CInt	, VisualBasic
-Class	, VisualBasic
-CLng	, VisualBasic
-CObj	, VisualBasic
-Const	, VisualBasic
-Continue	, VisualBasic
-CSByte	, VisualBasic
-CShort	, VisualBasic
-CSng	, VisualBasic
-CStr	, VisualBasic
-CType	, VisualBasic
-CUInt	, VisualBasic
-CULng	, VisualBasic
-CUShort	, VisualBasic
-Date	, VisualBasic
-Decimal	, VisualBasic
-Declare	, VisualBasic
-Default	, VisualBasic
-Delegate	, VisualBasic
-Dim	, VisualBasic
-DirectCast	Do	, VisualBasic
-Double	, VisualBasic
-Each	, VisualBasic
-Else	, VisualBasic
-ElseIf	, VisualBasic
-End	, VisualBasic
-EndIf	, VisualBasic
-Enum	, VisualBasic
-Erase	, VisualBasic
-Error	, VisualBasic
-Event	, VisualBasic
-Exit	, VisualBasic
-False	, VisualBasic
-Finally	, VisualBasic
-For	, VisualBasic
-For Each	, VisualBasic
-Friend	, VisualBasic
-Function	, VisualBasic
-Get	, VisualBasic
-GetType	, VisualBasic
-GetXMLNamespace	, VisualBasic
-Global	, VisualBasic
-GoSub	, VisualBasic
-GoTo	, VisualBasic
-Handles	, VisualBasic
-If	, VisualBasic
-If()	, VisualBasic
-Implements	, VisualBasic
-Imports	, VisualBasic
-In	, VisualBasic
-Inherits	, VisualBasic
-Integer	, VisualBasic
-Interface	, VisualBasic
-Is	, VisualBasic
-IsNot	, VisualBasic
-Let	, VisualBasic
-Lib	, VisualBasic
-Like	, VisualBasic
-Long	, VisualBasic
-Loop	, VisualBasic
-Me	, VisualBasic
-Mod	, VisualBasic
-Module	, VisualBasic
-MustInherit	, VisualBasic
-MustOverride	, VisualBasic
-MyBase	, VisualBasic
-MyClass	, VisualBasic
-NameOf	, VisualBasic
-Namespace	, VisualBasic
-Narrowing	, VisualBasic
-New	, VisualBasic
-Next	, VisualBasic
-Not	, VisualBasic
-Nothnig	, VisualBasic
+AddHandler,VisualBasic
+AddressOf Alias,VisualBasic
+And,VisualBasic
+AndAlso,VisualBasic
+As,VisualBasic
+Boolean,VisualBasic
+ByRef,VisualBasic
+Byte,VisualBasic
+ByVal,VisualBasic
+Call,VisualBasic
+Case,VisualBasic
+Catch,VisualBasic
+CBool,VisualBasic
+CByte,VisualBasic
+CChar,VisualBasic
+CDate,VisualBasic
+CDbl,VisualBasic
+CDec,VisualBasic
+Char,VisualBasic
+CInt,VisualBasic
+Class,VisualBasic
+CLng,VisualBasic
+CObj,VisualBasic
+Const,VisualBasic
+Continue,VisualBasic
+CSByte,VisualBasic
+CShort,VisualBasic
+CSng,VisualBasic
+CStr,VisualBasic
+CType,VisualBasic
+CUInt,VisualBasic
+CULng,VisualBasic
+CUShort,VisualBasic
+Date,VisualBasic
+Decimal,VisualBasic
+Declare,VisualBasic
+Default,VisualBasic
+Delegate,VisualBasic
+Dim,VisualBasic
+DirectCast Do,VisualBasic
+Double,VisualBasic
+Each,VisualBasic
+Else,VisualBasic
+ElseIf,VisualBasic
+End,VisualBasic
+EndIf,VisualBasic
+Enum,VisualBasic
+Erase,VisualBasic
+Error,VisualBasic
+Event,VisualBasic
+Exit,VisualBasic
+False,VisualBasic
+Finally,VisualBasic
+For,VisualBasic
+For Each,VisualBasic
+Friend,VisualBasic
+Function,VisualBasic
+Get,VisualBasic
+GetType,VisualBasic
+GetXMLNamespace,VisualBasic
+Global,VisualBasic
+GoSub,VisualBasic
+GoTo,VisualBasic
+Handles,VisualBasic
+If,VisualBasic
+If(),VisualBasic
+Implements,VisualBasic
+Imports,VisualBasic
+In,VisualBasic
+Inherits,VisualBasic
+Integer,VisualBasic
+Interface,VisualBasic
+Is,VisualBasic
+IsNot,VisualBasic
+Let,VisualBasic
+Lib,VisualBasic
+Like,VisualBasic
+Long,VisualBasic
+Loop,VisualBasic
+Me,VisualBasic
+Mod,VisualBasic
+Module,VisualBasic
+MustInherit,VisualBasic
+MustOverride,VisualBasic
+MyBase,VisualBasic
+MyClass,VisualBasic
+NameOf,VisualBasic
+Namespace,VisualBasic
+Narrowing,VisualBasic
+New,VisualBasic
+Next,VisualBasic
+Not,VisualBasic
+Nothnig,VisualBasic
 NotInheritable, VisualBasic
-NotOverridable	, VisualBasic
-Object	, VisualBasic
-Of	, VisualBasic
-On	, VisualBasic
-Operator	, VisualBasic
-Option	, VisualBasic
-Optional	, VisualBasic
-Or	, VisualBasic
-OrElse	, VisualBasic
-Out	, VisualBasic
-Overloads	, VisualBasic
+NotOverridable,VisualBasic
+Object,VisualBasic
+Of,VisualBasic
+On,VisualBasic
+Operator,VisualBasic
+Option,VisualBasic
+Optional,VisualBasic
+Or,VisualBasic
+OrElse,VisualBasic
+Out,VisualBasic
+Overloads,VisualBasic
 Overridable, VisualBasic
-Overrides	, VisualBasic
-ParamArray	, VisualBasic
-Partial	, VisualBasic
-Private	, VisualBasic
-Property	, VisualBasic
-Protected	, VisualBasic
-Public	, VisualBasic
+Overrides,VisualBasic
+ParamArray,VisualBasic
+Partial,VisualBasic
+Private,VisualBasic
+Property,VisualBasic
+Protected,VisualBasic
+Public,VisualBasic
 RaiseEvent, VisualBasic
-ReadOnly	, VisualBasic
-ReDim	, VisualBasic
-REM	, VisualBasic
+ReadOnly,VisualBasic
+ReDim,VisualBasic
+REM,VisualBasic
 RemoveHandler, VisualBasic
-Resume	, VisualBasic
-Return	, VisualBasic
-SByte	, VisualBasic
-Select	, VisualBasic
-Set	, VisualBasic
-Shadows	, VisualBasic
-Shared	, VisualBasic
-Short	, VisualBasic
-Single	, VisualBasic
-Static	, VisualBasic
-Step	, VisualBasic
-Stop	, VisualBasic
-String	, VisualBasic
-Structure	, VisualBasic
-Sub	, VisualBasic
-SyncLock	, VisualBasic
-Then	, VisualBasic
-Throw	, VisualBasic
-To	, VisualBasic
-True	, VisualBasic
-Try	, VisualBasic
-TryCast	, VisualBasic
-TypeOf	, VisualBasic
-UInteger	, VisualBasic
-ULong	, VisualBasic
-UShort	, VisualBasic
-Using	, VisualBasic
-Variant	, VisualBasic
-Wend	, VisualBasic
-When	, VisualBasic
-While	, VisualBasic
-Widening	, VisualBasic
-With	, VisualBasic
-WithEvents	, VisualBasic
-WriteOnly	, VisualBasic
-Xor	, VisualBasic
-#Const	, VisualBasic
-#Else	, VisualBasic
-#ElseIf	, VisualBasic
-#End	, VisualBasic
-#If	, VisualBasic
-=	, VisualBasic
-&	, VisualBasic
-&=	, VisualBasic
-*	, VisualBasic
-*=	, VisualBasic
-/	, VisualBasic
-/=	, VisualBasic
-\	, VisualBasic
-=	, VisualBasic
-^	, VisualBasic
-^=	, VisualBasic
-+	, VisualBasic
-+=	, VisualBasic
--	, VisualBasic
-- =	, VisualBasic
->>	, VisualBasic
->>=	, VisualBasic
-<<	, VisualBasic
-<<=	, VisualBasic
+Resume,VisualBasic
+Return,VisualBasic
+SByte,VisualBasic
+Select,VisualBasic
+Set,VisualBasic
+Shadows,VisualBasic
+Shared,VisualBasic
+Short,VisualBasic
+Single,VisualBasic
+Static,VisualBasic
+Step,VisualBasic
+Stop,VisualBasic
+String,VisualBasic
+Structure,VisualBasic
+Sub,VisualBasic
+SyncLock,VisualBasic
+Then,VisualBasic
+Throw,VisualBasic
+To,VisualBasic
+True,VisualBasic
+Try,VisualBasic
+TryCast,VisualBasic
+TypeOf,VisualBasic
+UInteger,VisualBasic
+ULong,VisualBasic
+UShort,VisualBasic
+Using,VisualBasic
+Variant,VisualBasic
+Wend,VisualBasic
+When,VisualBasic
+While,VisualBasic
+Widening,VisualBasic
+With,VisualBasic
+WithEvents,VisualBasic
+WriteOnly,VisualBasic
+Xor,VisualBasic
+#Const,VisualBasic
+#Else,VisualBasic
+#ElseIf,VisualBasic
+#End,VisualBasic
+#If,VisualBasic
+=,VisualBasic
+&,VisualBasic
+&=,VisualBasic
+*,VisualBasic
+*=,VisualBasic
+/,VisualBasic
+/=,VisualBasic
+\,VisualBasic
+=,VisualBasic
+^,VisualBasic
+^=,VisualBasic
++,VisualBasic
++=,VisualBasic
+-,VisualBasic
+- =,VisualBasic
+>>,VisualBasic
+>>=,VisualBasic
+<<,VisualBasic
+<<=,VisualBasic
 Aggregate, VisualBasic
-Ansi	, VisualBasic
-Assembly	, VisualBasic
-Async	, VisualBasic
-Auto	, VisualBasic
-Await	, VisualBasic
-Binary	, VisualBasic
-Compare	, VisualBasic
-Custom	, VisualBasic
-Distinct	, VisualBasic
-Equals	, VisualBasic
-Explicit	, VisualBasic
-From	, VisualBasic
-Group By	, VisualBasic
+Ansi,VisualBasic
+Assembly,VisualBasic
+Async,VisualBasic
+Auto,VisualBasic
+Await,VisualBasic
+Binary,VisualBasic
+Compare,VisualBasic
+Custom,VisualBasic
+Distinct,VisualBasic
+Equals,VisualBasic
+Explicit,VisualBasic
+From,VisualBasic
+Group By,VisualBasic
 Group Join, VisualBasic
-Into	, VisualBasic
-IsFalse	, VisualBasic
-IsTrue	, VisualBasic
-Iterator	, VisualBasic
-Join	, VisualBasic
-Key	, VisualBasic
-Mid	, VisualBasic
-Off	, VisualBasic
-Order By	, VisualBasic
-Preserve	, VisualBasic
-Skip	, VisualBasic
-Skip	, VisualBasic
-While	, VisualBasic
-Strict	, VisualBasic
-Take	, VisualBasic
+Into,VisualBasic
+IsFalse,VisualBasic
+IsTrue,VisualBasic
+Iterator,VisualBasic
+Join,VisualBasic
+Key,VisualBasic
+Mid,VisualBasic
+Off,VisualBasic
+Order By,VisualBasic
+Preserve,VisualBasic
+Skip,VisualBasic
+Skip,VisualBasic
+While,VisualBasic
+Strict,VisualBasic
+Take,VisualBasic
 Take While, VisualBasic
-Text	, VisualBasic
-Unicode	, VisualBasic
-Until	, VisualBasic
-Where	, VisualBasic
-Yield	, VisualBasic
+Text,VisualBasic
+Unicode,VisualBasic
+Until,VisualBasic
+Where,VisualBasic
+Yield,VisualBasic
 #ExternalSource, VisualBasic
-#Region	, VisualBasic	
+#Region,VisualBasic 
