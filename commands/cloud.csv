@@ -1,0 +1,296 @@
+az login,az
+az account list,az
+az account set --subscription,az
+az account list-locations,az
+az resource list,az
+azure --version,az
+azure help,az
+az vm list-sizes,az
+az vm image list,az
+az vm create --resource-group,az
+az group create --name,az
+az storage account create,az
+az group delete,az
+az vm list,az
+az vm start,az
+az vm stop,az
+az vm deallocate,az
+az vm restart,az
+az vm redeploy,az
+az vm delete,az
+az image create,az
+az vm create,az
+az vm extension list,az
+az vm extension delete,az
+az batch account create,az
+az storage account create,az
+az batch account,az
+az batch account login,az
+az batch account show,az
+az batch application,az
+az batch pool,az
+az batch node list,az
+az batch node reboot,az
+az batch node delete,az
+az batch job create,az
+az batch task create,az
+az batch job set,az
+az batch job show,az
+az batch task show,az
+az batch job delete,az
+az acs create,az
+az acs list,az
+az acs show,az
+az acs scale,az
+az acs delete,az
+gcloud init,gcp
+gcloud version,gcp
+gcloud components install,gcp
+gcloud components update,gcp
+gcloud info,gcp
+gcloud help,gcp
+gcloud feedback,gcp
+gcloud topic,gcp
+gcloud config set,gcp
+gcloud config get-value,gcp
+gcloud config list,gcp
+gcloud auth login,gcp
+gcloud auth activate-service-account,gcp
+gcloud auth list,gcp
+gcloud auth print-access-token,gcp
+gcloud auth revoke,gcp
+gcloud projects describe,gcp
+gcloud projects add-iam-policy-binding,gcp
+gcloud iam list-grantable-roles,gcp
+gcloud iam roles create,gcp
+gcloud iam service-accounts create,gcp
+gcloud iam service-accounts add-iam-policy-binding,gcp
+gcloud iam service-accounts set-iam-policy-binding,gcp
+gcloud iam service-accounts keys list,gcp
+gcloud auth configure-docker,gcp
+gcloud container clusters create,gcp
+gcloud container clusters list,gcp
+gcloud container clusters get-credentials,gcp
+gcloud container images list-tags,gcp
+gcloud compute zones list,gcp
+gcloud compute instances create,gcp
+gcloud compute instances describe,gcp
+gcloud compute instances list,gcp
+gcloud compute disks snapshot,gcp
+gcloud compute snapshots describe,gcp
+gcloud compute snapshots delete,gcp
+gcloud compute ssh,gcp
+gcloud app deploy,gcp
+gcloud app versions list,gcp
+gcloud app browse,gcp
+gcloud app create,gcp
+gcloud app logs read,gcp
+gcloud kms decrypt,gcp
+gcloud sql backups describe,gcp
+gcloud sql export sql,gcp
+git config –global,git
+git config –system,git
+git init,git
+git clone,git
+git remote add origin,git
+git remote,git
+git remote -v,git
+git remote rm,git
+git remote set-url,git
+git fetch,git
+git pull,git
+git add,git
+git add -A,git
+git rm,git
+git rm –cached,git
+git mv,git
+git checkout,git
+git status,git
+git ls-files,git
+git diff,git
+git diff –staged,git
+git commit -m,git
+git commit -am,git
+git checkout,git
+git show,git
+git reset –hard,git
+git reset –hard Head,git
+git log,git
+git log -p,git
+git log -oneline,git
+git log –follow,git
+git blame,git
+git stash,git
+git stash pop,git
+git stash list,git
+git stash apply,git
+git stash drop,git
+git stash apply,git
+git stash drop,git
+git push,git
+Git push -f,git
+git tag,git
+git branch,git
+git branch,git
+git branch -m,git
+git branch -a,git
+git checkout -b,git
+git checkout,git
+git checkout -b,git
+git branch -d,git
+git merge,git
+git rebase,git
+git rebase,git
+git fetch remote,git
+git pull –rebase,git
+git push –all,git
+git revert,git
+aws configure --profile,aws
+aws configure region,aws
+aws apigateway get-rest-apis,aws
+aws apigateway get-api-keys,aws
+aws apigateway get-domain-names,aws
+aws apigateway get-resources --rest-api-id,aws
+aws apigateway get-integration,aws
+aws amplify list-apps,aws
+aws cloudfront list-distributions,aws
+aws cloudfront create-invalidation,aws
+aws cloudwatch describe-alarms,aws
+aws cognito-idp list-user-pools,aws
+aws cognito-idp list-users --user-pool-id _number,aws
+aws dynamodb list-tables,aws
+aws dynamodb scan --table-name,aws
+aws dynamodb get-item --table-name,aws
+aws dynamodb delete-item --table-name,aws
+aws ebs complete-snapshot,aws
+aws ebs start-snapshot --volume-size,aws
+aws ebs get-snapshot-block,aws
+aws ec2 describe-instances,aws
+aws ec2 describe-vpcs,aws
+aws ec2 describe-subnets,aws
+aws ec2 describe-security-groups,aws
+aws ec2 modify-instance-attribute,aws
+aws ec2 describe-security-groups,aws
+aws ec2 authorize-security-group-ingress,aws
+aws ec2 revoke-security-group-ingress,aws
+aws ec2 update-security-group-rule-descriptions-ingress,aws
+aws ec2 delete-security-group,aws
+aws ecs create-cluster,aws
+aws ecs create-service,aws
+aws eks delete-cluster --name,aws
+aws eks describe-cluster --name,aws
+aws eks list-clusters,aws
+aws eks tag-resource,aws
+aws eks untag-resource,aws
+aws elasticache describe-cache-clusters,aws
+aws elasticache describe-replication-groups,aws
+aws elasticache describe-snapshots,aws
+aws elasticache create-snapshot,aws
+aws elasticache delete-snapshot,aws
+aws elasticache increase-replica-count,aws
+aws elasticache decrease-replica-count --replication-group-id,aws
+aws elbv2 describe-load-balancers,aws
+aws elbv2 describe-target-groups,aws
+aws elbv2 describe-target-health,aws
+aws iam create-group,aws
+aws iam list-policies,aws
+aws iam list-entities-for-policy,aws
+aws iam list-attached-group-policies,aws
+aws iam attach-group-policy,aws
+aws iam add-user-to-group,aws
+aws iam remove-user-from-group,aws
+aws iam get-group,aws
+aws iam list-groups-for-user,aws
+aws iam attach-group-policy,aws
+aws iam detach-group-policy,aws
+aws iam list-users,aws
+aws iam get-user,aws
+aws iam create-user,aws
+aws iam delete-user,aws
+aws iam list-access-keys,aws
+aws iam delete-access-key  --access-key-id,aws
+aws iam update-access-key,aws
+aws iam create-access-key,aws
+aws lambda list-functions,aws
+aws lambda list-layers,aws
+aws lambda list-event-source-mappings,aws
+aws lambda get-function,aws
+aws rds describe-db-clusters,aws
+aws rds describe-db-instances,aws
+aws rds create-db-snapshot,aws
+aws rds describe-db-snapshots,aws
+aws rds create-db-cluster-snapshot,aws
+aws route53 create-hosted-zone,aws
+aws route53 delete-hosted-zone --id,aws
+aws route53 get-hosted-zone --id,aws
+aws route53 list-hosted-zones,aws
+aws route53 change-resource-record-sets,aws
+aws route53 change-resource-record-sets,aws
+aws s3 ls,aws
+aws s3 mb,aws
+aws s3 rb,aws
+aws s3 cp,aws
+aws s3 rm,aws
+aws s3 sync,aws
+aws s3 presign,aws
+aws sns list-topics,aws
+aws sns list-subscriptions,aws
+aws sns publish,aws
+aws sqs list-queues,aws
+aws sqs create-queueL,aws
+aws sqs send-message,aws
+aws sqs receive-message,aws
+aws sqs delete-message,aws
+aws sqs purge-queue,aws
+aws sqs delete-queue,aws
+terraform -install-autocomplete,terraform
+terraform fmt,terraform
+terraform validate,terraform
+terraform init,terraform
+terraform apply,terraform
+terraform destroy --auto-approve,terraform
+terraform plan,terraform
+terraform refresh,terraform
+terraform providers,terraform
+terraform workspace,terraform
+terraform state show,terraform
+terraform state pull,terraform
+terraform state mv,terraform
+terraform state replace-provider,terraform
+terraform state list,terraform
+terraform state rm,terraform
+terraform import,terraform
+terraform output,terraform
+terraform version,terraform
+terraform get -update=true,terraform
+terraform graph,terraform
+terraform taint,terraform
+terraform untaint,terraform
+terraform force-unlock,terraform
+terraform login,terraform
+terraform logout,terraform
+terraform -h,terraform
+terraform --help,terraform
+rsync -avz,rsync
+rsync --dry-run,rsync
+rsync -a --delete,rsync
+ssh-copy-id,ssh
+ssh-add -l,ssh
+ssh-add,ssh
+ssh-add ~/.ssh/id_rsa,ssh
+ssh-add -D,ssh
+ssh -A,ssh
+ssh -D,ssh
+ssh -f -N -D,ssh
+ssh -i,ssh
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub,ssh
+ssh-keygen -t rsa -N "",ssh
+sshfs,ssh
+fuserumount -u /mnt/home/user,ssh
+openssl req -in,openssl
+openssl x509 -in,openssl
+openssl pkcs12 -info,openssl
+openssl rsa -in,openssl
+openssl x509 -req,openssl
+openssl pkcs12 -export -out,openssl
+openssl rsa -in,openssl
