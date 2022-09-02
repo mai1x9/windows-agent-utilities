@@ -21,4 +21,4 @@ IP address info changed
 
 When the wifi/network is changed or if i restart network the ip address info is changed 
 
-I worked on using wifi adapter cable connecting it to device to check if adapter changes occurs or not but unfortunately i didnt get any results.
+I worked on using wifi adapter cable connecting it to device to check if adapter changes occurs or not but  i didnt get any results.
