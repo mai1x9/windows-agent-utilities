@@ -1,6 +1,7 @@
 **Important links with nice information:**
 IMP:
 https://www.xplg.com/windows-server-security-events-list/
+
 https://www.ijert.org/utilizing-event-logs-of-windows-operating-system-in-digital-crime-investigations (shallo copy, restore ids)
 
 
