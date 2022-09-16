@@ -1,5 +1,9 @@
 **Default path of logs in windows:** `"C:\Windows\System32\winevt\Logs"`
 
+
+**Event logs pdf:** https://drive.google.com/file/d/19YGCprq1Ki1T2B2_9wjufEQxnvqwipgW/view?usp=sharing
+
+
 Folder view,
 
 ![Screenshot (580)](https://user-images.githubusercontent.com/43678329/190682149-e4145bbd-91cc-4a08-b271-4cf790e3b9fd.png)
