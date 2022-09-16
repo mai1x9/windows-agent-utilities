@@ -1,8 +1,29 @@
-Default path of logs in windows: `"C:\Windows\System32\winevt\Logs"`
+**Default path of logs in windows:** `"C:\Windows\System32\winevt\Logs"`
 
 Folder view,
 
 ![Screenshot (580)](https://user-images.githubusercontent.com/43678329/190682149-e4145bbd-91cc-4a08-b271-4cf790e3b9fd.png)
+
+-----------
+**Resources:**
+
+
+https://flylib.com/books/en/3.210.1.51/1/
+https://www.ijert.org/utilizing-event-logs-of-windows-operating-system-in-digital-crime-investigations
+https://medium.com/@lucideus/introduction-to-event-log-analysis-part-1-windows-forensics-manual-2018-b936a1a35d8a
+https://andreafortuna.org/2017/10/20/windows-event-logs-in-forensic-analysis/
+https://www.ijert.org/utilizing-event-logs-of-windows-operating-system-in-digital-crime-investigations
+https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/
+
+https://adamtheautomator.com/windows-security-events/
+https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
+https://www.xplg.com/windows-server-security-events-list/
+https://resources.infosecinstitute.com/topic/6-windows-event-log-ids-to-monitor-now/
+https://stackoverflow.com/questions/73050212/create-a-windows-event-listener-with-win32evtlog
+https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4610
+https://nxlog.co/top-5-windows-security-logs-everyone-should-collect
+https://www.beyondtrust.com/blog/entry/windows-server-events-monitor
+
 
 
 -----------------
