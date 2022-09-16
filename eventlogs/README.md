@@ -1,5 +1,10 @@
 Default path of logs in windows: `"C:\Windows\System32\winevt\Logs"`
 
+Folder view,
+
+![Screenshot (580)](https://user-images.githubusercontent.com/43678329/190682149-e4145bbd-91cc-4a08-b271-4cf790e3b9fd.png)
+
+
 -----------------
 
 ```
@@ -330,4 +335,11 @@ Setup.evtx
 System.evtx
 Windows PowerShell.evtx
 ```
+
+**Event viewer example,**
+
+![Screenshot (582)](https://user-images.githubusercontent.com/43678329/190682207-aa583acb-115b-4225-ba77-588fc85b5762.png)
+
+
+![Screenshot (581)](https://user-images.githubusercontent.com/43678329/190682233-e717ad18-d3f5-407f-aae3-b55e01b95e7a.png)
 
