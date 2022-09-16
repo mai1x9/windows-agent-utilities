@@ -1,3 +1,7 @@
+Default path of logs in windows: `"C:\Windows\System32\winevt\Logs"`
+
+-----------------
+
 ```
 Application.evtx
 DebugChannel.etl
