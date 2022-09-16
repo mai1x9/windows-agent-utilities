@@ -1,3 +1,18 @@
+**Important links with nice information:**
+IMP:
+https://www.xplg.com/windows-server-security-events-list/
+https://www.ijert.org/utilizing-event-logs-of-windows-operating-system-in-digital-crime-investigations (shallo copy, restore ids)
+
+
+https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx?i=j (important has sytem info too)
+
+------------
+**Micrsoft documentation on all event ids:**
+https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
+
+
+------------
+
 **Default path of logs in windows:** `"C:\Windows\System32\winevt\Logs"`
 
 
