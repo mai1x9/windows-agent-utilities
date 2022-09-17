@@ -406,7 +406,7 @@ Windows PowerShell.evtx
 
 
 #### System logs
---
+
 
 ![WhatsApp Image 2022-09-17 at 5 05 15 PM](https://user-images.githubusercontent.com/43678329/190854922-9e765ca9-b8ec-4956-9013-27fc54e3d637.jpeg)
 
@@ -422,23 +422,38 @@ Windows PowerShell.evtx
 
 #### Secuirty logs (divided as per categories)
 
+
 1. WIndows dfender and firewall logs.
+
 ![WhatsApp Image 2022-09-17 at 5 06 01 PM](https://user-images.githubusercontent.com/43678329/190854975-5ed42fe0-fbde-44da-903c-14e77ef6487e.jpeg)
 
 ![WhatsApp Image 2022-09-17 at 5 08 11 PM](https://user-images.githubusercontent.com/43678329/190855123-bb75f760-c223-4b08-9460-4af6bf52719d.jpeg)
 
 
 
+
+
 2. IP Sec logs.
+
 ![WhatsApp Image 2022-09-17 at 5 06 15 PM](https://user-images.githubusercontent.com/43678329/190854993-66b99a95-f5fc-4ba4-98e7-acde7bdfc3ca.jpeg)
 
+
+
+
 3. Network share, handle objects and registry key event ids.
+
 
 ![WhatsApp Image 2022-09-17 at 5 06 30 PM](https://user-images.githubusercontent.com/43678329/190855003-599381ca-a962-446d-8db9-70837bceb8d9.jpeg)
 
 
+
+
 4. Privelges and Process.
+
+
 ![WhatsApp Image 2022-09-17 at 5 06 45 PM](https://user-images.githubusercontent.com/43678329/190855043-731010cb-1bf6-4408-951f-5432dbc57a5b.jpeg)
+
+
 
 5. User and groups related logs
 
@@ -449,6 +464,8 @@ Windows PowerShell.evtx
 ![WhatsApp Image 2022-09-17 at 5 07 19 PM](https://user-images.githubusercontent.com/43678329/190855093-75850cfa-3198-4033-a8c1-0b9f725b14a4.jpeg)
 
 
+
+
 6. Key management, certificates, encryption and crendeital manager.
 
 ![WhatsApp Image 2022-09-17 at 5 07 34 PM](https://user-images.githubusercontent.com/43678329/190855106-9802c83c-7427-4b64-9ba3-bd0321376164.jpeg)
@@ -456,15 +473,26 @@ Windows PowerShell.evtx
 ![WhatsApp Image 2022-09-17 at 5 07 51 PM](https://user-images.githubusercontent.com/43678329/190855109-4ab8fee6-72f8-469f-94b1-7633635f30f6.jpeg)
 
 
+
+
+
 7. Password related.
+
 ![WhatsApp Image 2022-09-17 at 5 09 05 PM](https://user-images.githubusercontent.com/43678329/190855148-3ad986a8-6959-486d-a01e-9099719b4baf.jpeg)
+
+
+
+
 
 8. Audit related.
 
 ![WhatsApp Image 2022-09-17 at 5 09 18 PM](https://user-images.githubusercontent.com/43678329/190855164-9b38f188-754c-452b-b606-b589065c9944.jpeg)
+
 ![WhatsApp Image 2022-09-17 at 5 09 28 PM](https://user-images.githubusercontent.com/43678329/190855166-39cf5986-1ea7-459f-b8cd-6556ee175367.jpeg)
 
 ![WhatsApp Image 2022-09-17 at 5 09 44 PM](https://user-images.githubusercontent.com/43678329/190855168-a4edc89a-cf06-480a-af4e-648a788611ec.jpeg)
+
+
 
 
 9. Application context.
@@ -479,12 +507,14 @@ Windows PowerShell.evtx
 
 ![WhatsApp Image 2022-09-17 at 5 08 37 PM](https://user-images.githubusercontent.com/43678329/190855228-d7b96745-640b-45fa-a70d-0136172e64a7.jpeg)
 
+
 ![WhatsApp Image 2022-09-17 at 5 08 50 PM](https://user-images.githubusercontent.com/43678329/190855230-f841e5c3-5318-4919-9bbd-e5598c082537.jpeg)
 
 
 -----------
 
 #### Application.evtx
+
 
 ![WhatsApp Image 2022-09-17 at 5 13 32 PM](https://user-images.githubusercontent.com/43678329/190855245-8225f329-6fa5-4dd9-bfb8-d7bb1eebeb8d.jpeg)
 
@@ -495,39 +525,61 @@ Windows PowerShell.evtx
 
 - Importnat target files.
 
+
 ![WhatsApp Image 2022-09-17 at 5 11 41 PM](https://user-images.githubusercontent.com/43678329/190855268-d6437ce4-aa5b-4836-92cc-84632de92a66.jpeg)
+
 
 ![WhatsApp Image 2022-09-17 at 5 11 54 PM](https://user-images.githubusercontent.com/43678329/190855270-577f208e-a3d6-44e8-9922-e5ce70777e97.jpeg)
 
+
+
+
 - USB logs reading,
+
+
 ![WhatsApp Image 2022-09-17 at 5 10 37 PM](https://user-images.githubusercontent.com/43678329/190855305-81b30374-361b-421f-b066-76519a5500e6.jpeg)
 
+
 ![WhatsApp Image 2022-09-17 at 5 10 49 PM](https://user-images.githubusercontent.com/43678329/190855307-b7269bbf-c0a0-45a3-9f1f-f6ad14e39b0d.jpeg)
+
+
+
 
 - RDP logs
 
 ![WhatsApp Image 2022-09-17 at 5 11 05 PM](https://user-images.githubusercontent.com/43678329/190855352-e2d6d3f2-3852-4b6b-8ff8-ce12393262fb.jpeg)
 
+
 ![WhatsApp Image 2022-09-17 at 5 11 25 PM](https://user-images.githubusercontent.com/43678329/190855356-df45b194-58b0-42e7-bc5c-ae982923f7f8.jpeg)
+
+
+
 
 - DNS and DHCP logs (these ar epresent in seperate folders, not in winevt/logs.
 
 ![WhatsApp Image 2022-09-17 at 5 11 05 PM (1)](https://user-images.githubusercontent.com/43678329/190855373-3b23a3ef-d7d1-4286-93ee-5f65272e262f.jpeg)
 
 
+
 - bluetooth logs
+
 ![WhatsApp Image 2022-09-17 at 5 12 10 PM](https://user-images.githubusercontent.com/43678329/190855413-fe0c71a2-5af5-4d4c-b7c5-f45363f003e2.jpeg)
 
+
+
+
 - WIndows defender log file.
+
 ![WhatsApp Image 2022-09-17 at 5 12 10 PM (1)](https://user-images.githubusercontent.com/43678329/190855426-49116c36-8e2f-46b5-a02b-1efb97216eb4.jpeg)
+
 ![WhatsApp Image 2022-09-17 at 5 12 25 PM](https://user-images.githubusercontent.com/43678329/190855431-23536a3c-03dc-4218-b05b-3321243b9d9e.jpeg)
+
 ![WhatsApp Image 2022-09-17 at 5 12 36 PM](https://user-images.githubusercontent.com/43678329/190855433-2785250b-d1c2-4768-ae9b-0ab01cfcb259.jpeg)
 
 
 -----------------
 
 ## TO BE DONE Yet??
---
 
 - Hardware.evtx
 - Important event ids in application.evtx
