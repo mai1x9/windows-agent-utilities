@@ -10,11 +10,12 @@ import win32security
 import win32con
 import time
 import datetime
+import pprint
+from lxml import objectify
+
 
 
     
-server = 'localhost' # name of the target computer to get event logs
-logtype = 'Security' # 'Application' # 'Security' 'System'
 
 
 dict_1 = {"4624":["auth","A user successfully logged on to a computer (user login time)"],
@@ -88,6 +89,9 @@ dict_2={1 :"Error_type",
         Success_failure =16
 """
 
+server = 'localhost' # name of the target computer to get event logs
+logtype = 'Application' # 'Application' # 'Security' 'System'
+event_context = { "info": "this object is always passed to your callback" }
 
 
 def date2sec(evt_date):
@@ -105,20 +109,31 @@ def date2sec(evt_date):
 
 
 
-def main():
+def main(reason, context, evt):
     max_log_level =16
     count = 0
     hand = win32evtlog.OpenEventLog(server,logtype)
     flags = win32evtlog.EVENTLOG_BACKWARDS_READ|win32evtlog.EVENTLOG_SEQUENTIAL_READ
     total = win32evtlog.GetNumberOfEventLogRecords(hand)
+
+    # Just print some information about the event
+    print ('reason', reason, 'context', context, 'event handle', evt)
+    # Render event to xml, maybe there's a way of getting an object but I didn't find it
+    xml_content = win32evtlog.EvtRender(evt, win32evtlog.EvtRenderEventXml)
+    print('Rendered event:', xml_content, type(xml_content),type(evt),dir(evt))
+    import xml.etree.ElementTree as ET
+    xml = ET.fromstring(xml_content)
+    ns = '{http://schemas.microsoft.com/win/2004/08/events/event}'
+    print(xml)
+
+
     last_x_days = 1
     yesterday = datetime.date.today() - datetime.timedelta(last_x_days)
-    ##print(type(yesterday))
+
     begin_sec= time.mktime((yesterday.year, yesterday.month,yesterday.day, 0, 0, 0, 0, 0, 0))
-    ##print(begin_sec)
+ 
     begin_time=time.strftime('%H:%M:%S  ',time.localtime(begin_sec))
-    ##print(begin_time)
-    #open event log 
+
     print(logtype,' events found in the last 8 hours since:',begin_time)
     while True:
         events = win32evtlog.ReadEventLog(hand, flags,0)
@@ -129,7 +144,7 @@ def main():
                 the_time=event.TimeGenerated.Format() 
                 seconds=date2sec(the_time)
                 if(begin_sec - seconds) > 0:
-                    break 
+                    continue 
                 evt_id=str(winerror.HRESULT_CODE(event.EventID))
                 data = event.StringInserts
                 if data:
@@ -151,14 +166,36 @@ def main():
                     all_data.append(json_responce)
                     print(all_data)
             if (begin_sec - seconds) > 0:
-                break
-main()
+                continue
+        if events:
+            for xml in events:
+                event_id = xml.find(f'.//{ns}EventID')
+                computer = xml.find(f'.//{ns}Computer').text
+                channel = xml.find(f'.//{ns}Channel').text
+                execution = xml.find(f'.//{ns}Execution')
+                process_id = execution.get('ProcessID')
+                thread_id = execution.get('ThreadID')
+                level = xml.find(f'.//{ns}Level').text
+                time_created = xml.find(f'.//{ns}TimeCreated').get('SystemTime')
+                event_data = f'Time: {time_created}, Computer: {computer}, Event Id: {event_id}, Channel: {channel}, Process Id: {process_id}, Thread Id: {thread_id}'
+##                    print(event_data)
+                user_data = xml.find(f'.//{ns}UserData')
+
+    print(" - ")
+    sys.stdout.flush()
+    return 0
 
 
 
+subscription = win32evtlog.EvtSubscribe(logtype, win32evtlog.EvtSubscribeToFutureEvents, None, Callback=main, Context=event_context, Query=None)
+from time import sleep
+print(subscription)
+while 1:
+     sleep(10)
 
 
 
+##main()
 
 
 
