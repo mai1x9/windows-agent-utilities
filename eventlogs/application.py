@@ -13,8 +13,6 @@ import datetime
 
 
     
-server = 'localhost' # name of the target computer to get event logs
-logtype = 'Application' # 'Application' # 'Security' 'System'
 
 
 dict_1 = {"8194":["system restore","Access is Denied"],
@@ -89,6 +87,10 @@ dict_2={1 :"Error_type",
         Success_failure =16
 """
 
+server = 'localhost' # name of the target computer to get event logs
+logtype = 'Application' # 'Application' # 'Security' 'System'
+event_context = { "info": "this object is always passed to your callback" }
+
 
 def date2sec(evt_date):
     '''
@@ -155,7 +157,80 @@ def main():
 main()
 
 
+def new_log_events(reason, context, evt):
+    """
+      Called when new events are logged.
+      reason - reason the event was logged?
+      context - context the event handler was registered with
+      evt - event handle
+    """
+    data=[]
+    # Just print some information about the event
+    print ('reason', reason, 'context', context, 'event handle', evt)
+    # Render event to xml, maybe there's a way of getting an object but I didn't find it
+    xml_content = win32evtlog.EvtRender(evt, win32evtlog.EvtRenderEventXml)
+    print('Rendered event:', xml_content, type(xml_content),type(evt),dir(evt))
 
+
+    
+    import xml.etree.ElementTree as ET
+    xml = ET.fromstring(xml_content)
+
+    # xml namespace, root element has a xmlns definition, so we have to use the namespace
+    ns = '{http://schemas.microsoft.com/win/2004/08/events/event}'
+    print(xml)
+##    substatus = xml[1][9].text
+    
+    event_id = xml.find(f'.//{ns}EventID')
+    computer = xml.find(f'.//{ns}Computer').text
+    channel = xml.find(f'.//{ns}Channel').text
+##    sourcename = xml.find(f'.//{ns}SourceName')
+    eventdata = xml.find(f'.//{ns}EventData').text
+    recordnumber =  xml.find(f'.//{ns}RecordNumber')
+    eventcategory = xml.find(f'.//{ns}EventCategory')
+    sourcename = xml.find(f'.//{ns}SourceName')
+    execution = xml.find(f'.//{ns}Execution')
+    process_id = execution.get('ProcessID')
+    thread_id = execution.get('ThreadID')
+    time_created = xml.find(f'.//{ns}TimeCreated').get('SystemTime')
+    data_name = xml.findall('.//EventData')
+    #substatus = data_name.get('Data')
+    #print(substatus)
+    json_responce = {"time" : time_created,
+                     "computer" : computer,
+                     "Event_Id" : event_id,
+                     "Channel" : channel,
+                     "execution": execution,
+                     "source" : sourcename,
+                     "eventdata" : eventdata,
+                     "recordnumber" : recordnumber,
+                     "eventcategory" : eventcategory,
+                     "Process_Id" : process_id,
+                     "Thread_Id" : thread_id,
+                     "data" : data_name
+                     }
+    data.append(json_responce)
+    return print(data)
+##    event_data = f'Time: {time_created}, Computer: {computer},Event Id: {event_id}, Channel: {channel},source: {sourcename},eventdata: {eventdata},recordnumber: {recordnumber},eventcategory: {eventcategory},Process Id: {process_id}, Thread Id: {thread_id}'
+##    print(event_data)
+
+    user_data = xml.find(f'.//{ns}UserData')
+    print(user_data)
+    # user_data has possible any data
+    # empty line to separate logs
+    print(' - ')
+
+    # Make sure all printed text is actually printed to the console now
+    sys.stdout.flush()
+
+    return 0
+
+## Subscribe to future events
+subscription = win32evtlog.EvtSubscribe(logtype , win32evtlog.EvtSubscribeToFutureEvents, None, Callback=new_log_events, Context=event_context, Query=None)
+from time import sleep
+print(subscription)
+while 1:
+     sleep(10)
 
 
 
