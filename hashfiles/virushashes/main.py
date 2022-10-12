@@ -62,37 +62,36 @@ url= ["https://a4lg.com/downloads/vxshare/downloads/2015-07-24/vxshare-hashes-00
       "https://a4lg.com/downloads/vxshare/downloads/2015-07-24/vxshare-hashes-058-v5.tar.xz"]
 
 for i in url:
-    r = requests.get(i, stream=True)    
-    with open(os.path.basename(i), 'wb') as file:
-        for chunk in r.raw.stream(1024, decode_content=False):
-            if chunk:
-                file.write(chunk)                
-    if os.path.basename(i).endswith(".xz"):
-        tar = tarfile.open(os.path.basename(i),"r:xz")
-        tar.extractall()
-        tar.close() 
-    elif os.path.basename(i).endswith("tar.gz"):
-        tar = tarfile.open(os.path.basename(i),"r:gz")
-        tar.extractall()
-        tar.close()
-    os.remove(os.path.basename(i))   
+    r = requests.get(i, stream=True)
+    if r.status_code == 200:
+        with open(os.path.basename(i), 'wb') as file:
+            for chunk in r.raw.stream(1024, decode_content=False):
+                if chunk:
+                    file.write(chunk)
+        if os.path.basename(i).endswith(".xz"):
+            tar = tarfile.open(os.path.basename(i),"r:xz")
+            tar.extractall()
+            tar.close() 
+        elif os.path.basename(i).endswith("tar.gz"):
+            tar = tarfile.open(os.path.basename(i),"r:gz")
+            tar.extractall()
+            tar.close()
+        os.remove(os.path.basename(i))   
 
 path = r"C:\pythonprograms\targeturls\virusshare\vxshare-hashes\archives"
-
 data = []
 
-for root, dirs, files in os.walk(path):
+for root, dirs, files in os.walk(path):   
     for file in files:
-        f= os.path.join(root,file)
-        data.append(f)
-for d in data:   
-    with open(d,"r") as f:
-        line = f.read()
-        line1 = line.replace(" ",",")
-        with open(r"C:\pythonprograms\targeturls\virusshare\final_file.txt","w",encoding="utf8") as f1:
-            f1.write(line1)            
-
-
+        filenames= os.path.join(root,file)
+        data.append(filenames)
+    with open(r"C:\pythonprograms\targeturls\virusshare\final_file.txt","w",encoding="utf8") as f:
+        for d in data:
+            print(d)
+            with open(d,"r") as f1:
+                line = f1.read()
+                line = line.replace(" ",",")
+                f.write(line) 
 
 
 
