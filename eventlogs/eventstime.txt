@@ -1,0 +1,13 @@
+System  events found in the last 8 hours since: 00:00:00
+Thu Dec 22 19:57:25 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Power,100,55494,105,4,
+Thu Dec 22 18:51:50 2022,DESKTOP-QDF90JT,Service Control Manager,0,55493,7040,4,The start type
+Thu Dec 22 18:49:05 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Processor-Power,7,55492,37,2,The speed of Hy
+Thu Dec 22 18:49:05 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Processor-Power,7,55491,37,2,The speed of Hy
+Thu Dec 22 18:49:05 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Processor-Power,7,55490,37,2,The speed of Hy
+Thu Dec 22 18:49:04 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Processor-Power,7,55489,37,2,The speed of Hy
+Thu Dec 22 18:46:24 2022,DESKTOP-QDF90JT,Service Control Manager,0,55488,7040,4,The start type
+Thu Dec 22 18:25:36 2022,DESKTOP-QDF90JT,Microsoft-Windows-Kernel-Power,100,55487,105,4,
+Thu Dec 22 18:18:18 2022,DESKTOP-QDF90JT,Service Control Manager,0,55486,7040,4,The start type
+Thu Dec 22 18:15:54 2022,DESKTOP-QDF90JT,Service Control Manager,0,55485,7040,4,The start type
+Thu Dec 22 18:12:35 2022,DESKTOP-QDF90JT,DCOM,0,55484,10016,2,<The descriptio
+Thu Dec 22 18:00:21 2022,DESKTOP-QDF90JT,Service Control Manager,0,55483,7040,4,The start type
