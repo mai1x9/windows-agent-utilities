@@ -155,3 +155,16 @@ def powershell2(cmd):
 
 powershell2('-command "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"')
 
+
+
+def netsh2(cmd):
+    try:
+        p = subprocess.Popen("netsh " + cmd, stdout=sys.stdout, shell=True)
+        p.communicate()
+    except Exception:
+        pass
+
+# netsh advfirewall firewall add rule name="Block certutil.exe netconns" program="%systemroot%\system32\certutil.exe" protocol=tcp dir=out enable=yes action=block profile=any
+netsh2('advfirewall firewall add rule name="Block certutil.exe netconns" program="%systemroot%\system32\certutil.exe" protocol=tcp dir=out enable=yes action=block profile=any')
+
+
