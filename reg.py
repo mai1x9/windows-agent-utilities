@@ -104,3 +104,38 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v RestrictRemoteSAM /t REG_
 
 set_reg(2, "SYSTEM\CurrentControlSet\Control\Lsa", "RestrictRemoteSAM", "O:BAG:BAD:(A;;RC;;;BA)", winreg.REG_SZ)
 """
+
+
+# rnning powershell commands from python.
+
+"""
+import subprocess
+
+p = subprocess.Popen(
+    ["powershell.exe", "Get-ADComputer " + computer_name+ " | Select-Object Name"],
+    stdout=sys.stdout)
+
+p.communicate()
+
+
+
+
+# Eg:
+# powershell.exe -command "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"
+
+# Above is your powershell script, below is the list of powershell commanbd to be passed to python subvprocess
+cmd = ["powershell.exe", "-command", "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"]
+p = subprocess.Popen(cmd,stdout=sys.stdout)
+p.communicate()
+
+"""
+
+def powershell(cmd):
+    try:
+        p = subprocess.Popen(["powershell.exe"] + cmd, stdout=sys.stdout)
+        p.communicate()
+    except Exception:
+        pass
+
+powershell([ "-command", "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"])
+
