@@ -130,12 +130,28 @@ p.communicate()
 
 """
 
+# recommnended way
 def powershell(cmd):
     try:
         p = subprocess.Popen(["powershell.exe"] + cmd, stdout=sys.stdout)
         p.communicate()
-    except Exception:
+    except Exception as e:
+        print("ewrror: ", e)
         pass
 
 powershell([ "-command", "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"])
+
+
+
+# not recommended way due to shell injections
+def powershell2(cmd):
+    try:
+        p = subprocess.Popen("powershell.exe " + cmd, stdout=sys.stdout, shell=True)
+        p.communicate()
+    except Exception as e:
+        print("ewrror: ", e)
+        pass
+
+
+powershell2('-command "Get-AppxPackage *Microsoft.XboxGameOverlay* -AllUsers | Remove-AppxPackage"')
 
