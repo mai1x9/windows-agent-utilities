@@ -1,11 +1,25 @@
 import subprocess
-
+from time import time
 
 def mitigation_for_cve():
+    start = time()
     out, err = subprocess.Popen("reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\" /v \"1001\" /t REG_DWORD /d 00000003 /f",
                                 shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+    duration = time() - start()
+    
+    print("Rule ID: 1 Output (reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\" /v \"1001\" /t REG_DWORD /d 00000003 /f) : ", 
+         out, "Error: " , err, " Duration: " duration
+         )
+
+    start = time()
     out, err = subprocess.Popen("reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\" /v \"1004\" /t REG_DWORD /d 00000003 /f",
                                 shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
+    duration = time() - start()
+    
+    print("Rule ID: 2 Output (reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2\" /v \"1004\" /t REG_DWORD /d 00000003 /f"): ", 
+         out, "Error: " , err, " Duration: " duration
+         )
+    
     out, err = subprocess.Popen("reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0\" /v \"1004\" /t REG_DWORD /d 00000003 /f",
                                 shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
     out, err = subprocess.Popen("reg add \"HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1\" /v \"1001\" /t REG_DWORD /d 00000003 /f",
