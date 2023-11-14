@@ -64,7 +64,6 @@ rules:
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
-
       permalinks:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L826
     comments:::
@@ -580,7 +579,7 @@ rules:
       - Frequency
       - Windows
     references:
-      -
+      - https://www.elevenforum.com/t/change-system-restore-point-creation-frequency-in-windows-11.3613/
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -621,8 +620,7 @@ rules:
       - DCOM
       - Windows
     references:
-      -
-      -
+      - https://learn.microsoft.com/en-us/windows/win32/com/hkey-local-machine-software-microsoft-ole
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -665,7 +663,6 @@ rules:
       - System Restore
       - Windows
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -707,7 +704,6 @@ rules:
       - WebUsbGuard
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -749,7 +745,6 @@ rules:
       - Audio Capture
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -833,7 +828,6 @@ rules:
       - Video Capture
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -916,7 +910,6 @@ rules:
       - Restore on Startup
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -958,9 +951,6 @@ rules:
       - Authentication Prompt
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -1049,7 +1039,6 @@ rules:
       - Registry
       - Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -1091,9 +1080,6 @@ rules:
       - Registry
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -1140,7 +1126,6 @@ rules:
       - Registry
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1224,7 +1209,6 @@ rules:
       - Registry
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1308,7 +1292,6 @@ rules:
       - Registry
       - Privacy
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1351,7 +1334,6 @@ rules:
       - Registry
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1432,7 +1414,6 @@ rules:
       - Default Geolocation Setting
       - Registry
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -1475,7 +1456,6 @@ rules:
       - Incognito
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -1518,7 +1498,6 @@ rules:
       - PDF
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -1561,7 +1540,6 @@ rules:
       - Error Pages
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1652,7 +1630,6 @@ rules:
       - Plugins
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -1695,7 +1672,6 @@ rules:
       - User Feedback
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1738,7 +1714,6 @@ rules:
       - HTTPS
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1782,7 +1757,6 @@ rules:
       - Network Prediction
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -1826,7 +1800,6 @@ rules:
       - HTTPS
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -1871,8 +1844,6 @@ rules:
       - Advanced Protection
       - Security
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -1918,7 +1889,6 @@ rules:
       - Data Collection
       - Security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -1959,7 +1929,6 @@ rules:
       - Security
       - Registry
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4135,8 +4104,6 @@ rules:
       - AutoRun
       - Microsoft
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4179,8 +4146,6 @@ rules:
       - AutoRun
       - Microsoft
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4223,7 +4188,6 @@ rules:
       - Strong Authentication
       - .NET Framework
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4263,8 +4227,6 @@ rules:
       - SchUseStrongCrypto
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4306,8 +4268,6 @@ rules:
       - SchUseStrongCrypto
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4349,8 +4309,6 @@ rules:
       - SystemDefaultTlsVersions
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4392,8 +4350,6 @@ rules:
       - SystemDefaultTlsVersions
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4435,8 +4391,6 @@ rules:
       - SystemDefaultTlsVersions
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4478,8 +4432,6 @@ rules:
       - SchUseStrongCrypto
       - .NET Framework
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4521,7 +4473,6 @@ rules:
       - SchUseStrongCrypto
       - .NET Framework
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -4608,9 +4559,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4657,9 +4605,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4706,9 +4651,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4755,9 +4697,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4804,9 +4743,6 @@ rules:
       - Operational
       - retention
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4851,9 +4787,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4899,9 +4832,6 @@ rules:
       - Security log
       - retention
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4945,9 +4875,6 @@ rules:
       - SCENoApplyLegacyAuditPolicy
       - SYSTEM
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -4991,9 +4918,6 @@ rules:
       - System
       - retention
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5038,9 +4962,6 @@ rules:
       - failure
       - Policy
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5086,9 +5007,6 @@ rules:
       - Windows
       - PowerShell
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5133,9 +5051,6 @@ rules:
       - Microsoft
       - Windows
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5180,8 +5095,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5228,9 +5141,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5277,9 +5187,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5326,9 +5233,6 @@ rules:
       - Windows
       - Microsoft
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5372,9 +5276,6 @@ rules:
       - Script
       - Logging
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5417,9 +5318,6 @@ rules:
     keywords:
       - Application
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5464,9 +5362,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5513,9 +5408,6 @@ rules:
       - success
       - failure
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5563,9 +5455,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5610,7 +5499,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -5651,7 +5539,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5692,7 +5579,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -5734,7 +5620,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -5775,7 +5660,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5818,7 +5702,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -5860,9 +5743,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5909,7 +5789,6 @@ rules:
       - Security
       - Hardening
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -5994,7 +5873,6 @@ rules:
       - Exploited Drivers
       - Block Abuse
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6035,7 +5913,6 @@ rules:
       - Block Execution
       - Trusted List
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6076,7 +5953,6 @@ rules:
       - Security
       - Block Creation
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -6117,9 +5993,6 @@ rules:
       - Security
       - Block
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6164,9 +6037,6 @@ rules:
       - Security
       - Enable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6211,7 +6081,6 @@ rules:
       - Security
       - Block
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6252,9 +6121,6 @@ rules:
       - Security
       - Enable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6300,8 +6166,6 @@ rules:
       - Office
       - Executables
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6341,7 +6205,6 @@ rules:
       - Adobe Reader
       - Child Processes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6379,7 +6242,6 @@ rules:
       - Office Communication
       - Child Processes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6417,7 +6279,6 @@ rules:
       - Adobe Reader
       - Child Processes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6456,7 +6317,6 @@ rules:
       - WMI
       - Process Creations
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6495,7 +6355,6 @@ rules:
       - Unsigned
       - USB Processes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6533,7 +6392,6 @@ rules:
       - Signatures
       - Scan
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6571,8 +6429,6 @@ rules:
       - Ransomware
       - Advanced Protection
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6613,7 +6469,6 @@ rules:
       - Windows Defender
       - Service
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6653,8 +6508,6 @@ rules:
       - Code Injection
       - Security
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6696,7 +6549,6 @@ rules:
       - Lateral Movement
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -6736,9 +6588,6 @@ rules:
       - Signature Update
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6782,9 +6631,6 @@ rules:
       - PUA
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6828,9 +6674,6 @@ rules:
       - Child Process
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -6874,7 +6717,6 @@ rules:
       - EMET
       - Security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -6932,8 +6774,6 @@ rules:
       - ProcessMitigation.xml
       - Exploit Protection
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -6992,7 +6832,6 @@ rules:
       - PowerShell
       - ZeroTolerance
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7032,7 +6871,6 @@ rules:
       - Sample Submission Consent
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7072,9 +6910,6 @@ rules:
       - Attack Surface Reduction Rules
       - PowerShell
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7118,7 +6953,6 @@ rules:
       - Signature Update Interval
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7159,8 +6993,6 @@ rules:
       - PowerShell
       - USB
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7203,8 +7035,6 @@ rules:
       - Security Hardening
       - lsass.exe
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7246,7 +7076,6 @@ rules:
       - Cloud Functionality
       - Security Hardening
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7286,8 +7115,6 @@ rules:
       - Security Hardening
       - EMET
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7343,8 +7170,6 @@ rules:
       - Controlled Folder Access
       - Security Hardening
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7390,9 +7215,6 @@ rules:
       - Email Client
       - Webmail
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7480,7 +7302,6 @@ rules:
       - MAPSReporting
       - security configuration
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7523,9 +7344,6 @@ rules:
       - VBScript
       - executable content
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7576,9 +7394,6 @@ rules:
       - SEHOPTelemetry
       - TerminateOnError
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7624,7 +7439,6 @@ rules:
       - CPU usage
       - ScanAvgCPULoadFactor
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7667,7 +7481,6 @@ rules:
       - .prn
       - Text File
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -7708,7 +7521,6 @@ rules:
       - .jse
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -7752,7 +7564,6 @@ rules:
       - .vbs
       - Text File
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -7836,7 +7647,6 @@ rules:
       - .bat
       - Text File
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -7878,7 +7688,6 @@ rules:
       - .ws
       - Text File
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -7920,8 +7729,6 @@ rules:
       - Network Selection UI
       - Registry Key
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -7964,7 +7771,6 @@ rules:
       - .bat
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8008,7 +7814,6 @@ rules:
       - .vbe
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8052,7 +7857,6 @@ rules:
       - .wsh
       - Text File
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8094,7 +7898,6 @@ rules:
       - .vbs
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8138,7 +7941,6 @@ rules:
       - .vbe
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8180,7 +7982,6 @@ rules:
       - .wsh
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8266,7 +8067,6 @@ rules:
       - .slk
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8307,7 +8107,6 @@ rules:
       - .chm
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8396,7 +8195,6 @@ rules:
       - .iqy
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8437,7 +8235,6 @@ rules:
       - .wsffile
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8481,7 +8278,6 @@ rules:
       - .jsfile
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -8525,7 +8321,6 @@ rules:
       - .wcx
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8566,7 +8361,6 @@ rules:
       - .hta
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8609,7 +8403,6 @@ rules:
       - .wsf
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8652,7 +8445,6 @@ rules:
       - .js
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8695,7 +8487,6 @@ rules:
       - .scr
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8738,7 +8529,6 @@ rules:
       - .cmd
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8781,7 +8571,6 @@ rules:
       - .ps1
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8824,7 +8613,6 @@ rules:
       - .rdg
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8866,7 +8654,6 @@ rules:
       - .diff
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8908,7 +8695,6 @@ rules:
       - .wsc
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8951,7 +8737,6 @@ rules:
       - .iso
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -8994,7 +8779,6 @@ rules:
       - .deploy
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -9037,7 +8821,6 @@ rules:
       - .hta
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9081,7 +8864,6 @@ rules:
       - .reg
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -9122,7 +8904,6 @@ rules:
       - .jse
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -9164,7 +8945,6 @@ rules:
       - .url
       - txtfile
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -9203,14 +8983,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Consumer Features
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9252,14 +9027,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Telemetry
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9303,14 +9073,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Location Access
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9352,14 +9117,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Diagnostic Data
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9401,14 +9161,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
-      - HTTP Language Headers
-      - Windows 10
+      - HTTP Language 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9450,14 +9205,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - System Pane Suggestions
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9499,14 +9249,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Telemetry
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9550,14 +9295,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Diagnostics
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9601,14 +9341,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Bing Search
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9650,14 +9385,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Advertising Info
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9699,14 +9429,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Configuration
       - Cortana Consent
-      - Windows 10
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9747,12 +9472,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows Registry
+      - Microsoft 
       - Windows Setting Sync
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9796,9 +9518,6 @@ rules:
       - Lock Screen
       - Notifications
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9840,11 +9559,9 @@ rules:
     run: cmd
     keywords:
       - Location-Based Search
-      - Windows Registry
+      - Microsoft
+      - Windows 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9886,11 +9603,8 @@ rules:
     run: cmd
     keywords:
       - Game DVR
-      - Windows Registry
+      - Policies 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9932,11 +9646,8 @@ rules:
     run: cmd
     keywords:
       - Silent Installed Apps
-      - Windows Registry
+      - Windows 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -9978,11 +9689,8 @@ rules:
     run: cmd
     keywords:
       - OEM Pre-Installed Apps
-      - Windows Registry
+      - Windows 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10024,11 +9732,9 @@ rules:
     run: cmd
     keywords:
       - User Activity Publishing
-      - Windows Registry
+      - Windows 
+      - Policies
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10072,9 +9778,6 @@ rules:
       - Pre-Installed Apps
       - Windows Registry
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10119,8 +9822,6 @@ rules:
       - Zune Video
       - Appx Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10169,8 +9870,6 @@ rules:
       - Xbox Gaming Overlay
       - Appx Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10219,7 +9918,6 @@ rules:
       - 3D Viewer
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10262,7 +9960,6 @@ rules:
       - Facebook
       - Appx Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10307,9 +10004,6 @@ rules:
       - Windows Sound Recorder
       - Appx Package
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10357,9 +10051,6 @@ rules:
       - King.com
       - Appx Package
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10407,7 +10098,6 @@ rules:
       - Actipro Software LLC
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10450,9 +10140,6 @@ rules:
       - Duolingo
       - Appx Package
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10500,7 +10187,6 @@ rules:
       - CandyCrush
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10543,7 +10229,6 @@ rules:
       - Microsoft Bing Weather
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10586,7 +10271,6 @@ rules:
       - Microsoft Advertising XAML
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10629,7 +10313,6 @@ rules:
       - Adobe Photoshop Express
       - Appx Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10673,7 +10356,6 @@ rules:
       - DmClientOnScenarioDownload
       - Scheduled Task
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10713,7 +10395,6 @@ rules:
       - Flipboard
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10756,7 +10437,6 @@ rules:
       - Speed Test
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10799,8 +10479,6 @@ rules:
       - Microsoft Xbox Identity Provider
       - Appx Provisioned Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10845,9 +10523,6 @@ rules:
       - Microsoft Windows Camera
       - Appx Package
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -10895,7 +10570,6 @@ rules:
       - XblGameSaveTask
       - Scheduled Task
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10935,8 +10609,6 @@ rules:
       - Microsoft Zune Video
       - Appx Provisioned Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -10980,9 +10652,6 @@ rules:
     keywords:
       - Microsoft Get Started
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11029,7 +10698,6 @@ rules:
     keywords:
       - Microsoft Advertising XAML
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11072,7 +10740,6 @@ rules:
     keywords:
       - Office
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11115,7 +10782,6 @@ rules:
     keywords:
       - Microsoft Advertising XAML
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11158,8 +10824,6 @@ rules:
     keywords:
       - Microsoft Windows Sound Recorder
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11203,8 +10867,6 @@ rules:
     keywords:
       - Microsoft Webp Image Extension
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11249,7 +10911,6 @@ rules:
     keywords:
       - Speed Test
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11292,9 +10953,6 @@ rules:
     keywords:
       - Spotify Music
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11341,7 +10999,6 @@ rules:
     keywords:
       - Microsoft Xbox TCUI
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11383,7 +11040,6 @@ rules:
     keywords:
       - Microsoft Whiteboard
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11425,9 +11081,6 @@ rules:
     keywords:
       - Microsoft.OneConnect
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11474,7 +11127,6 @@ rules:
     keywords:
       - Microsoft.RemoteDesktop
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11516,9 +11168,6 @@ rules:
     keywords:
       - Microsoft.WindowsAlarms
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11565,8 +11214,6 @@ rules:
     keywords:
       - Microsoft.XboxGameOverlay
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11613,7 +11260,6 @@ rules:
     keywords:
       - Minecraft
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11655,7 +11301,6 @@ rules:
     keywords:
       - UsbCeip
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11694,9 +11339,6 @@ rules:
     keywords:
       - Microsoft.GetHelp
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11784,9 +11426,6 @@ rules:
     keywords:
       - Microsoft.YourPhone
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11832,7 +11471,6 @@ rules:
     keywords:
       - Minecraft
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11876,9 +11514,6 @@ rules:
       - Windows
       - Contact Support
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -11926,7 +11561,6 @@ rules:
       - Microsoft
       - Sticky Notes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -11968,9 +11602,6 @@ rules:
     keywords:
       - PandoraMedia
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -12018,8 +11649,6 @@ rules:
       - Microsoft
       - Store Engagement Service
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12065,7 +11694,6 @@ rules:
       - Microsoft
       - Messaging
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12108,8 +11736,6 @@ rules:
       - Microsoft
       - ZuneMusic
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12157,7 +11783,6 @@ rules:
       - Microsoft
       - Advertising Xaml
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12200,8 +11825,6 @@ rules:
       - Microsoft
       - ZuneMusic
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12246,8 +11869,6 @@ rules:
       - Microsoft
       - Xbox Speech To Text Overlay
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12294,7 +11915,6 @@ rules:
     keywords:
       - Dolby
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12337,8 +11957,6 @@ rules:
     keywords:
       - Microsoft Office Hub
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12382,8 +12000,6 @@ rules:
     keywords:
       - Microsoft .NET Native Framework 1.x
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12428,9 +12044,6 @@ rules:
     keywords:
       - Microsoft Wallet
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -12477,7 +12090,6 @@ rules:
     keywords:
       - Royal Revolt
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12519,8 +12131,6 @@ rules:
     keywords:
       - Microsoft Xbox Identity Provider
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12567,7 +12177,6 @@ rules:
     keywords:
       - Microsoft People
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12609,7 +12218,6 @@ rules:
     keywords:
       - Microsoft OneConnect
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12651,8 +12259,6 @@ rules:
     keywords:
       - Microsoft Solitaire Collection
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12696,7 +12302,6 @@ rules:
     keywords:
       - Dolby
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12738,7 +12343,6 @@ rules:
     keywords:
       - Microsoft Whiteboard
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12780,7 +12384,6 @@ rules:
     keywords:
       - OneDrive
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12820,9 +12423,6 @@ rules:
       - PowerShell
       - Microsoft Messaging
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -12870,7 +12470,6 @@ rules:
       - PowerShell
       - Spotify
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -12913,9 +12512,6 @@ rules:
       - PowerShell
       - Microsoft Advertising Xaml
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -12965,7 +12561,6 @@ rules:
       - PowerShell
       - Microsoft Bing News
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13008,8 +12603,6 @@ rules:
       - PowerShell
       - Microsoft XboxTCUI
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13054,18 +12647,15 @@ rules:
       - PowerShell
       - Microsoft Getstarted
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
-        - 416
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L416
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1142
-        - 835
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L835
     comments:
       - Removed Provisioned Apps
       - This will prevent these apps from being reinstalled on new user first logon
@@ -13103,7 +12693,6 @@ rules:
       - PowerShell
       - Twitter
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13147,7 +12736,6 @@ rules:
       - PowerShell
       - Disney
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13192,18 +12780,15 @@ rules:
       - PowerShell
       - Microsoft Print3D
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
-        - 389
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L389
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1055
-        - 794
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L794
     comments:
       - Uninstall common extra apps found on a lot of Win10 installs
       - Obviously do a quick review to ensure it isn't removing any apps you or your user need to use.
@@ -13241,12 +12826,11 @@ rules:
     keywords:
       - Netflix
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
-        - 828
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L828
     comments:
       - Uninstall common extra apps found on a lot of Win10 installs
       - Obviously do a quick review to ensure it isn't removing any apps you or your user need to use.
@@ -13284,18 +12868,15 @@ rules:
     keywords:
       - EclipseManager
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
-        - 407
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L407
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1028
-        - 824
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L824
     comments:
       - Uninstall common extra apps found on a lot of Win10 installs
       - Obviously do a quick review to ensure it isn't removing any apps you or your user need to use.
@@ -13333,7 +12914,6 @@ rules:
     keywords:
       - Microsoft.MicrosoftStickyNotes
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13378,15 +12958,13 @@ rules:
     keywords:
       - Microsoft.Microsoft3DViewer
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1041
-        - 787
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L787
     comments:
       - Uninstall common extra apps found on a lot of Win10 installs
       - Obviously do a quick review to ensure it isn't removing any apps you or your user need to use.
@@ -13424,18 +13002,15 @@ rules:
     keywords:
       - Microsoft.WindowsFeedbackHub
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
       permalinks:
-        - 421
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L421
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1165
-        - 841
+        - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd#L841
     comments:
       - Removed Provisioned Apps
       - This will prevent these apps from being reinstalled on new user first logon
@@ -13472,14 +13047,12 @@ rules:
     keywords:
       - Microsoft.SkypeApp
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
       permalinks:
-        - 417
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L417
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1159
     comments:
       - Removed Provisioned Apps
@@ -13517,14 +13090,12 @@ rules:
     keywords:
       - Microsoft.WindowsCamera
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
       permalinks:
-        - 419
+        - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe#file-windows_hardening-cmd-L419
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6#file-windows_hardening-cmd-L1163
     comments:
       - Removed Provisioned Apps
@@ -13562,7 +13133,6 @@ rules:
     keywords:
       - BubbleWitch3Saga
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13604,8 +13174,6 @@ rules:
     keywords:
       - Microsoft.XboxGamingOverlay
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13648,7 +13216,6 @@ rules:
     keywords:
       - OneDrive
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13688,7 +13255,6 @@ rules:
       - CandyCrush
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13732,7 +13298,6 @@ rules:
       - Microsoft Office Lens
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13776,7 +13341,6 @@ rules:
       - Royal Revolt
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13820,7 +13384,6 @@ rules:
       - Scheduled Task
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13860,8 +13423,6 @@ rules:
       - Microsoft Mixed Reality Portal
       - PowerShell
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13907,7 +13468,6 @@ rules:
       - Disney
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13950,7 +13510,6 @@ rules:
       - Sway
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -13994,7 +13553,6 @@ rules:
       - Microsoft Store Purchase
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14037,9 +13595,6 @@ rules:
       - Adobe Photoshop
       - PowerShell
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14087,7 +13642,6 @@ rules:
       - Spotify
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14130,8 +13684,6 @@ rules:
     keywords:
       - Microsoft.XboxApp
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14175,7 +13727,6 @@ rules:
     keywords:
       - PandoraMediaInc
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14217,9 +13768,6 @@ rules:
     keywords:
       - Microsoft.GetHelp
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14265,9 +13813,6 @@ rules:
     keywords:
       - microsoft.windowscommunicationsapps
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14314,9 +13859,6 @@ rules:
     keywords:
       - ActiproSoftware
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14363,7 +13905,6 @@ rules:
     keywords:
       - Microsoft.Office.OneNote
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14404,7 +13945,6 @@ rules:
     run:
     keywords:
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14443,7 +13983,6 @@ rules:
     keywords:
       - Microsoft.News
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14486,8 +14025,6 @@ rules:
     keywords:
       - Microsoft.XboxGameOverlay
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14531,7 +14068,6 @@ rules:
     keywords:
       - Microsoft.People
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14576,9 +14112,6 @@ rules:
     keywords:
       - Microsoft.WindowsFeedback
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14625,9 +14158,6 @@ rules:
     keywords:
       - Microsoft.WindowsFeedbackHub
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14674,8 +14204,6 @@ rules:
     keywords:
       - Microsoft.DesktopAppInstaller
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14720,7 +14248,6 @@ rules:
     keywords:
       - Wunderlist
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14762,9 +14289,6 @@ rules:
     keywords:
       - Microsoft.WindowsAlarms
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14810,9 +14334,6 @@ rules:
     keywords:
       - Microsoft.BingWeather
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -14858,7 +14379,6 @@ rules:
     keywords:
       - PandoraMediaInc
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14901,7 +14421,6 @@ rules:
     keywords:
       - ZuneVideo
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14944,8 +14463,6 @@ rules:
     keywords:
       - Microsoft.MixedReality.Portal
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -14989,8 +14506,6 @@ rules:
     keywords:
       - Microsoft.Office.OneNote
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15038,7 +14553,6 @@ rules:
       - ActiproSoftwareLLC
       - Appx Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15082,7 +14596,6 @@ rules:
       - XboxSpeechToTextOverlay
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15126,7 +14639,6 @@ rules:
       - Adobe Photoshop Express
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15169,7 +14681,6 @@ rules:
       - Duolingo Learn Languages for Free
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15212,7 +14723,6 @@ rules:
       - Microsoft Office To-Do List
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15255,8 +14765,6 @@ rules:
       - Microsoft Web Media Extensions
       - Appx Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15302,7 +14810,6 @@ rules:
       - Microsoft Remote Desktop
       - Appx Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15346,7 +14853,6 @@ rules:
       - Wunderlist
       - Appx Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15390,7 +14896,6 @@ rules:
       - Eclipse Manager
       - Appx Provisioned Package
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15433,8 +14938,6 @@ rules:
       - Microsoft Windows Maps
       - Appx Package
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15481,7 +14984,6 @@ rules:
     keywords:
       - BubbleWitch3Saga
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15524,9 +15026,6 @@ rules:
     keywords:
       - Microsoft Windows Communications Apps
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -15572,7 +15071,6 @@ rules:
     keywords:
       - Duolingo Learn Languages for Free
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15615,7 +15113,6 @@ rules:
     keywords:
       - Microsoft Office Todo List
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15658,8 +15155,6 @@ rules:
     keywords:
       - Microsoft Office Hub
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15706,7 +15201,6 @@ rules:
     keywords:
       - Microsoft Office Sway
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15748,8 +15242,6 @@ rules:
     keywords:
       - Microsoft Windows Maps
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15793,8 +15285,6 @@ rules:
     keywords:
       - Microsoft Xbox TCUI
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15841,7 +15331,6 @@ rules:
     keywords:
       - Microsoft Advertising Xaml
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15883,7 +15372,6 @@ rules:
     keywords:
       - Microsoft Network Speed Test
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15926,7 +15414,6 @@ rules:
       - Microsoft.Office.Lens
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -15969,9 +15456,6 @@ rules:
       - Microsoft.Office.Sway
       - PowerShell
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16019,8 +15503,6 @@ rules:
       - Microsoft.XboxApp
       - PowerShell
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16068,7 +15550,6 @@ rules:
       - XblGameSaveTaskLogon
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16108,7 +15589,6 @@ rules:
       - Microsoft.549981C3F5F10
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16152,7 +15632,6 @@ rules:
       - Microsoft.StorePurchaseApp
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16196,7 +15675,6 @@ rules:
       - Microsoft.Print3D
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16239,7 +15717,6 @@ rules:
       - Facebook
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16282,7 +15759,6 @@ rules:
       - Sway
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16325,7 +15801,6 @@ rules:
       - Microsoft.NetworkSpeedTest
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16370,9 +15845,6 @@ rules:
       - Microsoft Bing Weather
       - Remove App
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16423,8 +15895,6 @@ rules:
       - Microsoft Solitaire Collection
       - Remove App
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16473,9 +15943,6 @@ rules:
       - Microsoft Skype
       - Remove App
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16527,9 +15994,6 @@ rules:
       - Microsoft Your Phone
       - Remove App
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16580,7 +16044,6 @@ rules:
       - Microsoft News
       - Remove AppxProvisionedPackage
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16624,7 +16087,6 @@ rules:
       - Twitter
       - Remove AppxProvisionedPackage
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16668,7 +16130,6 @@ rules:
       - Microsoft XboxTCUI
       - Remove App
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16713,7 +16174,6 @@ rules:
       - Flipboard
       - Remove App
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16758,9 +16218,6 @@ rules:
       - Microsoft Bing News
       - Remove App
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16809,7 +16266,6 @@ rules:
       - OneNote
       - embedded files
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16851,8 +16307,6 @@ rules:
       - Excel
       - content execution
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -16898,7 +16352,6 @@ rules:
       - OneNote
       - file extensions
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -16940,7 +16393,6 @@ rules:
       - PowerPoint
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -16983,8 +16435,6 @@ rules:
       - Outlook
       - internal emails
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17030,7 +16480,6 @@ rules:
       - Word
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17073,8 +16522,6 @@ rules:
       - Publisher
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17118,7 +16565,6 @@ rules:
       - Office
       - Macro Runtime Scan Scope
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -17161,8 +16607,6 @@ rules:
       - PowerPoint
       - content execution
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17207,7 +16651,6 @@ rules:
       - Excel
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17247,7 +16690,6 @@ rules:
       - Word
       - Protected View
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -17289,7 +16731,6 @@ rules:
       - PowerPoint
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17332,7 +16773,6 @@ rules:
       - OneNote
       - embedded files
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -17374,7 +16814,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17417,7 +16856,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17460,8 +16898,6 @@ rules:
       - PowerPoint
       - content execution
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17507,8 +16943,6 @@ rules:
       - Word
       - content execution
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17554,7 +16988,6 @@ rules:
       - Word
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17597,7 +17030,6 @@ rules:
       - Excel
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17640,7 +17072,6 @@ rules:
       - Excel
       - automatic link updates
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17682,7 +17113,6 @@ rules:
       - Office
       - Macro Runtime Scan Scope
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -17726,8 +17156,6 @@ rules:
       - links
       - updating
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17772,8 +17200,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17818,7 +17244,6 @@ rules:
       - Excel
       - Workbook Link Warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17862,8 +17287,6 @@ rules:
       - links
       - updating
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17908,7 +17331,6 @@ rules:
       - Excel
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -17951,8 +17373,6 @@ rules:
       - Publisher
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -17997,7 +17417,6 @@ rules:
       - Excel
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18040,7 +17459,6 @@ rules:
       - Word
       - AllowDDE
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18083,7 +17501,6 @@ rules:
       - Excel 2010
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18127,8 +17544,6 @@ rules:
       - content execution
       - internet
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18174,7 +17589,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18217,7 +17631,6 @@ rules:
       - Word
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18260,7 +17673,6 @@ rules:
       - OneNote
       - embedded files
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -18302,7 +17714,6 @@ rules:
       - PowerPoint
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18345,8 +17756,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18392,7 +17801,6 @@ rules:
       - Word
       - Protected View
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -18435,8 +17843,6 @@ rules:
       - VBA warnings
       - Office 2012
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18482,7 +17888,6 @@ rules:
       - Excel
       - automatic link updates
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18525,8 +17930,6 @@ rules:
       - WordMail
       - automatic link updates
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18571,8 +17974,6 @@ rules:
       - Word
       - automatic link updates
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18616,7 +18017,6 @@ rules:
       - Office
       - ActiveX
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18659,7 +18059,6 @@ rules:
       - PowerPoint
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18702,7 +18101,6 @@ rules:
       - PowerPoint
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18745,7 +18143,6 @@ rules:
       - Excel
       - Update Links
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18788,7 +18185,6 @@ rules:
       - PowerPoint
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18832,8 +18228,6 @@ rules:
       - WordMail
       - Update Links
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18878,8 +18272,6 @@ rules:
       - Publisher
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -18925,7 +18317,6 @@ rules:
       - Excel
       - Workbook Link Warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -18968,7 +18359,6 @@ rules:
       - Word
       - Rtf files
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19010,7 +18400,6 @@ rules:
       - Excel
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19053,7 +18442,6 @@ rules:
       - OneNote
       - blocked extensions
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19096,7 +18484,6 @@ rules:
       - DDE
       - security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19140,7 +18527,6 @@ rules:
       - DDE
       - security
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19183,7 +18569,6 @@ rules:
       - Excel
       - Workbook Link Warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19226,7 +18611,6 @@ rules:
       - PowerPoint
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19269,7 +18653,6 @@ rules:
       - Word
       - Protected View
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19311,7 +18694,6 @@ rules:
       - Word
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19354,7 +18736,6 @@ rules:
       - OneNote
       - blocked extensions
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19396,8 +18777,6 @@ rules:
       - WordMail
       - link updates
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -19442,7 +18821,6 @@ rules:
       - OneNote
       - embedded files
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19484,7 +18862,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19527,7 +18904,6 @@ rules:
       - PowerPoint
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19570,7 +18946,6 @@ rules:
       - Word
       - Rtf File Block
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19612,7 +18987,6 @@ rules:
       - Excel
       - Workbook Link Warnings
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19655,7 +19029,6 @@ rules:
       - Word
       - Rtf File Block
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -19697,7 +19070,6 @@ rules:
       - Excel
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19740,7 +19112,6 @@ rules:
       - Word
       - No Calculate Links On Open
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -19784,8 +19155,6 @@ rules:
       - content execution
       - internet
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -19831,8 +19200,6 @@ rules:
       - Word
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -19878,8 +19245,6 @@ rules:
       - Outlook
       - internal emails
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -19925,8 +19290,6 @@ rules:
       - Publisher
       - VBA warnings
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -19972,7 +19335,6 @@ rules:
       - Excel
       - Packager Prompt
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -20015,7 +19377,6 @@ rules:
       - OneNote
       - file extensions
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20057,7 +19418,6 @@ rules:
       - .wsc
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20103,7 +19463,6 @@ rules:
       - .sct
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20149,7 +19508,6 @@ rules:
       - .cmd
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20237,7 +19595,6 @@ rules:
       - .slk
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20278,7 +19635,6 @@ rules:
       - .vbs
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -20369,7 +19725,6 @@ rules:
       - .deploy
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20412,8 +19767,6 @@ rules:
       - DontDisplayNetworkSelectionUI
       - Add
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20456,7 +19809,6 @@ rules:
       - .chm
       - Notepad
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20545,7 +19897,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20629,7 +19980,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -20677,7 +20027,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -20725,7 +20074,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20766,7 +20114,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -20814,7 +20161,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20860,7 +20206,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -20908,7 +20253,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20949,7 +20293,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -20995,7 +20338,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21043,7 +20385,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21084,7 +20425,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21125,7 +20465,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21167,7 +20506,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21215,7 +20553,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21256,7 +20593,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21297,7 +20633,6 @@ rules:
       - Notepad
       - Association
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21341,7 +20676,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Security
     references:
     github:
       repos:
@@ -21382,8 +20718,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21419,11 +20757,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Control
+      - SYSTEM
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21471,7 +20807,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - MICROSOFT
+      - Security
     references:
     github:
       repos:
@@ -21512,11 +20849,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Winlogon
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21559,11 +20894,11 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Policies
+      - Microsoft
+      - Windows
+      - System
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21604,11 +20939,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21652,9 +20985,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Services
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21694,7 +21026,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - System
+      - Services
     references:
     github:
       repos:
@@ -21742,10 +21075,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SOFTWARE
+      - Windows
+      - Microsoft
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -21784,11 +21117,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SOFTWARE
+      - Microsoft
+      - Policies
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21839,8 +21171,6 @@ rules:
       - Windows
       - Printers
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21889,9 +21219,6 @@ rules:
       - Windows
       - System
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21940,9 +21267,6 @@ rules:
       - Windows
       - LanmanWorkstation
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -21989,6 +21313,7 @@ rules:
       - Windows
       - Windows Explorer
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -22028,8 +21353,6 @@ rules:
       - Windows
       - MSV1_0
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -22074,9 +21397,6 @@ rules:
       - Windows
       - LanmanWorkstation
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22123,9 +21443,6 @@ rules:
       - Windows
       - CredentialsDelegation
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22174,9 +21491,6 @@ rules:
       - Windows
       - System
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22313,7 +21627,6 @@ rules:
       - Windows
       - Windows Installer
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -22353,9 +21666,6 @@ rules:
       - LmCompatibilityLevel
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22405,7 +21715,6 @@ rules:
       - WinRM
       - Service
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -22445,9 +21754,6 @@ rules:
       - LimitBlankPasswordUse
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22540,9 +21846,6 @@ rules:
       - NoHeapTerminationOnCorruption
       - Stability
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22591,9 +21894,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
+      - SOFTWARE
+      - Microsoft
+      - Windows
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -22632,10 +21936,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
+      - Windows
+      - Microsoft
+      - Policies
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22677,11 +21981,8 @@ rules:
     cmd: powershell.exe
     run: cmd
     keywords:
-      -
+      - PowerShell V2
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22722,10 +22023,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SYSTEM
+      - Control
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -22772,10 +22072,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SYSTEM
+      - Control
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -22818,11 +22117,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Services
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -22869,9 +22165,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Control
+      - Print
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -22909,6 +22205,8 @@ rules:
     run: cmd
     keywords:
       - Windows NT
+      - Microsoft
+      - Policies
     references:
       -
       - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -22953,11 +22251,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SYSTEM
+      - Control
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23003,11 +22299,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Services
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23056,10 +22349,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - System
+      - Services
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23101,11 +22393,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - System
+      - Control
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23146,9 +22436,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Control
+      - SYSTEM
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23185,13 +22475,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - Services
       - System
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23240,11 +22526,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - SYSTEM
+      - Control
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23289,9 +22573,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
+      - Explorer
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23327,10 +22612,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
+      - Explorer
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23369,8 +22654,11 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
+      - Explorer
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23406,11 +22694,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
+      - Client
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23451,11 +22738,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Services
+      - Parameters
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23504,11 +22789,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Control
+      - SYSTEM
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23554,9 +22837,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      -
+      - Microsoft
+      - Windows
+      - Explorer
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23592,12 +22876,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - FilterAdministratorToken
-      - Windows Security
+      - Windows 
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23638,13 +22919,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - SafeDLLSearchMode
       - Windows Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23698,11 +22975,7 @@ rules:
     keywords:
       - WinRM
       - Service
-      - Windows Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23745,12 +23018,7 @@ rules:
     run: cmd
     keywords:
       - PowerShell
-      - Windows Security
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23791,13 +23059,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - SilentTerminate
       - Windows Script Host
-      - Windows Security
+      - Microsoft 
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23836,12 +23101,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - SignSecureChannel
       - Windows Security
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23880,12 +23142,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Control
       - DisableRestrictedAdmin
-      - Windows Security
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -23928,12 +23187,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - DisableHTTPPrinting
-      - Windows Security
+      - Windows 
+      - Microsoft
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -23975,13 +23232,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - allownullsessionfallback
-      - Windows Security
+      - Control 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24028,7 +23281,6 @@ rules:
       - First Run
       - Customize
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24068,7 +23320,6 @@ rules:
       - Windows ISO
       - Programmatic Access
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24109,8 +23360,6 @@ rules:
       - Delivery Optimization
       - Download Mode
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24154,7 +23403,6 @@ rules:
       - LAN Manager Workstation
       - Security Signature
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24198,8 +23446,6 @@ rules:
       - MSV1_0
       - LSA
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24243,9 +23489,6 @@ rules:
       - Encrypt
       - RCP Traffic
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24291,8 +23534,6 @@ rules:
       - MSV1_0
       - LSA
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24336,9 +23577,6 @@ rules:
       - TCP
       - Task Scheduler
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24426,9 +23664,6 @@ rules:
       - LSA
       - Local Security Authority
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24476,8 +23711,6 @@ rules:
       - NetBIOS
       - TCP/IP
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24520,7 +23753,6 @@ rules:
       - Registry
       - Recent Documents
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24561,7 +23793,6 @@ rules:
       - Authentication
       - Registry
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -24602,9 +23833,6 @@ rules:
       - Consent Prompt
       - Registry
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24655,7 +23883,6 @@ rules:
       - SMBv1
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24696,9 +23923,7 @@ rules:
     keywords:
       - RDP
       - Security Layer
-      - Registry
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24735,10 +23960,7 @@ rules:
     run: cmd
     keywords:
       - NTLM
-      - Registry
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24782,11 +24004,8 @@ rules:
     run: cmd
     keywords:
       - ICMP Redirect
-      - Registry
+      - Services
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24836,11 +24055,8 @@ rules:
     run: cmd
     keywords:
       - IP Source Routing
-      - Registry
+      - Services
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -24891,7 +24107,7 @@ rules:
     keywords:
       - Windows Update
       - Delivery Optimization
-      - Registry
+      - Microsoft
     references:
     github:
       repos:
@@ -24932,8 +24148,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -24970,7 +24187,7 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
       -
       - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -25014,7 +24231,7 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
     github:
       repos:
@@ -25056,7 +24273,7 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
     github:
       repos:
@@ -25094,7 +24311,7 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
     github:
       repos:
@@ -25132,11 +24349,8 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - SYSTEM
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25185,7 +24399,6 @@ rules:
       - Windows
       - PowerShell
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25222,11 +24435,8 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25268,11 +24478,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
+      - Policies
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25314,9 +24522,8 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25356,11 +24563,9 @@ rules:
     keywords:
       - Windows
       - Script Host
-      - Registry
+      - Microsoft
       - UseWINSAFER
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25402,10 +24607,7 @@ rules:
       - Windows
       - PowerShell
       - SMB1 Protocol
-      - Disable
     references:
-      -
-      - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25445,12 +24647,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - LSASS.exe
       - AuditLevel
     references:
-      -
-      - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25494,8 +24694,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows
-      - Registry
+      - Accessibility
       - StickyKeys
       - Flags
     references:
@@ -25535,8 +24734,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows
-      - Registry
+      - Services
+      - System
       - ldap
       - LDAPClientIntegrity
     references:
@@ -25579,10 +24778,11 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - Explorer
       - HideIcons
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25619,13 +24819,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - Kerberos
       - SupportedEncryptionTypes
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25670,10 +24867,11 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - Explorer
       - LaunchTo
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25711,13 +24909,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - Policies
       - EnableLUA
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25767,13 +24962,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
+      - Microsoft
       - Terminal Services
       - fDisableCdm
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -25817,8 +25009,6 @@ rules:
       - WMIC
       - SetTcpipNetbiosOptions
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25857,10 +25047,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
       - Windows.VhdFile
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25901,10 +25089,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - NoRecentDocsMenu
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -25984,10 +25171,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - EnableMulticast
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -26024,12 +25210,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Services
       - Start
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26076,7 +25259,6 @@ rules:
       - PowerShell
       - Disable-WindowsOptionalFeature
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26115,7 +25297,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - HubMode
     references:
     github:
@@ -26155,10 +25337,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - PreXPSP2ShellProtocolBehavior
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26197,11 +25378,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - DisplayLogo
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -26241,10 +25420,9 @@ rules:
     run: cmd
     keywords:
       - ClearRecentDocsOnExit
-      - Windows Registry
-      - Policy Modification
+      - Windows 
+      - Policy 
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -26282,8 +25460,8 @@ rules:
     run: cmd
     keywords:
       - EnableSecuritySignature
-      - Windows Registry
-      - Policy Modification
+      - System
+      - Policy 
     references:
     github:
       repos:
@@ -26327,12 +25505,9 @@ rules:
     run: cmd
     keywords:
       - fMinimizeConnections
-      - Windows Registry
-      - Policy Modification
+      - Windows 
+      - Microsoft 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26382,8 +25557,8 @@ rules:
     run: cmd
     keywords:
       - RequireSecuritySignature
-      - Windows Registry
-      - Policy Modification
+      - System 
+      - Services 
     references:
     github:
       repos:
@@ -26429,8 +25604,6 @@ rules:
       - MyComputer
       - .NET Framework
       - Trust Manager
-      - Windows Registry
-      - Policy Modification
     references:
     github:
       repos:
@@ -26472,10 +25645,9 @@ rules:
     run: cmd
     keywords:
       - SignSecureChannel
-      - Windows Registry
-      - Policy Modification
+      - Services 
+      - SYSTEM 
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26518,10 +25690,8 @@ rules:
     run: cmd
     keywords:
       - DODownloadMode
-      - Windows Registry
-      - Policy Modification
+      - Microsoft
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26561,12 +25731,9 @@ rules:
     run: cmd
     keywords:
       - SaveZoneInformation
-      - Windows Registry
-      - Policy Modification
+      - Windows 
+      - Microsoft 
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26616,9 +25783,10 @@ rules:
     run: cmd
     keywords:
       - SeparateProcess
-      - Windows Registry
-      - Policy Modification
+      - Windows 
+      - Microsoft 
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -26655,8 +25823,8 @@ rules:
     run: cmd
     keywords:
       - LDAPServerIntegrity
-      - Windows Registry
-      - Policy Modification
+      - Services 
+      - System 
     references:
     github:
       repos:
@@ -26696,7 +25864,6 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - PowerShell
       - Lockdown
       - Policy
     references:
@@ -26736,10 +25903,11 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
-      - Windows Explorer
+      - Explorer
+      - Windows 
       - Tracking
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -26776,12 +25944,9 @@ rules:
     run: cmd
     keywords:
       - Services
-      - Registry
+      - SYSTEM
       - SMBv1
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26833,13 +25998,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - Power Settings
       - DCSettingIndex
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -26880,7 +26042,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - System
       - Netlogon
       - SealSecureChannel
     references:
@@ -26924,7 +26086,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Microsoft
       - AutoRun
     references:
     github:
@@ -26968,8 +26130,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
-      - Remote Assistance
+      - Policies
+      - Microsoft 
     references:
     github:
       repos:
@@ -27012,12 +26174,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
-      - DEP
+      - Policies
+      - Microsoft
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27066,11 +26225,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Registry
+      - Windows
       - AutoRun
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27113,7 +26270,6 @@ rules:
       - Netlogon
       - Secure Channel
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27153,9 +26309,6 @@ rules:
       - LSA
       - Restrict Anonymous
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27203,7 +26356,6 @@ rules:
     keywords:
       - LMCompatibilityLevel
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -27242,7 +26394,6 @@ rules:
       - Autoplay
       - Disable
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27282,7 +26433,6 @@ rules:
       - TcpipNetbiosOptions
       - WMIC
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27324,9 +26474,6 @@ rules:
       - WinRM
       - AllowUnencryptedTraffic
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27371,8 +26518,6 @@ rules:
       - WDigest
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27417,8 +26562,6 @@ rules:
       - Tcpip6
       - DisabledComponents
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27461,6 +26604,7 @@ rules:
       - AutoCheckSelect
       - Disable
     references:
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27499,9 +26643,6 @@ rules:
       - Tcpip
       - DisableIPSourceRouting
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27552,8 +26693,6 @@ rules:
       - 8.3 Filename
       - Security
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27594,8 +26733,6 @@ rules:
       - Timestamp
       - Last Access
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27638,9 +26775,6 @@ rules:
       - Camera
       - Security
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27685,9 +26819,6 @@ rules:
       - Voice
       - Activation
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27733,9 +26864,6 @@ rules:
       - Activation
       - Lock
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27779,9 +26907,6 @@ rules:
       - Facial Recognition
       - Anti-Spoofing
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -27827,8 +26952,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27871,8 +26994,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27915,8 +27036,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -27959,8 +27078,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28008,8 +27125,6 @@ rules:
       - SCHANNEL
       - Hash
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28052,8 +27167,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28096,8 +27209,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28140,8 +27251,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28189,8 +27298,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28233,8 +27340,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28277,8 +27382,6 @@ rules:
       - SCHANNEL
       - Hash
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28321,8 +27424,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28365,8 +27466,6 @@ rules:
       - SCHANNEL
       - Hash
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28409,8 +27508,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28453,8 +27550,6 @@ rules:
       - SCHANNEL
       - Key Exchange
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28497,8 +27592,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28541,8 +27634,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28585,8 +27676,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28629,8 +27718,6 @@ rules:
       - SCHANNEL
       - Hash
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28673,8 +27760,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28717,8 +27802,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28761,8 +27844,6 @@ rules:
       - SCHANNEL
       - Key Exchange Algorithm
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28805,8 +27886,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28849,8 +27928,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28893,8 +27970,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28942,8 +28017,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -28986,8 +28059,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29029,8 +28100,6 @@ rules:
       - SSL
       - Cryptography
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -29073,8 +28142,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29117,8 +28184,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29161,8 +28226,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29209,8 +28272,6 @@ rules:
       - TLS
       - Cipher Suites
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29251,10 +28312,7 @@ rules:
     keywords:
       - SCHANNEL
       - Cipher
-      - NULL
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29302,8 +28360,6 @@ rules:
       - Cipher
       - RC2 56/128
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29351,8 +28407,6 @@ rules:
       - Cipher
       - RC2 128/128
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29400,8 +28454,6 @@ rules:
       - Multi-Protocol Unified Hello
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29445,8 +28497,6 @@ rules:
       - Server
       - Default
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29490,8 +28540,6 @@ rules:
       - Server
       - Default
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29534,8 +28582,6 @@ rules:
       - Cipher
       - RC4 40/128
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29584,8 +28630,6 @@ rules:
       - Client
       - Default
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29628,8 +28672,6 @@ rules:
       - Cipher
       - RC4 128/128
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29677,8 +28719,6 @@ rules:
       - SCHANNEL
       - Key Exchange
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29721,8 +28761,6 @@ rules:
       - SCHANNEL
       - Server
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29765,8 +28803,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29809,8 +28845,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29858,8 +28892,6 @@ rules:
       - SCHANNEL
       - Key Exchange
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29902,8 +28934,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29946,8 +28976,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -29995,8 +29023,6 @@ rules:
       - SCHANNEL
       - Cipher
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30044,8 +29070,6 @@ rules:
       - SCHANNEL
       - Hash
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30088,8 +29112,6 @@ rules:
       - SCHANNEL
       - Client
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30132,7 +29154,6 @@ rules:
       - runscripthelper.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30176,7 +29197,6 @@ rules:
       - regasm.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30220,7 +29240,6 @@ rules:
       - cscript.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30264,7 +29283,6 @@ rules:
       - scriptrunner.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30308,7 +29326,6 @@ rules:
       - calc.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -30349,7 +29366,6 @@ rules:
       - appvlp.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30393,7 +29409,6 @@ rules:
       - publicprofile
       - bound
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -30446,7 +29461,6 @@ rules:
       - mshta.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30490,7 +29504,6 @@ rules:
       - pcalua.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30534,7 +29547,6 @@ rules:
       - wscript.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -30575,7 +29587,6 @@ rules:
       - nltest.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30619,7 +29630,6 @@ rules:
       - regsvr32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30663,7 +29673,6 @@ rules:
       - mshta.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30707,7 +29716,6 @@ rules:
       - expand.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30751,7 +29759,6 @@ rules:
       - hh.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30795,7 +29802,6 @@ rules:
       - certutil.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30839,7 +29845,6 @@ rules:
       - odbcconf.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30883,7 +29888,6 @@ rules:
       - certutil.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30927,7 +29931,6 @@ rules:
       - cmstp.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -30971,7 +29974,6 @@ rules:
       - print.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31013,7 +30015,6 @@ rules:
       - regsvr32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31055,7 +30056,6 @@ rules:
       - Windows Defender
       - security
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31105,7 +30105,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31150,7 +30149,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31195,7 +30193,6 @@ rules:
       - network profiles
       - NetSh
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31238,7 +30235,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31283,7 +30279,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31328,7 +30323,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31373,7 +30367,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31415,7 +30408,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31460,7 +30452,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31505,7 +30496,6 @@ rules:
       - netconns
       - advfirewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31549,7 +30539,6 @@ rules:
       - regasm.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31593,7 +30582,6 @@ rules:
       - Notepad.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31637,7 +30625,6 @@ rules:
       - firewall
       - all profiles
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31682,7 +30669,6 @@ rules:
       - extrac32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31726,7 +30712,6 @@ rules:
       - nltest.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31770,7 +30755,6 @@ rules:
       - wmic.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31814,7 +30798,6 @@ rules:
       - findstr.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31858,7 +30841,6 @@ rules:
       - current profile
       - filename
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -31903,7 +30885,6 @@ rules:
       - Notepad.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31947,7 +30928,6 @@ rules:
       - calc.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -31991,7 +30971,6 @@ rules:
       - replace.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32035,7 +31014,6 @@ rules:
       - Notepad.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -32076,7 +31054,6 @@ rules:
       - replace.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32120,7 +31097,6 @@ rules:
       - runscripthelper.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32164,7 +31140,6 @@ rules:
       - hh.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32208,7 +31183,6 @@ rules:
       - rundll32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32252,7 +31226,6 @@ rules:
       - rpcping.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32296,7 +31269,6 @@ rules:
       - appvlp.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32340,7 +31312,6 @@ rules:
       - calc.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32384,7 +31355,6 @@ rules:
       - notepad.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32428,7 +31398,6 @@ rules:
       - SyncAppvPublishingServer.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32472,7 +31441,6 @@ rules:
       - findstr.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32516,7 +31484,6 @@ rules:
       - makecab.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32560,7 +31527,6 @@ rules:
       - cscript.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -32599,7 +31565,6 @@ rules:
       - advfirewall
       - logging
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -32644,7 +31609,6 @@ rules:
       - hh.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32688,7 +31652,6 @@ rules:
       - msiexec.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32732,7 +31695,6 @@ rules:
       - notepad.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32776,7 +31738,6 @@ rules:
       - runscripthelper.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -32817,7 +31778,6 @@ rules:
       - wscript.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32861,7 +31821,6 @@ rules:
       - expand.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32905,7 +31864,6 @@ rules:
       - extrac32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32949,7 +31907,6 @@ rules:
       - msiexec.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -32993,7 +31950,6 @@ rules:
       - regsvr32.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33037,7 +31993,6 @@ rules:
       - print.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33079,7 +32034,6 @@ rules:
       - pcalua.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33123,7 +32077,6 @@ rules:
       - makecab.exe
       - netconns
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33166,7 +32119,6 @@ rules:
       - blocking
       - rundll32.exe
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33210,7 +32162,6 @@ rules:
       - security
       - disable
     references:
-      -
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
@@ -33251,7 +32202,6 @@ rules:
       - wscript.exe
       - SysWOW64
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33295,7 +32245,6 @@ rules:
       - dropped connections
       - firewall
     references:
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -33341,8 +32290,6 @@ rules:
       - File Attachment
       - Permissions
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33390,8 +32337,6 @@ rules:
       - Adobe Sign
       - Toggle
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33438,8 +32383,6 @@ rules:
       - Enhanced Security
       - Browser
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33486,8 +32429,6 @@ rules:
       - Welcome Screen
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33534,8 +32475,6 @@ rules:
       - Trusted Sites
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33582,8 +32521,6 @@ rules:
       - Default Launch URL
       - Permissions
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33630,8 +32567,6 @@ rules:
       - Maintenance
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33678,8 +32613,6 @@ rules:
       - Flash Player
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33726,8 +32659,6 @@ rules:
       - Maintenance
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33774,8 +32705,6 @@ rules:
       - PDF Handler
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33822,8 +32751,6 @@ rules:
       - Protected Mode
       - Enable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33870,8 +32797,6 @@ rules:
       - Protected View
       - Configuration
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33919,8 +32844,6 @@ rules:
       - Permissions
       - Configuration
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -33967,8 +32890,6 @@ rules:
       - Enhanced Security
       - Standalone
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34016,8 +32937,6 @@ rules:
       - Permissions
       - Configuration
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34064,8 +32983,6 @@ rules:
       - Trusted Folders
       - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34111,8 +33028,6 @@ rules:
       - Acrobat Reader
       - Cloud Features
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34158,8 +33073,6 @@ rules:
       - Acrobat Reader
       - Services
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34205,8 +33118,6 @@ rules:
       - Acrobat Reader
       - SharePoint Features
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34252,8 +33163,6 @@ rules:
       - Acrobat Reader
       - Document Services
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34299,8 +33208,6 @@ rules:
       - Acrobat Reader
       - Web Connectors
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34346,8 +33253,6 @@ rules:
       - Acrobat Reader
       - Welcome Screen
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34393,8 +33298,6 @@ rules:
       - Acrobat Reader
       - Webmail Profiles
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34441,8 +33344,6 @@ rules:
       - Adobe Send Plugin
       - Toggle
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34488,8 +33389,6 @@ rules:
       - Acrobat Reader
       - Toggle Preferences Sync
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34534,10 +33433,7 @@ rules:
       - Adobe
       - Acrobat Reader
       - Webmail Profiles
-      - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34582,10 +33478,7 @@ rules:
       - Adobe
       - Acrobat Reader
       - Upsell Promotions
-      - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34630,10 +33523,7 @@ rules:
       - Adobe
       - Acrobat Reader
       - SharePoint Integration
-      - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34678,10 +33568,7 @@ rules:
       - Adobe
       - Acrobat Reader
       - Updater
-      - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34724,14 +33611,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
       - Hardening
       - Consumer Features
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -34778,8 +33660,6 @@ rules:
       - Super Hidden Files
       - Show
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34818,14 +33698,10 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows
-      - Registry
-      - Hardening
-      - File Extensions
-      - Show
+      - Microsoft
+      - Windows 
+      - Software
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34864,13 +33740,11 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Windows 
+      - Software
       - Hiberboot
-      - Disable
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34907,13 +33781,10 @@ rules:
     cmd: powershell.exe
     run: cmd
     keywords:
-      - Windows
       - PowerShell
       - DNS
       - Network Adapter
-      - Set
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34952,13 +33823,8 @@ rules:
     cmd: fsutil
     run: cmd
     keywords:
-      - Windows
       - fsutil
-      - File Name Creation
-      - Disable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -34998,14 +33864,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - File Extensions
-      - Show
-      - User Profile
+      - Microsoft
+      - Software
     references:
-      -
-      -
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35045,14 +33907,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - Super Hidden Files
-      - Show
-      - User Profile
+      - Microsoft
+      - Software
     references:
-      -
-      -
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35092,14 +33950,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Policies
       - Telemetry
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35143,15 +33997,11 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - SOFTWARE
       - Consent
-      - Location Access
-      - Deny
+      - Location
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35193,14 +34043,11 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - Hidden Files
-      - Show
-      - User Profile
+      - Software
+      - Microsoft
+      - Hidden
     references:
-      -
-      -
+      - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35240,15 +34087,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
       - Diagnostic Data
-      - Limit
       - Windows Analytics
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35289,16 +34131,9 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows
-      - Registry
-      - Hardening
       - HTTP Accept Language
-      - Opt-out
       - User Profile
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35340,15 +34175,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
       - System Pane Suggestions
-      - Disable
-      - User Profile
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35390,14 +34219,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Policies
+      - Microsoft
       - Telemetry
-      - Maximum Level
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35441,14 +34266,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - Diagnostics Tracking
-      - Showed Toast at Level
+      - Microsoft
+      - SOFTWARE
+      - Diagnostics
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35492,14 +34313,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Search
       - Bing Search
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35540,13 +34357,8 @@ rules:
     cmd: fsutil
     run: cmd
     keywords:
-      - Windows
       - fsutil
-      - Last Access Timestamps
-      - Enable
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35586,14 +34398,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Policies
       - Advertising Info
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35635,14 +34443,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - Hidden Files
-      - Show
-      - System
+      - Software
+      - Microsoft
+      - Hidden 
     references:
-      -
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35682,15 +34486,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - SOFTWARE
       - Cortana
-      - Consent
-      - Deny
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35732,14 +34531,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Policies
       - Setting Sync
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35781,15 +34576,11 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Policies
       - Toast Notifications
       - Lock Screen
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35828,15 +34619,10 @@ rules:
     sub_category:
     sub_category_id:
     cmd: powercfg
-    run: cmd
+    run: 
     keywords:
-      - Windows
       - Powercfg
-      - Hardening
-      - Hibernate
-      - Turn Off
     references:
-      -
     github:
       repos:
         - https://gist.github.com/ricardojba/ecdfe30dadbdab6c514a530bc5d51ef6
@@ -35874,15 +34660,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
       - Search
-      - Location Access
-      - Disable
+      - Location
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35924,14 +34705,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Policies
       - GameDVR
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -35973,14 +34749,9 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
-      - Silent Installed Apps
-      - Disable
+      - Microsoft
+      - SOFTWARE
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -36022,14 +34793,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - SOFTWARE
       - OEM Pre-Installed Apps
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -36071,14 +34838,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - Policies
       - User Activity
-      - Enable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -36120,14 +34883,10 @@ rules:
     run: cmd
     keywords:
       - Windows
-      - Registry
-      - Hardening
+      - Microsoft
+      - SOFTWARE
       - Pre-Installed Apps
-      - Disable
     references:
-      -
-      -
-      -
     github:
       repos:
         - https://gist.github.com/mackwage/08604751462126599d7e52f233490efe
@@ -36257,7 +35016,7 @@ rules:
     run: cmd
     keywords:
       - Microsoft Edge
-      - Policy Clear
+      - Policy 
     references:
     github:
       repos:
@@ -36424,7 +35183,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows Installer
+      - Windows 
+      - Installer
       - Safe For Scripting
     references:
     github:
@@ -36467,7 +35227,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Microsoft Edge
+      - Microsoft 
+      - Edge
       - Site-Per-Process
     references:
     github:
@@ -36509,7 +35270,8 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Microsoft Edge
+      - Microsoft 
+      - Edge
       - SSL
     references:
     github:
@@ -36848,6 +35610,7 @@ rules:
       - Microsoft Edge
       - Extension Update URL
     references:
+      - https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/alternate-distribution-options
     github:
       repos:
         - https://github.com/atlantsecurity/windows-hardening-scripts/blob/main/Windows-10-Hardening-script.cmd
