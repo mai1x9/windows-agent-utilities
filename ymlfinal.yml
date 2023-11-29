@@ -85,7 +85,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -133,7 +132,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -183,7 +181,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -230,7 +227,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -318,10 +314,9 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -361,7 +356,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -409,7 +403,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -455,7 +448,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -503,7 +495,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -549,7 +540,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info:  b'vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool\r\n(C) Copyright 2001-2013 Microsoft Corp.\r\n\r\nSuccessfully resized the shadow copy storage association\r\n'
+      - info: b'vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool\r\n(C) Copyright 2001-2013 Microsoft Corp.\r\n\r\nSuccessfully resized the shadow copy storage association\r\n'
     threats:
       - severity:
       - vector:
@@ -634,7 +625,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -679,7 +669,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -766,7 +755,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -809,7 +797,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -855,7 +842,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -898,7 +884,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -943,7 +928,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -985,7 +969,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1036,7 +1019,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1081,7 +1063,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1124,7 +1105,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1174,7 +1154,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1219,7 +1198,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1258,11 +1236,10 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.023
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1308,7 +1285,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1351,7 +1327,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1397,7 +1372,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1439,7 +1413,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1486,7 +1459,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n'  
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -1525,7 +1498,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1571,7 +1543,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1615,7 +1586,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1711,7 +1681,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1756,7 +1725,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1799,7 +1767,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1847,7 +1814,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1891,7 +1857,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -1940,7 +1905,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -1988,7 +1952,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2034,7 +1997,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n'  
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -2074,7 +2037,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2119,7 +2081,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2162,7 +2123,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2208,7 +2168,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2253,7 +2212,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2295,7 +2253,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2345,7 +2302,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2389,7 +2345,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2435,7 +2390,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2477,7 +2431,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2522,7 +2475,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2565,7 +2517,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2611,7 +2562,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2659,7 +2609,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2704,7 +2653,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2747,7 +2695,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2792,7 +2739,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2835,7 +2781,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2877,7 +2822,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -2922,7 +2866,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -2966,7 +2909,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3008,7 +2950,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3058,7 +2999,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3097,11 +3037,10 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.043
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3148,7 +3087,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3186,11 +3124,10 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.030
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3236,7 +3173,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3281,7 +3217,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3325,7 +3260,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3368,7 +3302,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3417,7 +3350,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3464,7 +3396,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3508,7 +3439,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3551,7 +3481,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3598,7 +3527,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n'  
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -3681,7 +3610,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3724,7 +3652,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3772,7 +3699,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3817,7 +3743,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3860,7 +3785,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -3907,7 +3831,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3951,7 +3874,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -3994,7 +3916,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4040,7 +3961,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4084,7 +4004,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4130,7 +4049,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4173,7 +4091,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4218,7 +4135,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4268,7 +4184,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4312,7 +4227,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4361,7 +4275,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4405,7 +4318,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4451,7 +4363,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4493,7 +4404,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4538,7 +4448,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4581,7 +4490,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4626,7 +4534,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4670,7 +4577,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -4713,7 +4619,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -4760,7 +4665,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -4801,7 +4706,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n'  
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -4849,7 +4754,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The command was successfully executed.\r\r\n'  
+      - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -4894,8 +4799,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -4941,8 +4846,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -4988,8 +4893,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -5035,8 +4940,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -5080,8 +4985,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -5213,15 +5118,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.023
     output:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -5263,7 +5167,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -5315,7 +5218,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The command was successfully executed.\r\r\n' 
+      - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -5404,10 +5307,9 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -5452,7 +5354,6 @@ rules:
     output:
       - impact:
       - behavior:
-    script:
     script:
       - success: 'True'
       - fail: ''
@@ -5501,8 +5402,8 @@ rules:
     output:
       - impact:
       - behavior:
-      - success: 'True'
-      - fail: ''
+      - success: "True"
+      - fail: ""
       - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
@@ -5595,7 +5496,6 @@ rules:
       - impact:
       - behavior:
     script:
-    script:
       - success: 'True'
       - fail: ''
       - info: b'The operation completed successfully.\r\r\n'
@@ -5636,7 +5536,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.022
     output:
       - impact:
       - behavior:
@@ -5735,7 +5635,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The command was successfully executed.\r\r\n' 
+      - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -5776,14 +5676,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.041
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The command was successfully executed.\r\r\n' 
+      - info: b'The command was successfully executed.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -6133,7 +6033,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info:  b'The operation completed successfully.\r\r\n'
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -6482,7 +6382,7 @@ rules:
     script:
       - success: ''
       - fail: ''
-      - info: b''  
+      - info: b''
     threats:
       - severity:
       - vector:
@@ -6890,10 +6790,10 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info:  b'[SC] StartService FAILED 1056:\r\n\r\nAn instance of the service is already running.\r\n\r\n' 
+      - info: b'[SC] StartService FAILED 1056:\r\n\r\nAn instance of the service is already running.\r\n\r\n'
     threats:
       - severity:
-      - vector: 
+      - vector:
       - mitre:
 
   - rule: powershell.exe Add-MpPreference -AttackSurfaceReductionRules_Ids 75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84 -AttackSurfaceReductionRules_Actions Enabled
@@ -7159,7 +7059,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 3.717
     output:
       - impact:
       - behavior:
@@ -8388,7 +8288,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'vbsfile="C:\\Windows\\system32\\NOTEPAD.EXE" "%1"\r\n' 
+      - info: b'vbsfile="C:\\Windows\\system32\\NOTEPAD.EXE" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -8741,7 +8641,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wsffile="C:\\Windows\\system32\\NOTEPAD.EXE" "%1"\r\n' 
+      - info: b'wsffile="C:\\Windows\\system32\\NOTEPAD.EXE" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -9688,7 +9588,7 @@ rules:
     keywords:
       - Windows
       - Configuration
-      - HTTP Language 
+      - HTTP Language
     references:
     github:
       repos:
@@ -9754,7 +9654,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.021
     output:
       - impact:
       - behavior:
@@ -10012,7 +9912,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Microsoft 
+      - Microsoft
       - Windows Setting Sync
     references:
     github:
@@ -10104,7 +10004,7 @@ rules:
     keywords:
       - Location-Based Search
       - Microsoft
-      - Windows 
+      - Windows
     references:
     github:
       repos:
@@ -10149,7 +10049,7 @@ rules:
     run: cmd
     keywords:
       - Game DVR
-      - Policies 
+      - Policies
     references:
     github:
       repos:
@@ -10194,7 +10094,7 @@ rules:
     run: cmd
     keywords:
       - Silent Installed Apps
-      - Windows 
+      - Windows
     references:
     github:
       repos:
@@ -10214,7 +10114,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.021
     output:
       - impact:
       - behavior:
@@ -10239,7 +10139,7 @@ rules:
     run: cmd
     keywords:
       - OEM Pre-Installed Apps
-      - Windows 
+      - Windows
     references:
     github:
       repos:
@@ -10259,7 +10159,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.020
     output:
       - impact:
       - behavior:
@@ -10284,7 +10184,7 @@ rules:
     run: cmd
     keywords:
       - User Activity Publishing
-      - Windows 
+      - Windows
       - Policies
     references:
     github:
@@ -10311,7 +10211,7 @@ rules:
       - behavior:
     script:
       - success: True
-      - fail: 
+      - fail:
       - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
@@ -10950,7 +10850,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.958
     output:
       - impact:
       - behavior:
@@ -11174,14 +11074,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 1.266
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'\r\nTaskPath  TaskName State  \r\n--------   --------   -----     \r\n\\Microsoft\\XblGameSave\\   XblGameSaveTask   Disabled  \r\n\r\n\r\n' 
+      - info: b'\r\nTaskPath  TaskName State  \r\n--------   --------   -----     \r\n\\Microsoft\\XblGameSave\\   XblGameSaveTask   Disabled  \r\n\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -11312,7 +11212,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.466
     output:
       - impact:
       - behavior:
@@ -12309,23 +12209,24 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.835
     output:
       - impact:
       - behavior:
     script:
       - success: ''
       - fail: 'True'
-      - info: b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
-              \r\nWindows cannot remove framework Microsoft.Services.Store.Engagement_10.0.18101.0_x64__8wekyb3d8bbwe because package(s) Microsoft.MicrosoftStickyNotes \r\ncurrently depends on the framework. 
-              Removing all packages that depend on the framework automatically removes the framework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0001-6a89-855b841bda01 in the 
-              Event Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0001-6a89-855b841bda01\r\nAt line:1 char:67\r\n+ ...  *Microsoft.Services.Store.Engagement* -AllUsers | Remove-AppxPackage\r\n+  ~~~~~~~~~~~~~~~~~~\r\n    
-              + CategoryInfo - WriteError- (Microsoft.Servi...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,
-              Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\nRemove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
-              \r\nWindows cannot remove framework Microsoft.Services.Store.Engagement_10.0.18101.0_x86__8wekyb3d8bbwe because package(s) Microsoft.MicrosoftStickyNotes \r\ncurrently depends on the framework. Removing all packages that depend on the 
-              framework automatically removes the framework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0002-9c94-855b841bda01 in the Event
-              Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0002-9c94-855b841bda01\r\nAt line:1 char:67\r\n+ ...  *Microsoft.Services.Store.Engagement* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    + 
-              CategoryInfo - WriteError- (Microsoft.Servi...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n'
+      - info:
+          b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
+          \r\nWindows cannot remove framework Microsoft.Services.Store.Engagement_10.0.18101.0_x64__8wekyb3d8bbwe because package(s) Microsoft.MicrosoftStickyNotes \r\ncurrently depends on the framework.
+          Removing all packages that depend on the framework automatically removes the framework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0001-6a89-855b841bda01 in the
+          Event Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0001-6a89-855b841bda01\r\nAt line:1 char:67\r\n+ ...  *Microsoft.Services.Store.Engagement* -AllUsers | Remove-AppxPackage\r\n+  ~~~~~~~~~~~~~~~~~~\r\n
+          + CategoryInfo - WriteError- (Microsoft.Servi...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,
+          Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\nRemove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
+          \r\nWindows cannot remove framework Microsoft.Services.Store.Engagement_10.0.18101.0_x86__8wekyb3d8bbwe because package(s) Microsoft.MicrosoftStickyNotes \r\ncurrently depends on the framework. Removing all packages that depend on the
+          framework automatically removes the framework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0002-9c94-855b841bda01 in the Event
+          Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0002-9c94-855b841bda01\r\nAt line:1 char:67\r\n+ ...  *Microsoft.Services.Store.Engagement* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    +
+          CategoryInfo - WriteError- (Microsoft.Servi...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n'
     threats:
       - severity:
       - vector:
@@ -12685,19 +12586,20 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.691
     output:
       - impact:
       - behavior:
     script:
       - success: ''
       - fail: 'True'
-      - info: b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
-              \r\nWindows cannot remove framework Microsoft.NET.Native.Framework.1.7_1.7.25531.0_x64__8wekyb3d8bbwe because package(s) Microsoft.StorePurchaseApp \r\nMicrosoft.
-              XboxApp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework.\r\nNOTE- For additional information, 
-              look for [ActivityId] 050b3827-d706-0001-b789-855b841bda01 in the Event Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0001-b789-855b841bda01\r\nAt 
-              line:1 char:65\r\n+ ... ge *Microsoft.NET.Native.Framework.1.* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - WriteError- 
-              (Microsoft.NET.N...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n' 
+      - info:
+          b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, dependency or conflict validation.
+          \r\nWindows cannot remove framework Microsoft.NET.Native.Framework.1.7_1.7.25531.0_x64__8wekyb3d8bbwe because package(s) Microsoft.StorePurchaseApp \r\nMicrosoft.
+          XboxApp currently depends on the framework. Removing all packages that depend on the framework automatically removes the framework.\r\nNOTE- For additional information,
+          look for [ActivityId] 050b3827-d706-0001-b789-855b841bda01 in the Event Log or use the command line Get-AppPackageLog \r\n-ActivityID 050b3827-d706-0001-b789-855b841bda01\r\nAt
+          line:1 char:65\r\n+ ... ge *Microsoft.NET.Native.Framework.1.* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - WriteError-
+          (Microsoft.NET.N...__8wekyb3d8bbwe:String) [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n'
     threats:
       - severity:
       - vector:
@@ -13093,7 +12995,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'SUCCESS- The process "OneDrive.exe" with PID 5200 has been terminated.\r\n' 
+      - info: b'SUCCESS- The process "OneDrive.exe" with PID 5200 has been terminated.\r\n'
     threats:
       - severity:
       - vector:
@@ -13230,18 +13132,19 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.659
     output:
       - impact:
       - behavior:
     script:
       - success: ''
       - fail: 'True'
-      - info: b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates, 
-              dependency or conflict validation.\r\nWindows cannot remove framework Microsoft.Advertising.Xaml_10.1808.3.0_x64__8wekyb3d8bbwe because package(s) Microsoft.BingWeather \r\nmicrosoft.windowscommunicationsapps currently depends on the framework. 
-              Removing all packages that depend on the framework automatically removes the \r\nframework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0001-0e8a-855b841bda01 in the Event Log or use the command line Get-AppPackageLog 
-              \r\n-ActivityID 050b3827-d706-0001-0e8a-855b841bda01\r\nAt line:1 char:58\r\n+ ... pxPackage *Microsoft.Advertising.Xaml* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - WriteError- (Microsoft.Adver...__8wekyb3d8bbwe:String) 
-              [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n'
+      - info:
+          b'Remove-AppxPackage - Deployment failed with HRESULT- 0x80073CF3, Package failed updates,
+          dependency or conflict validation.\r\nWindows cannot remove framework Microsoft.Advertising.Xaml_10.1808.3.0_x64__8wekyb3d8bbwe because package(s) Microsoft.BingWeather \r\nmicrosoft.windowscommunicationsapps currently depends on the framework.
+          Removing all packages that depend on the framework automatically removes the \r\nframework.\r\nNOTE- For additional information, look for [ActivityId] 050b3827-d706-0001-0e8a-855b841bda01 in the Event Log or use the command line Get-AppPackageLog
+          \r\n-ActivityID 050b3827-d706-0001-0e8a-855b841bda01\r\nAt line:1 char:58\r\n+ ... pxPackage *Microsoft.Advertising.Xaml* -AllUsers | Remove-AppxPackage\r\n+ ~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - WriteError- (Microsoft.Adver...__8wekyb3d8bbwe:String)
+          [Remove-AppxPackage], IOException\r\n    + FullyQualifiedErrorId - DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand\r\n \r\n'
     threats:
       - severity:
       - vector:
@@ -13960,7 +13863,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.204
     output:
       - impact:
       - behavior:
@@ -14136,7 +14039,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.982
     output:
       - impact:
       - behavior:
@@ -14365,7 +14268,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.470
     output:
       - impact:
       - behavior:
@@ -14728,7 +14631,7 @@ rules:
       - impact:
       - behavior:
     script:
-      - success: 'True'         
+      - success: 'True'
       - fail: ''
       - info: b'\r\nTaskPath  TaskName    State     \r\n--------    --------        -----     \r\n\\Microsoft\\Windows\\Feedback\\Siuf\\              DmClient Disabled  \r\n\r\n\r\n'
     threats:
@@ -16402,7 +16305,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 1.271
     output:
       - impact:
       - behavior:
@@ -16492,7 +16395,7 @@ rules:
     level:
     priority:
     implementation:
-    dur
+    duration: 1.351
     output:
       - impact:
       - behavior:
@@ -16771,7 +16674,7 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 1.175
     output:
       - impact:
       - behavior:
@@ -17339,7 +17242,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -17559,7 +17462,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -17959,7 +17862,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -18003,7 +17906,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -18046,7 +17949,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -18274,7 +18177,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -18857,7 +18760,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -19124,7 +19027,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -19393,7 +19296,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -20281,7 +20184,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The operation completed successfully.\r\r\n' 
+      - info: b'The operation completed successfully.\r\r\n'
     threats:
       - severity:
       - vector:
@@ -20462,7 +20365,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wscfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'   
+      - info: b'wscfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20502,14 +20405,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.015
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'sctfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'sctfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20549,14 +20452,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.021
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'cmdfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'cmdfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20635,14 +20538,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.011
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'slkfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'slkfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20684,14 +20587,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.012
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'vbsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'vbsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20779,7 +20682,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'deployfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'deployfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20864,14 +20767,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.033
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'chmfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'chmfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -20958,7 +20861,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'prnfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'prnfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21045,14 +20948,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.009
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wshfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'wshfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21094,14 +20997,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.009
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'vbefile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'vbefile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21136,14 +21039,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.010
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'iqyfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'iqyfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21185,14 +21088,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.010
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wsffile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'wsffile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21232,14 +21135,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.011
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'urlfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'urlfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21281,14 +21184,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.011
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'htafile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'htafile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21323,14 +21226,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.009
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'mscfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'mscfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21377,7 +21280,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'wsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21426,7 +21329,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'jsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'jsfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21461,14 +21364,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.010
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'diffile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'diffile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21503,14 +21406,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.012
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'wcxfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'wcxfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21553,7 +21456,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'applicationfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'applicationfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21595,14 +21498,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.038
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'jsefile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'jsefile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21637,14 +21540,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.023
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'rdgfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'rdgfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21679,14 +21582,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.011
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'regfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'regfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -21728,14 +21631,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.011
     output:
       - impact:
       - behavior:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'batfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n' 
+      - info: b'batfile="C:\\Windows\\system32\\notepad.exe" "%1"\r\n'
     threats:
       - severity:
       - vector:
@@ -24051,7 +23954,7 @@ rules:
     run: cmd
     keywords:
       - FilterAdministratorToken
-      - Windows 
+      - Windows
     references:
     github:
       repos:
@@ -24180,7 +24083,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The Windows Remote Management (WS-Management) service is stopping.\r\nThe Windows Remote Management (WS-Management) service was stopped successfully.\r\n\r\n' 
+      - info: b'The Windows Remote Management (WS-Management) service is stopping.\r\nThe Windows Remote Management (WS-Management) service was stopped successfully.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -24224,7 +24127,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'\r\n\r\nPath- \r\nOnline -True\r\nRestartNeeded- False\r\n\r\n\r\n\r\n' 
+      - info: b'\r\n\r\nPath- \r\nOnline -True\r\nRestartNeeded- False\r\n\r\n\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -24243,7 +24146,7 @@ rules:
     keywords:
       - SilentTerminate
       - Windows Script Host
-      - Microsoft 
+      - Microsoft
     references:
     github:
       repos:
@@ -24376,7 +24279,7 @@ rules:
     run: cmd
     keywords:
       - DisableHTTPPrinting
-      - Windows 
+      - Windows
       - Microsoft
     references:
     github:
@@ -24423,7 +24326,7 @@ rules:
     run: cmd
     keywords:
       - allownullsessionfallback
-      - Control 
+      - Control
     references:
     github:
       repos:
@@ -24944,7 +24847,7 @@ rules:
       - impact:
       - behavior:
     script:
-      - success: 'True' 
+      - success: 'True'
       - fail: ''
       - info: b'No Instance(s) Available.\r\r\n'
     threats:
@@ -26712,8 +26615,8 @@ rules:
     run: cmd
     keywords:
       - ClearRecentDocsOnExit
-      - Windows 
-      - Policy 
+      - Windows
+      - Policy
     references:
     github:
       repos:
@@ -26755,7 +26658,7 @@ rules:
     keywords:
       - EnableSecuritySignature
       - System
-      - Policy 
+      - Policy
     references:
     github:
       repos:
@@ -26801,8 +26704,8 @@ rules:
     run: cmd
     keywords:
       - fMinimizeConnections
-      - Windows 
-      - Microsoft 
+      - Windows
+      - Microsoft
     references:
     github:
       repos:
@@ -26855,8 +26758,8 @@ rules:
     run: cmd
     keywords:
       - RequireSecuritySignature
-      - System 
-      - Services 
+      - System
+      - Services
     references:
     github:
       repos:
@@ -26947,8 +26850,8 @@ rules:
     run: cmd
     keywords:
       - SignSecureChannel
-      - Services 
-      - SYSTEM 
+      - Services
+      - SYSTEM
     references:
     github:
       repos:
@@ -27037,8 +26940,8 @@ rules:
     run: cmd
     keywords:
       - SaveZoneInformation
-      - Windows 
-      - Microsoft 
+      - Windows
+      - Microsoft
     references:
     github:
       repos:
@@ -27091,8 +26994,8 @@ rules:
     run: cmd
     keywords:
       - SeparateProcess
-      - Windows 
-      - Microsoft 
+      - Windows
+      - Microsoft
     references:
       - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
     github:
@@ -27133,8 +27036,8 @@ rules:
     run: cmd
     keywords:
       - LDAPServerIntegrity
-      - Services 
-      - System 
+      - Services
+      - System
     references:
     github:
       repos:
@@ -27218,7 +27121,7 @@ rules:
     run: cmd
     keywords:
       - Explorer
-      - Windows 
+      - Windows
       - Tracking
     references:
       - https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
@@ -27455,7 +27358,7 @@ rules:
     run: cmd
     keywords:
       - Policies
-      - Microsoft 
+      - Microsoft
     references:
     github:
       repos:
@@ -28066,7 +27969,7 @@ rules:
     script:
       - success: 'True'
       - fail: ''
-      - info: b'The registry state is now- 1 (Disable 8dot3 name creation on all volumes).\r\n' 
+      - info: b'The registry state is now- 1 (Disable 8dot3 name creation on all volumes).\r\n'
     threats:
       - severity:
       - vector:
@@ -30635,14 +30538,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 2.391
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30680,14 +30583,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30725,14 +30628,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.953
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30770,14 +30673,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30812,14 +30715,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30857,14 +30760,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -30956,14 +30859,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31001,14 +30904,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31043,14 +30946,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31088,14 +30991,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31133,14 +31036,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31178,14 +31081,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31223,14 +31126,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31268,14 +31171,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31313,14 +31216,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31358,14 +31261,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31403,14 +31306,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31448,14 +31351,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31491,14 +31394,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31534,14 +31437,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31586,14 +31489,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 1.412
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: ''
+      - fail: ''
+      - info: b''
     threats:
       - severity:
       - vector:
@@ -31633,14 +31536,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31679,14 +31582,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31724,14 +31627,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.140
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31770,14 +31673,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31816,14 +31719,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31862,14 +31765,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31905,14 +31808,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31951,14 +31854,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -31997,14 +31900,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32043,14 +31946,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32088,14 +31991,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32133,14 +32036,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32179,14 +32082,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.109
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32224,14 +32127,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32269,14 +32172,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32314,14 +32217,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32359,14 +32262,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32405,14 +32308,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32450,14 +32353,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32495,14 +32398,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32540,14 +32443,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32582,14 +32485,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32627,14 +32530,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32672,14 +32575,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32717,14 +32620,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32762,14 +32665,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32807,14 +32710,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32852,14 +32755,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.063
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32897,14 +32800,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32942,14 +32845,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -32987,14 +32890,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33032,14 +32935,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33077,14 +32980,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33119,14 +33022,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33163,14 +33066,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33208,14 +33111,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33253,14 +33156,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33298,14 +33201,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33340,14 +33243,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33385,14 +33288,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33430,14 +33333,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.062
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33475,14 +33378,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.094
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33520,14 +33423,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.063
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33565,14 +33468,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33608,14 +33511,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33653,14 +33556,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33698,14 +33601,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33742,14 +33645,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33784,14 +33687,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.14
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33829,14 +33732,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.078
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -33875,14 +33778,14 @@ rules:
     level:
     priority:
     implementation:
-    duration:
+    duration: 0.109
     output:
       - impact:
       - behavior:
     script:
-      - success:
-      - fail:
-      - info:
+      - success: 'True'
+      - fail: ''
+      - info: b'Ok.\r\n\r\n'
     threats:
       - severity:
       - vector:
@@ -35375,7 +35278,7 @@ rules:
     run: cmd
     keywords:
       - Microsoft
-      - Windows 
+      - Windows
       - Software
     references:
     github:
@@ -35419,7 +35322,7 @@ rules:
     run: cmd
     keywords:
       - Microsoft
-      - Windows 
+      - Windows
       - Software
       - Hiberboot
     references:
@@ -35488,10 +35391,11 @@ rules:
     script:
       - success: ''
       - fail: 'True'
-      - info: b'Get-DnsClientServerAddress - No matching MSFT_DNSClientServerAddress objects found by CIM query for instances of the \r\nROOT/StandardCimv2/MSFT_DNSClientServerAddress class on the  CIM server-
-              SELECT * FROM MSFT_DNSClientServerAddress  WHERE ((InterfaceIndex = 10)) \r\nAND ((AddressFamily = 2)). Verify query parameters and retry.\r\nAt line:1 char:56\r\n+ ... $PhysAdapter | 
-              Get-DnsClientServerAddress -AddressFamily IPv4 | Set-D ...\r\n+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - ObjectNotFound- (MSFT_DNSClientServerAddress:String) [Get-DnsClientServerAddress], 
-              CimJobException\r\n    + FullyQualifiedErrorId - CmdletizationQuery_NotFound,Get-DnsClientServerAddress\r\n \r\n'
+      - info:
+          b'Get-DnsClientServerAddress - No matching MSFT_DNSClientServerAddress objects found by CIM query for instances of the \r\nROOT/StandardCimv2/MSFT_DNSClientServerAddress class on the  CIM server-
+          SELECT * FROM MSFT_DNSClientServerAddress  WHERE ((InterfaceIndex = 10)) \r\nAND ((AddressFamily = 2)). Verify query parameters and retry.\r\nAt line:1 char:56\r\n+ ... $PhysAdapter |
+          Get-DnsClientServerAddress -AddressFamily IPv4 | Set-D ...\r\n+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo - ObjectNotFound- (MSFT_DNSClientServerAddress:String) [Get-DnsClientServerAddress],
+          CimJobException\r\n    + FullyQualifiedErrorId - CmdletizationQuery_NotFound,Get-DnsClientServerAddress\r\n \r\n'
     threats:
       - severity:
       - vector:
@@ -36158,7 +36062,7 @@ rules:
       - Windows
       - Software
       - Microsoft
-      - Hidden 
+      - Hidden
     references:
     github:
       repos:
@@ -36340,7 +36244,7 @@ rules:
     sub_category:
     sub_category_id:
     cmd: powercfg
-    run: 
+    run:
     keywords:
       - Powercfg
     references:
@@ -36755,7 +36659,7 @@ rules:
     run: cmd
     keywords:
       - Microsoft Edge
-      - Policy 
+      - Policy
     references:
     github:
       repos:
@@ -36930,7 +36834,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Windows 
+      - Windows
       - Installer
       - Safe For Scripting
     references:
@@ -36976,7 +36880,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Microsoft 
+      - Microsoft
       - Edge
       - Site-Per-Process
     references:
@@ -37021,7 +36925,7 @@ rules:
     cmd: reg
     run: cmd
     keywords:
-      - Microsoft 
+      - Microsoft
       - Edge
       - SSL
     references:
