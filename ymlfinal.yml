@@ -6401,7 +6401,7 @@ rules:
     rule_name: DriverLoadPolicy
     description: Enable early launch antimalware driver for scan of boot-start drivers.
     default:
-      value: 0x00000003 (3)
+      value: '0x00000003 (3)'
       present: 'True'
     category: Policies
     category_id: 19
@@ -6731,7 +6731,7 @@ rules:
     rule_name: Enable Windows Defender Periodic Scanning
     description: Enable Windows Defender periodic scanning to enhance system security.
     default:
-      value: 0x00000002 (2)
+      value: '0x00000002 (2)'
       present: 'True'
     category:
     sub_category:
@@ -10228,7 +10228,7 @@ rules:
     rule_name: Http Accept LanguageOptOut
     description: Opt Out of Accepting HTTP Language Headers
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: User Profile
     category_id: 29
@@ -10277,7 +10277,7 @@ rules:
     rule_name: System Pane Suggestions
     description: Disable System Pane Suggestions
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -10428,7 +10428,7 @@ rules:
     rule_name: BingSearchEnabled
     description: Disable Bing Search
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -10526,7 +10526,7 @@ rules:
     rule_name: CortanaConsent
     description: Disable Cortana Consent
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -10671,7 +10671,7 @@ rules:
     rule_name: Location-Based Search
     description: Disable the use of location for search in Windows.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -10768,7 +10768,7 @@ rules:
     rule_name: Silent Installed Apps
     description: Disable the installation of silent apps in Windows.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -10816,7 +10816,7 @@ rules:
     rule_name: OEM Pre-Installed Apps
     description: Disable pre-installed apps from OEMs in Windows.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -10913,7 +10913,7 @@ rules:
     rule_name: Pre-Installed Apps
     description: Disable pre-installed apps in Windows.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -23142,7 +23142,7 @@ rules:
     rule_name: Show Status Bar
     description: Enable the Status Bar in Windows Explorer.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -23186,7 +23186,7 @@ rules:
     rule_name: Protection Mode
     description: Enable Protection Mode in Session Manager.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Control
     category_id: 49
@@ -23388,7 +23388,7 @@ rules:
     rule_name: Virtualization in Windows Policies
     description: Enable Virtualization in Microsoft Windows System Policies.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: System
     category_id: 6
@@ -23439,7 +23439,7 @@ rules:
     rule_name: Security Signature
     description: Require Security Signature in LanMan Server Parameters.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanManServer
     category_id: 51
@@ -23485,7 +23485,7 @@ rules:
     rule_name: Security Signature in Lanman Workstation
     description: Enable Security Signature in Lanman Workstation Parameters.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: LanmanWorkStation
     category_id: 52
@@ -23843,7 +23843,7 @@ rules:
     rule_name: NTLMMinServerSec
     description: Set NTLMMinServerSec in Windows Registry
     default:
-      value: 0x20000000 (536870912)
+      value: '0x20000000 (536870912)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -23892,7 +23892,7 @@ rules:
     rule_name: PlainTextPassword
     description: Disable EnablePlainTextPassword in Windows Registry
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanmanWorkstation
     category_id: 55
@@ -24290,7 +24290,7 @@ rules:
     rule_name: Limit Blank Password Use
     description: Restrict the use of blank passwords.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -24749,7 +24749,7 @@ rules:
     rule_name: Adding Printer Drivers in Servers
     description: Enable adding printer drivers in LanMan Print Services.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanMan Print Services
     category_id: 63
@@ -24845,7 +24845,7 @@ rules:
     rule_name: Restrict Anonymous SAM
     description: Restrict anonymous SAM access in Lsa.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -24953,7 +24953,7 @@ rules:
     rule_name: Require Sign or Seal
     description: Require signing or sealing in Netlogon parameters.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Netlogon
     category_id: 65
@@ -25050,7 +25050,7 @@ rules:
     rule_name: RDP Minimum Encryption Level
     description: Set the Minimum Encryption Level for RDP via Windows Registry
     default:
-      value: 0x00000002 (2)
+      value: '0x00000002 (2)'
       present: 'True'
     category: WinStations
     category_id: 67
@@ -25246,7 +25246,7 @@ rules:
     rule_name: No AutoRun for Drive Types
     description: Disable AutoRun for Drive Types via Windows Registry
     default:
-      value: 0x000000ff (255)
+      value: '0x000000ff (255)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -25387,7 +25387,7 @@ rules:
     rule_name: Restrict Null Session Access
     description: Restrict Null Session Access via Windows Registry
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanManServer
     category_id: 51
@@ -25790,7 +25790,7 @@ rules:
     rule_name: SignSecureChannel
     description: This rule sets the SignSecureChannel registry value to 1 in the HKLM\System\CurrentControlSet\Services\Netlogon\Parameters key.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Netlogon
     category_id: 65
@@ -26124,7 +26124,7 @@ rules:
     rule_name: Security Signature
     description: Enable Security Signature for LAN Manager Workstation
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: LanmanWorkstation
     category_id: 55
@@ -26170,7 +26170,7 @@ rules:
     rule_name: NTLM Minimum Client Security
     description: Set NTLM Minimum Client Security for MSV1_0 in LSA
     default:
-      value: 0x20000000 (536870912)
+      value: '0x20000000 (536870912)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -26366,7 +26366,7 @@ rules:
     rule_name: Require Security Signature
     description: Require Security Signature for LAN Manager Workstation
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanmanWorkStation
     category_id: 52
@@ -26603,7 +26603,7 @@ rules:
     rule_name: Consent Prompt Behavior Admin
     description: Modify the User Account Control (UAC) consent prompt behavior by modifying the registry.
     default:
-      value: 0x00000005 (5)
+      value: '0x00000005 (5)'
       present: 'True'
     category: System
     category_id: 6
@@ -26705,7 +26705,7 @@ rules:
     rule_name: RDP Security Layer
     description: Set the RDP Security Layer to enhance security.
     default:
-      value: 0x00000002 (2)
+      value: '0x00000002 (2)'
       present: 'True'
     category: WinStations
     category_id: 67
@@ -26956,7 +26956,7 @@ rules:
     rule_name: Dont Pretty Path
     description: Disable Pretty Path in Windows Explorer
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -27182,7 +27182,7 @@ rules:
     rule_name: Everyone Includes Anonymous in LSA
     description: Disable Everyone Includes Anonymous in Local Security Authority (LSA)
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -27515,7 +27515,7 @@ rules:
     rule_name: AuditLevel for LSASS.exe
     description: Set the AuditLevel value for LSASS.exe in Windows Registry to 00000008.
     default:
-      value: 0x00000008 (8)
+      value: '0x00000008 (8)'
       present: 'True'
     category: Image File Execution Options
     category_id: 78
@@ -27613,7 +27613,7 @@ rules:
     rule_name: LDAPClientIntegrity for ldap Service
     description: Set the LDAPClientIntegrity value for the ldap service in Windows Registry to 1.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Services
     category_id: 68
@@ -27661,7 +27661,7 @@ rules:
     rule_name: HideIcons
     description: Set the HideIcons value in Windows Explorer Advanced Settings to 0.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -27807,7 +27807,7 @@ rules:
     rule_name: LUA in Windows Policies System
     description: Set the EnableLUA value in Windows Policies System to 1.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: System
     category_id: 6
@@ -28423,7 +28423,7 @@ rules:
     rule_name: Security Signature
     description: Enable the Lanman Server Security Signature in Windows Registry.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanmanServer
     category_id: 51
@@ -28530,7 +28530,7 @@ rules:
     rule_name: Require Security Signature
     description: Require the Lanman Server Security Signature in Windows Registry.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: LanmanServer
     category_id: 51
@@ -28628,7 +28628,7 @@ rules:
     rule_name: Secure Channel Signing for Netlogon
     description: Enable Secure Channel Signing for Netlogon in Windows Registry.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Netlogon
     category_id: 65
@@ -28781,7 +28781,7 @@ rules:
     rule_name: Separate Processes
     description: Enable Separate Explorer Processes in Windows Registry.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -29071,7 +29071,7 @@ rules:
     rule_name: SealSecureChannel
     description: Enable SealSecureChannel for Netlogon service.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Netlogon
     category_id: 65
@@ -29321,7 +29321,7 @@ rules:
     rule_name: Seal Secure Channel
     description: Set Netlogon Secure Channel to 1
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Netlogon
     category_id: 65
@@ -29365,7 +29365,7 @@ rules:
     rule_name: Restrict Anonymous
     description: Restrict anonymous access in the LSA
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Lsa
     category_id: 16
@@ -29461,7 +29461,7 @@ rules:
     rule_name: Autoplay
     description: Disable Autoplay in Windows
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category:
     sub_category:
@@ -29599,7 +29599,7 @@ rules:
     rule_name: WDigest
     description: Disable WDigest in SecurityProviders
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: SecurityProviders
     category_id: 69
@@ -29695,7 +29695,7 @@ rules:
     rule_name: AutoCheckSelect
     description: Disable AutoCheckSelect in Explorer
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -37562,7 +37562,7 @@ rules:
     rule_name: Show Super Hidden Files
     description: Show super hidden files by modifying a Registry value.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -37611,7 +37611,7 @@ rules:
     rule_name: HideFileExt
     description: Hide file extensions by modifying a Registry value.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -37800,7 +37800,7 @@ rules:
     rule_name: HideFileExt
     description: Show file extensions in user profiles by modifying a Registry value.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -37848,7 +37848,7 @@ rules:
     rule_name: Show Super Hidden
     description: Show super hidden files in user profiles by modifying a Registry value.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -37999,7 +37999,7 @@ rules:
     rule_name: Hidden Files
     description: Show hidden files in user profiles by modifying a Registry value.
     default:
-      value: 0x00000002 (2)
+      value: '0x00000002 (2)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -38098,7 +38098,7 @@ rules:
     rule_name: HTTP Accept Language Opt-out
     description: Disable HTTP Accept Language Opt-out in the user profile by adding a Registry key.
     default:
-      value: 0x00000001 (1)
+      value: '0x00000001 (1)'
       present: 'True'
     category: User Profile
     category_id: 29
@@ -38146,7 +38146,7 @@ rules:
     rule_name: System Pane Suggestions
     description: Disable System Pane suggestions in the user profile by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -38299,7 +38299,7 @@ rules:
     rule_name: Bing Search
     description: Disable Bing Search in Windows by modifying a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -38444,7 +38444,7 @@ rules:
     rule_name: Show Hidden Files
     description: Show hidden files in Windows system by modifying a Registry value.
     default:
-      value: 0x00000002 (2)
+      value: '0x00000002 (2)'
       present: 'True'
     category: Explorer
     category_id: 11
@@ -38492,7 +38492,7 @@ rules:
     rule_name: Cortana Consent
     description: Deny Cortana consent for search in Windows by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -38686,7 +38686,7 @@ rules:
     rule_name: Search Location Access
     description: Disable search location access by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: Search
     category_id: 32
@@ -38785,7 +38785,7 @@ rules:
     rule_name: Silent Installed Apps
     description: Disable silent installed apps by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -38834,7 +38834,7 @@ rules:
     rule_name: OEM Pre-Installed Apps
     description: Disable OEM pre-installed apps by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
@@ -38934,7 +38934,7 @@ rules:
     rule_name: Pre-Installed Apps
     description: Enabled pre-installed apps by adding a Registry key.
     default:
-      value: 0x00000000 (0)
+      value: '0x00000000 (0)'
       present: 'True'
     category: ContentDeliveryManager
     category_id: 30
